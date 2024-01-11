@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Sessao5ModelStoreContainer" CdmEntityContainer="Sessao5Entities">
+    <EntitySetMapping Name="Comentario">
+      <EntityTypeMapping TypeName="Sessao5Model.Comentario">
+        <MappingFragment StoreEntitySet="Comentario">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Comentario1" ColumnName="Comentario" />
+          <ScalarProperty Name="DataHoraComentario" ColumnName="DataHoraComentario" />
+          <ScalarProperty Name="IdJogo" ColumnName="IdJogo" />
+          <ScalarProperty Name="IdUsuario" ColumnName="IdUsuario" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Jogadores">
+      <EntityTypeMapping TypeName="Sessao5Model.Jogadores">
+        <MappingFragment StoreEntitySet="Jogadores">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+          <ScalarProperty Name="NumeroCamisa" ColumnName="NumeroCamisa" />
+          <ScalarProperty Name="SelecaoId" ColumnName="SelecaoId" />
+          <ScalarProperty Name="PosicaoId" ColumnName="PosicaoId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Jogos">
+      <EntityTypeMapping TypeName="Sessao5Model.Jogos">
+        <MappingFragment StoreEntitySet="Jogos">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="SelecaoCasaId" ColumnName="SelecaoCasaId" />
+          <ScalarProperty Name="PlacarCasa" ColumnName="PlacarCasa" />
+          <ScalarProperty Name="SelecaoVisitanteId" ColumnName="SelecaoVisitanteId" />
+          <ScalarProperty Name="PlacarVisitante" ColumnName="PlacarVisitante" />
+          <ScalarProperty Name="Data" ColumnName="Data" />
+          <ScalarProperty Name="RodadaId" ColumnName="RodadaId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Notificacoes">
+      <EntityTypeMapping TypeName="Sessao5Model.Notificacoes">
+        <MappingFragment StoreEntitySet="Notificacoes">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Titulo" ColumnName="Titulo" />
+          <ScalarProperty Name="Descricao" ColumnName="Descricao" />
+          <ScalarProperty Name="DataHoraCadastro" ColumnName="DataHoraCadastro" />
+          <ScalarProperty Name="DataHoraEnvio" ColumnName="DataHoraEnvio" />
+          <ScalarProperty Name="Importancia" ColumnName="Importancia" />
+          <ScalarProperty Name="SelecaoId" ColumnName="SelecaoId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NotificacoesUsuarios">
+      <EntityTypeMapping TypeName="Sessao5Model.NotificacoesUsuarios">
+        <MappingFragment StoreEntitySet="NotificacoesUsuarios">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="UsuarioId" ColumnName="UsuarioId" />
+          <ScalarProperty Name="NotificacaoId" ColumnName="NotificacaoId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Posicoes">
+      <EntityTypeMapping TypeName="Sessao5Model.Posicoes">
+        <MappingFragment StoreEntitySet="Posicoes">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Rodadas">
+      <EntityTypeMapping TypeName="Sessao5Model.Rodadas">
+        <MappingFragment StoreEntitySet="Rodadas">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="DataInicio" ColumnName="DataInicio" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Selecoes">
+      <EntityTypeMapping TypeName="Sessao5Model.Selecoes">
+        <MappingFragment StoreEntitySet="Selecoes">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="Sessao5Model.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Usuarios">
+      <EntityTypeMapping TypeName="Sessao5Model.Usuarios">
+        <MappingFragment StoreEntitySet="Usuarios">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Senha" ColumnName="Senha" />
+          <ScalarProperty Name="Nascimento" ColumnName="Nascimento" />
+          <ScalarProperty Name="Foto" ColumnName="Foto" />
+          <ScalarProperty Name="Sexo" ColumnName="Sexo" />
+          <ScalarProperty Name="TimeFavoritoId" ColumnName="TimeFavoritoId" />
+          <ScalarProperty Name="perfil" ColumnName="perfil" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

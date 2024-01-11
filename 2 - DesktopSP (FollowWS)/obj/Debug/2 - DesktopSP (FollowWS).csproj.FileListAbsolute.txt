@@ -1,0 +1,21 @@
+C:\Users\admin\source\repos\2 - DesktopSP (FollowWS)\bin\Debug\2 - DesktopSP (FollowWS).exe.config
+C:\Users\admin\source\repos\2 - DesktopSP (FollowWS)\bin\Debug\2 - DesktopSP (FollowWS).exe
+C:\Users\admin\source\repos\2 - DesktopSP (FollowWS)\bin\Debug\2 - DesktopSP (FollowWS).pdb
+C:\Users\admin\source\repos\2 - DesktopSP (FollowWS)\bin\Debug\Interop.WMPLib.dll
+C:\Users\admin\source\repos\2 - DesktopSP (FollowWS)\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\admin\source\repos\2 - DesktopSP (FollowWS)\obj\Debug\2 - DesktopSP (FollowWS).csproj.AssemblyReference.cache
+C:\Users\admin\source\repos\2 - DesktopSP (FollowWS)\obj\Debug\Interop.WMPLib.dll
+C:\Users\admin\source\repos\2 - DesktopSP (FollowWS)\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\admin\source\repos\2 - DesktopSP (FollowWS)\obj\Debug\2 - DesktopSP (FollowWS).csproj.ResolveComReference.cache
+C:\Users\admin\source\repos\2 - DesktopSP (FollowWS)\obj\Debug\_2___DesktopSP__FollowWS_.Form1.resources
+C:\Users\admin\source\repos\2 - DesktopSP (FollowWS)\obj\Debug\_2___DesktopSP__FollowWS_.Properties.Resources.resources
+C:\Users\admin\source\repos\2 - DesktopSP (FollowWS)\obj\Debug\2 - DesktopSP (FollowWS).csproj.GenerateResource.cache
+C:\Users\admin\source\repos\2 - DesktopSP (FollowWS)\obj\Debug\2 - DesktopSP (FollowWS).csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\2 - DesktopSP (FollowWS)\obj\Debug\2 - DesktopSP (FollowWS).exe
+C:\Users\admin\source\repos\2 - DesktopSP (FollowWS)\obj\Debug\2 - DesktopSP (FollowWS).pdb
+C:\Users\admin\source\repos\2 - DesktopSP (FollowWS)\bin\Debug\EntityFramework.dll
+C:\Users\admin\source\repos\2 - DesktopSP (FollowWS)\bin\Debug\EntityFramework.xml
+C:\Users\admin\source\repos\2 - DesktopSP (FollowWS)\obj\Debug\_2___DesktopSP__FollowWS_.LoginPage.resources
+C:\Users\admin\source\repos\2 - DesktopSP (FollowWS)\obj\Debug\2 - DesktopSP (FollowWS).csproj.CopyComplete
+C:\Users\admin\source\repos\2 - DesktopSP (FollowWS)\obj\Debug\_2___DesktopSP__FollowWS_.EsqueceuSenhaPage.resources
+C:\Users\admin\source\repos\2 - DesktopSP (FollowWS)\obj\Debug\_2___DesktopSP__FollowWS_.MainPageADM.resources

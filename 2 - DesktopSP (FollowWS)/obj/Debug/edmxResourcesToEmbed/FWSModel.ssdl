@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Sessao5Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Comentario">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Comentario" Type="varchar" MaxLength="100" />
+    <Property Name="DataHoraComentario" Type="datetime" />
+    <Property Name="IdJogo" Type="int" />
+    <Property Name="IdUsuario" Type="int" />
+  </EntityType>
+  <EntityType Name="Jogadores">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nome" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="NumeroCamisa" Type="int" Nullable="false" />
+    <Property Name="SelecaoId" Type="int" />
+    <Property Name="PosicaoId" Type="int" />
+  </EntityType>
+  <EntityType Name="Jogos">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="SelecaoCasaId" Type="int" />
+    <Property Name="PlacarCasa" Type="int" />
+    <Property Name="SelecaoVisitanteId" Type="int" />
+    <Property Name="PlacarVisitante" Type="int" />
+    <Property Name="Data" Type="datetime" />
+    <Property Name="RodadaId" Type="int" />
+  </EntityType>
+  <EntityType Name="Notificacoes">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Titulo" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Descricao" Type="text" Nullable="false" />
+    <Property Name="DataHoraCadastro" Type="datetime" Nullable="false" />
+    <Property Name="DataHoraEnvio" Type="datetime" />
+    <Property Name="Importancia" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="SelecaoId" Type="int" />
+  </EntityType>
+  <EntityType Name="NotificacoesUsuarios">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Status" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="UsuarioId" Type="int" />
+    <Property Name="NotificacaoId" Type="int" />
+  </EntityType>
+  <EntityType Name="Posicoes">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nome" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Rodadas">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DataInicio" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Selecoes">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nome" Type="varchar" MaxLength="255" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Usuarios">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nome" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="Email" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="Senha" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="Nascimento" Type="date" Nullable="false" />
+    <Property Name="Foto" Type="image" />
+    <Property Name="Sexo" Type="char" MaxLength="1" Nullable="false" />
+    <Property Name="TimeFavoritoId" Type="int" />
+    <Property Name="perfil" Type="char" MaxLength="1" />
+  </EntityType>
+  <EntityContainer Name="Sessao5ModelStoreContainer">
+    <EntitySet Name="Comentario" EntityType="Self.Comentario" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Jogadores" EntityType="Self.Jogadores" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Jogos" EntityType="Self.Jogos" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Notificacoes" EntityType="Self.Notificacoes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="NotificacoesUsuarios" EntityType="Self.NotificacoesUsuarios" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Posicoes" EntityType="Self.Posicoes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Rodadas" EntityType="Self.Rodadas" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Selecoes" EntityType="Self.Selecoes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Usuarios" EntityType="Self.Usuarios" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

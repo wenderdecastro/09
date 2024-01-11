@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Sessao5Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Comentario">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Comentario1" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="DataHoraComentario" Type="DateTime" Precision="3" />
+    <Property Name="IdJogo" Type="Int32" />
+    <Property Name="IdUsuario" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Jogadores">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nome" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="NumeroCamisa" Type="Int32" Nullable="false" />
+    <Property Name="SelecaoId" Type="Int32" />
+    <Property Name="PosicaoId" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Jogos">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="SelecaoCasaId" Type="Int32" />
+    <Property Name="PlacarCasa" Type="Int32" />
+    <Property Name="SelecaoVisitanteId" Type="Int32" />
+    <Property Name="PlacarVisitante" Type="Int32" />
+    <Property Name="Data" Type="DateTime" Precision="3" />
+    <Property Name="RodadaId" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Notificacoes">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Titulo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Descricao" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="DataHoraCadastro" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="DataHoraEnvio" Type="DateTime" Precision="3" />
+    <Property Name="Importancia" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="SelecaoId" Type="Int32" />
+  </EntityType>
+  <EntityType Name="NotificacoesUsuarios">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Status" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="UsuarioId" Type="Int32" />
+    <Property Name="NotificacaoId" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Posicoes">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nome" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Rodadas">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DataInicio" Type="DateTime" Nullable="false" Precision="3" />
+  </EntityType>
+  <EntityType Name="Selecoes">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nome" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Usuarios">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nome" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Senha" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Nascimento" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Foto" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="Sexo" Type="String" MaxLength="1" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="TimeFavoritoId" Type="Int32" />
+    <Property Name="perfil" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="Sessao5Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Comentario" EntityType="Self.Comentario" />
+    <EntitySet Name="Jogadores" EntityType="Self.Jogadores" />
+    <EntitySet Name="Jogos" EntityType="Self.Jogos" />
+    <EntitySet Name="Notificacoes" EntityType="Self.Notificacoes" />
+    <EntitySet Name="NotificacoesUsuarios" EntityType="Self.NotificacoesUsuarios" />
+    <EntitySet Name="Posicoes" EntityType="Self.Posicoes" />
+    <EntitySet Name="Rodadas" EntityType="Self.Rodadas" />
+    <EntitySet Name="Selecoes" EntityType="Self.Selecoes" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="Usuarios" EntityType="Self.Usuarios" />
+  </EntityContainer>
+</Schema>
