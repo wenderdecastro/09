@@ -19,3 +19,6 @@ C:\Users\admin\source\repos\2 - DesktopSP (FollowWS)\obj\Debug\_2___DesktopSP__F
 C:\Users\admin\source\repos\2 - DesktopSP (FollowWS)\obj\Debug\2 - DesktopSP (FollowWS).csproj.CopyComplete
 C:\Users\admin\source\repos\2 - DesktopSP (FollowWS)\obj\Debug\_2___DesktopSP__FollowWS_.EsqueceuSenhaPage.resources
 C:\Users\admin\source\repos\2 - DesktopSP (FollowWS)\obj\Debug\_2___DesktopSP__FollowWS_.MainPageADM.resources
+C:\Users\admin\source\repos\2 - DesktopSP (FollowWS)\obj\Debug\_2___DesktopSP__FollowWS_.parent.resources
+C:\Users\admin\source\repos\2 - DesktopSP (FollowWS)\obj\Debug\_2___DesktopSP__FollowWS_.MainPageComum.resources
+C:\Users\admin\source\repos\2 - DesktopSP (FollowWS)\obj\Debug\_2___DesktopSP__FollowWS_.CadastroPage.resources

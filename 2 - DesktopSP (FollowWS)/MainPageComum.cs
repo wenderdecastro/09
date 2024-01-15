@@ -8,14 +8,14 @@ using System.Windows.Forms;
 
 namespace _2___DesktopSP__FollowWS_
 {
-    public partial class MainPageADM : _2___DesktopSP__FollowWS_.parent
+    public partial class MainPageComum : _2___DesktopSP__FollowWS_.parent
     {
-        public MainPageADM()
+        public MainPageComum()
         {
             InitializeComponent();
         }
 
-        private void MainPageADM_Load(object sender, EventArgs e)
+        private void MainPageComum_Load(object sender, EventArgs e)
         {
 
         }

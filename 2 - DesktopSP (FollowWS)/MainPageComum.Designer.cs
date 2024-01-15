@@ -1,6 +1,6 @@
 ﻿namespace _2___DesktopSP__FollowWS_
 {
-    partial class MainPageADM
+    partial class MainPageComum
     {
         /// <summary>
         /// Required designer variable.
@@ -34,12 +34,12 @@
             // 
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
-            // MainPageADM
+            // MainPageComum
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Name = "MainPageADM";
-            this.Load += new System.EventHandler(this.MainPageADM_Load);
+            this.Name = "MainPageComum";
+            this.Load += new System.EventHandler(this.MainPageComum_Load);
             this.ResumeLayout(false);
 
         }

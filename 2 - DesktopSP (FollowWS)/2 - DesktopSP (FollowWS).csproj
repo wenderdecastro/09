@@ -107,11 +107,23 @@
     <Compile Include="MainPageADM.Designer.cs">
       <DependentUpon>MainPageADM.cs</DependentUpon>
     </Compile>
+    <Compile Include="MainPageComum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainPageComum.Designer.cs">
+      <DependentUpon>MainPageComum.cs</DependentUpon>
+    </Compile>
     <Compile Include="Notificacoes.cs">
       <DependentUpon>FWSModel.tt</DependentUpon>
     </Compile>
     <Compile Include="NotificacoesUsuarios.cs">
       <DependentUpon>FWSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="parent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="parent.Designer.cs">
+      <DependentUpon>parent.cs</DependentUpon>
     </Compile>
     <Compile Include="Posicoes.cs">
       <DependentUpon>FWSModel.tt</DependentUpon>
@@ -127,9 +139,13 @@
     <Compile Include="sysdiagrams.cs">
       <DependentUpon>FWSModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="User.cs" />
     <Compile Include="Usuarios.cs">
       <DependentUpon>FWSModel.tt</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="CadastroPage.resx">
+      <DependentUpon>CadastroPage.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="EsqueceuSenhaPage.resx">
       <DependentUpon>EsqueceuSenhaPage.cs</DependentUpon>
     </EmbeddedResource>
@@ -141,6 +157,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MainPageADM.resx">
       <DependentUpon>MainPageADM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainPageComum.resx">
+      <DependentUpon>MainPageComum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="parent.resx">
+      <DependentUpon>parent.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
