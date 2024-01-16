@@ -13,7 +13,6 @@ namespace _2___DesktopSP__FollowWS_
     public partial class EsqueceuSenhaPage : parent
     {
 
-        Usuarios user = new Usuarios();
         bool senhaValida;
 
         public EsqueceuSenhaPage()
@@ -62,8 +61,6 @@ namespace _2___DesktopSP__FollowWS_
 
         private void linkLabel2_LinkClicked_1(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            this.Hide();
-            new LoginPage().ShowDialog();
             this.Close();
         }
 
@@ -145,9 +142,17 @@ namespace _2___DesktopSP__FollowWS_
         {
             if (senhaValida == true)
             {
-                user.Senha = textBox1.Text;
+                User.logado.Senha = textBox1.Text;
+                var original = ctx.Usuarios.Find(User.logado.Id);
+                ctx.Entry(original).CurrentValues.SetValues(User.logado); 
                 ctx.SaveChanges();
+
+            Alert.info("Senha alterada com sucesso");
+
+                this.Close();
             }
+
+
         }
     }
 }

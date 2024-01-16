@@ -98,9 +98,7 @@ namespace _2___DesktopSP__FollowWS_
 
             User.logado = usuarioBuscado;
            
-            this.Hide();
             new EsqueceuSenhaPage().ShowDialog();
-            this.Close();
             return;
 
 
@@ -109,9 +107,7 @@ namespace _2___DesktopSP__FollowWS_
 
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            this.Hide();
             new CadastroPage().ShowDialog();
-            this.Close();
         }
 
     }

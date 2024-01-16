@@ -225,6 +225,7 @@
       <DependentUpon>FWSModel.edmx</DependentUpon>
       <LastGenOutput>FWSModel.cs</LastGenOutput>
     </Content>
+    <None Include="Resources\SemFoto.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\WSTowers.png" />

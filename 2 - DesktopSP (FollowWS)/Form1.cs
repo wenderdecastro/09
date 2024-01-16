@@ -14,7 +14,7 @@ using System.Windows.Forms;
 
 namespace _2___DesktopSP__FollowWS_
 {
-    public partial class Form1 : Form
+    public partial class Form1 : parent
     {
         Settings settings = Settings.Default;
         public Form1()

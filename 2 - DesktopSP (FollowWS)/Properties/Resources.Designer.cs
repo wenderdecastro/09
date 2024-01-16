@@ -63,6 +63,16 @@ namespace _2___DesktopSP__FollowWS_.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap SemFoto {
+            get {
+                object obj = ResourceManager.GetObject("SemFoto", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap WSTowers {
             get {
                 object obj = ResourceManager.GetObject("WSTowers", resourceCulture);
