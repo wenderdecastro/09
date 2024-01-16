@@ -30,6 +30,7 @@ namespace _2___DesktopSP__FollowWS_
             pictureBox1.Image = semFoto;
             newUser.Senha = "admin123";
             button1.Enabled = false;
+            radioButton1.Checked = true;
 
             //lista as seleções no dropdown
             comboBox1.Items.AddRange(ctx.Selecoes.Select(x => x.Nome).ToArray());
@@ -72,6 +73,8 @@ namespace _2___DesktopSP__FollowWS_
             textBox4.ForeColor = Color.White;
             textBox4.Text = "Email já Cadastrado";
 
+            button1.Enabled = false;
+
 
         }
 
@@ -113,7 +116,10 @@ namespace _2___DesktopSP__FollowWS_
         {
 
             string[] nome = textBox1.Text.Split(' ');
-            if (nome.Count() >= 2)
+
+            //não fiz a funcionalidade dos caracteres especiais porque sei que não vou conseguir aprender regex a tempo dos simulados 
+
+            if (nome.Count() >= 2 && textBox2.Text.Length > 4 && textBox2.Text.Substring(0, 1).Any(x => char.IsLetter(x)) && textBox2.Text.Contains("@") && textBox2.Text.Contains("."))
                 button1.Enabled = true;
             else button1.Enabled = false;
 
@@ -144,6 +150,8 @@ namespace _2___DesktopSP__FollowWS_
 
             ctx.Usuarios.Add(newUser);
             ctx.SaveChanges();
+
+            Alert.info("Usuario Cadastrado");
 
             this.Close();
 

@@ -62,6 +62,12 @@
     <Compile Include="Comentario.cs">
       <DependentUpon>FWSModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="Components\NotificationControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Components\NotificationControl.Designer.cs">
+      <DependentUpon>NotificationControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="EsqueceuSenhaPage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -113,6 +119,12 @@
     <Compile Include="MainPageComum.Designer.cs">
       <DependentUpon>MainPageComum.cs</DependentUpon>
     </Compile>
+    <Compile Include="NewNotificationPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewNotificationPage.Designer.cs">
+      <DependentUpon>NewNotificationPage.cs</DependentUpon>
+    </Compile>
     <Compile Include="Notificacoes.cs">
       <DependentUpon>FWSModel.tt</DependentUpon>
     </Compile>
@@ -146,6 +158,9 @@
     <EmbeddedResource Include="CadastroPage.resx">
       <DependentUpon>CadastroPage.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Components\NotificationControl.resx">
+      <DependentUpon>NotificationControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="EsqueceuSenhaPage.resx">
       <DependentUpon>EsqueceuSenhaPage.cs</DependentUpon>
     </EmbeddedResource>
@@ -160,6 +175,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MainPageComum.resx">
       <DependentUpon>MainPageComum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewNotificationPage.resx">
+      <DependentUpon>NewNotificationPage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="parent.resx">
       <DependentUpon>parent.cs</DependentUpon>

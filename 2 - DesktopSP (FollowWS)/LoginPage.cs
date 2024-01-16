@@ -28,41 +28,6 @@ namespace _2___DesktopSP__FollowWS_
 
         }
 
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            if (textBox1.Text == string.Empty || textBox2.Text == string.Empty)
-            {
-                Alert.info("Campos de usuario ou senha vazios.");
-                return;
-            }
-            var usuarioBuscado = ctx.Usuarios.FirstOrDefault(x => x.Email == textBox1.Text && x.Senha == textBox2.Text);
-
-            if (usuarioBuscado == null)
-            {
-                Alert.info("Usuario ou senha inválidos.");
-                return;
-            }
-
-            if (checkBox1.Checked)
-            {
-                cfg.userId = usuarioBuscado.Id;
-                cfg.manterLogado = true;
-            }
-
-            if (usuarioBuscado.perfil == "1")
-            {
-                this.Hide();
-                new MainPageADM().ShowDialog();
-                this.Close();
-                return;
-            }
-
-            this.Hide();
-            new MainPageComum().ShowDialog();
-            this.Close();
-        }
-
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
@@ -97,7 +62,7 @@ namespace _2___DesktopSP__FollowWS_
             if (usuarioBuscado == null) return;
 
             User.logado = usuarioBuscado;
-           
+
             new EsqueceuSenhaPage().ShowDialog();
             return;
 
@@ -110,5 +75,40 @@ namespace _2___DesktopSP__FollowWS_
             new CadastroPage().ShowDialog();
         }
 
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            if (textBox1.Text == string.Empty || textBox2.Text == string.Empty)
+            {
+                Alert.info("Campos de usuario ou senha vazios.");
+                return;
+            }
+            var usuarioBuscado = ctx.Usuarios.FirstOrDefault(x => x.Email == textBox1.Text && x.Senha == textBox2.Text);
+
+            if (usuarioBuscado == null)
+            {
+                Alert.info("Usuario ou senha inválidos.");
+                return;
+            }
+
+            if (checkBox1.Checked)
+            {
+                cfg.userId = usuarioBuscado.Id;
+                cfg.manterLogado = true;
+            }
+
+            if (usuarioBuscado.perfil == "0")
+            {
+                this.Hide();
+                new MainPageADM().ShowDialog();
+                this.Close();
+                return;
+            }
+
+            this.Hide();
+            new MainPageComum().ShowDialog();
+            this.Close();
+        }
+
     }
 }
+

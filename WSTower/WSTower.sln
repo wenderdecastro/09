@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WSTower.Android", "WSTower.Android\WSTower.Android.csproj", "{4CB3ECF9-1023-47A0-A29E-593EE74DD18D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WSTower", "WSTower\WSTower.csproj", "{277CC154-71EF-4E74-A3B5-AA2E49D6F31A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CB3ECF9-1023-47A0-A29E-593EE74DD18D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CB3ECF9-1023-47A0-A29E-593EE74DD18D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CB3ECF9-1023-47A0-A29E-593EE74DD18D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4CB3ECF9-1023-47A0-A29E-593EE74DD18D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CB3ECF9-1023-47A0-A29E-593EE74DD18D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CB3ECF9-1023-47A0-A29E-593EE74DD18D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{277CC154-71EF-4E74-A3B5-AA2E49D6F31A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{277CC154-71EF-4E74-A3B5-AA2E49D6F31A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{277CC154-71EF-4E74-A3B5-AA2E49D6F31A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{277CC154-71EF-4E74-A3B5-AA2E49D6F31A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{277CC154-71EF-4E74-A3B5-AA2E49D6F31A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{277CC154-71EF-4E74-A3B5-AA2E49D6F31A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6427EC88-9948-487C-8EA0-56AFC5733242}
+	EndGlobalSection
+EndGlobal
