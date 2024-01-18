@@ -31,8 +31,6 @@ namespace MobileMG
                 tries++;
                 toastNotification.IsVisible = true;
 
-                senhaInput.border
-
                 if(tries == 3)
                 {
                     senhaInput.IsEnabled = usuarioInput.IsEnabled = btnEntrar.IsEnabled = false;

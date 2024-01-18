@@ -17,3 +17,18 @@ C:\Users\admin\source\repos\MobileMG\MobileMG\obj\Debug\netstandard2.0\MobileMG.
 C:\Users\admin\source\repos\MobileMG\MobileMG\obj\Debug\netstandard2.0\StartingPage.xaml.g.cs
 C:\Users\admin\source\repos\MobileMG\MobileMG\obj\Debug\netstandard2.0\StartingPageDetail.xaml.g.cs
 C:\Users\admin\source\repos\MobileMG\MobileMG\obj\Debug\netstandard2.0\StartingPageFlyout.xaml.g.cs
+C:\Users\Clune\OneDrive\Área de Trabalho\Code\worldskills\09\MobileMG\MobileMG\obj\Debug\netstandard2.0\MobileMG.csproj.AssemblyReference.cache
+C:\Users\Clune\OneDrive\Área de Trabalho\Code\worldskills\09\MobileMG\MobileMG\obj\Debug\netstandard2.0\MobileMG.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Clune\OneDrive\Área de Trabalho\Code\worldskills\09\MobileMG\MobileMG\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Clune\OneDrive\Área de Trabalho\Code\worldskills\09\MobileMG\MobileMG\obj\Debug\netstandard2.0\LoginPage.xaml.g.cs
+C:\Users\Clune\OneDrive\Área de Trabalho\Code\worldskills\09\MobileMG\MobileMG\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Clune\OneDrive\Área de Trabalho\Code\worldskills\09\MobileMG\MobileMG\obj\Debug\netstandard2.0\StartingPage.xaml.g.cs
+C:\Users\Clune\OneDrive\Área de Trabalho\Code\worldskills\09\MobileMG\MobileMG\obj\Debug\netstandard2.0\StartingPageDetail.xaml.g.cs
+C:\Users\Clune\OneDrive\Área de Trabalho\Code\worldskills\09\MobileMG\MobileMG\obj\Debug\netstandard2.0\StartingPageFlyout.xaml.g.cs
+C:\Users\Clune\OneDrive\Área de Trabalho\Code\worldskills\09\MobileMG\MobileMG\obj\Debug\netstandard2.0\MobileMG.AssemblyInfoInputs.cache
+C:\Users\Clune\OneDrive\Área de Trabalho\Code\worldskills\09\MobileMG\MobileMG\obj\Debug\netstandard2.0\MobileMG.AssemblyInfo.cs
+C:\Users\Clune\OneDrive\Área de Trabalho\Code\worldskills\09\MobileMG\MobileMG\obj\Debug\netstandard2.0\MobileMG.csproj.CoreCompileInputs.cache
+C:\Users\Clune\OneDrive\Área de Trabalho\Code\worldskills\09\MobileMG\MobileMG\obj\Debug\netstandard2.0\MobileMG.sourcelink.json
+C:\Users\Clune\OneDrive\Área de Trabalho\Code\worldskills\09\MobileMG\MobileMG\obj\Debug\netstandard2.0\MobileMG.dll
+C:\Users\Clune\OneDrive\Área de Trabalho\Code\worldskills\09\MobileMG\MobileMG\obj\Debug\netstandard2.0\refint\MobileMG.dll
+C:\Users\Clune\OneDrive\Área de Trabalho\Code\worldskills\09\MobileMG\MobileMG\obj\Debug\netstandard2.0\MobileMG.pdb
