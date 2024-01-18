@@ -16,5 +16,11 @@ namespace MobileMG
         {
             InitializeComponent();
         }
+
+        private void ToolbarItem_Clicked(object sender, EventArgs e)
+        {
+            DisplayAlert("Informação", "V1.0.0 Desenvolvido por Wender <DR> durante a seletiva nacional de 2020.", "OK");
+
+        }
     }
 }

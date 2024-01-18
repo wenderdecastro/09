@@ -16,7 +16,7 @@
 
             </StackLayout>
              
-            <Label  x:Name="toastNotification" IsEnabled="false" Text="Usuário/Senha inválidos!" FontSize="18" VerticalOptions="End" HorizontalOptions="FillAndExpand" Margin="5,5,5,5" BackgroundColor="#505050" HeightRequest="60" TextColor="White" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            <Label  x:Name="toastNotification" IsVisible="false" Text="Usuário/Senha inválidos!" FontSize="18" VerticalOptions="End" HorizontalOptions="FillAndExpand" Margin="5,5,5,5" BackgroundColor="#505050" HeightRequest="60" TextColor="White" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
 
         </Grid>
     </ContentPage.Content>

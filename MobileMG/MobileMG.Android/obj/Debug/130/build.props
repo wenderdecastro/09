@@ -25,11 +25,11 @@ androidgeneratejnimarshalmethods=false
 os=windows_nt
 androidincludedebugsymbols=true
 androidpackagenamingpolicy=lowercasecrc64
-_nugetassetstimestamp=638411112759838844
+_nugetassetstimestamp=638411796002255375
 typemapkind=strings-asm
 androidsupportedabis=arm64-v8a
 armeabi-v7a
 x86
 x86_64
 androidmanifestplaceholders=
-projectfullpath=c:\users\clune\onedrive\área de trabalho\code\worldskills\09\mobilemg\mobilemg.android\mobilemg.android.csproj
+projectfullpath=c:\users\admin\desktop\09\mobilemg\mobilemg.android\mobilemg.android.csproj

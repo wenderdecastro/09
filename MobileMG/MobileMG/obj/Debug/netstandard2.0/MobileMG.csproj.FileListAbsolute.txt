@@ -32,3 +32,27 @@ C:\Users\Clune\OneDrive\Área de Trabalho\Code\worldskills\09\MobileMG\MobileMG\
 C:\Users\Clune\OneDrive\Área de Trabalho\Code\worldskills\09\MobileMG\MobileMG\obj\Debug\netstandard2.0\MobileMG.dll
 C:\Users\Clune\OneDrive\Área de Trabalho\Code\worldskills\09\MobileMG\MobileMG\obj\Debug\netstandard2.0\refint\MobileMG.dll
 C:\Users\Clune\OneDrive\Área de Trabalho\Code\worldskills\09\MobileMG\MobileMG\obj\Debug\netstandard2.0\MobileMG.pdb
+C:\Users\admin\Desktop\09\MobileMG\MobileMG\bin\Debug\netstandard2.0\MobileMG.deps.json
+C:\Users\admin\Desktop\09\MobileMG\MobileMG\bin\Debug\netstandard2.0\MobileMG.dll
+C:\Users\admin\Desktop\09\MobileMG\MobileMG\bin\Debug\netstandard2.0\ref\MobileMG.dll
+C:\Users\admin\Desktop\09\MobileMG\MobileMG\bin\Debug\netstandard2.0\MobileMG.pdb
+C:\Users\admin\Desktop\09\MobileMG\MobileMG\bin\Debug\netstandard2.0\Newtonsoft.Json.dll
+C:\Users\admin\Desktop\09\MobileMG\MobileMG\bin\Debug\netstandard2.0\Newtonsoft.Json.xml
+C:\Users\admin\Desktop\09\MobileMG\MobileMG\obj\Debug\netstandard2.0\MobileMG.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\09\MobileMG\MobileMG\obj\Debug\netstandard2.0\MobileMG.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Desktop\09\MobileMG\MobileMG\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\admin\Desktop\09\MobileMG\MobileMG\obj\Debug\netstandard2.0\LoginPage.xaml.g.cs
+C:\Users\admin\Desktop\09\MobileMG\MobileMG\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\admin\Desktop\09\MobileMG\MobileMG\obj\Debug\netstandard2.0\StartingPage.xaml.g.cs
+C:\Users\admin\Desktop\09\MobileMG\MobileMG\obj\Debug\netstandard2.0\StartingPageDetail.xaml.g.cs
+C:\Users\admin\Desktop\09\MobileMG\MobileMG\obj\Debug\netstandard2.0\StartingPageFlyout.xaml.g.cs
+C:\Users\admin\Desktop\09\MobileMG\MobileMG\obj\Debug\netstandard2.0\MobileMG.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\09\MobileMG\MobileMG\obj\Debug\netstandard2.0\MobileMG.AssemblyInfo.cs
+C:\Users\admin\Desktop\09\MobileMG\MobileMG\obj\Debug\netstandard2.0\MobileMG.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\09\MobileMG\MobileMG\obj\Debug\netstandard2.0\MobileMG.sourcelink.json
+C:\Users\admin\Desktop\09\MobileMG\MobileMG\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\admin\Desktop\09\MobileMG\MobileMG\obj\Debug\netstandard2.0\MobileMG.csproj.CopyComplete
+C:\Users\admin\Desktop\09\MobileMG\MobileMG\obj\Debug\netstandard2.0\MobileMG.dll
+C:\Users\admin\Desktop\09\MobileMG\MobileMG\obj\Debug\netstandard2.0\refint\MobileMG.dll
+C:\Users\admin\Desktop\09\MobileMG\MobileMG\obj\Debug\netstandard2.0\MobileMG.pdb
+C:\Users\admin\Desktop\09\MobileMG\MobileMG\obj\Debug\netstandard2.0\RelatosPage.xaml.g.cs

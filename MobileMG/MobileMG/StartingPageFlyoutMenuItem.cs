@@ -16,5 +16,6 @@ namespace MobileMG
         public string Title { get; set; }
 
         public Type TargetType { get; set; }
+        public string RowImage { get; set; }
     }
 }

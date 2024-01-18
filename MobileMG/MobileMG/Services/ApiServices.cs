@@ -1,6 +1,8 @@
-﻿using Newtonsoft.Json;
+﻿using MobileMG.Models;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
@@ -19,21 +21,33 @@ namespace MobileMG.Services
                 if (client == null)
                 {
                     client = new HttpClient();
-                    client.BaseAddress = new Uri("http://127.0.0.1:5500/api/");
+                    client.BaseAddress = new Uri("http://10.0.2.2:5500/api/");
                 }
                 return client;
             }
         }
 
-        public async static Task<List<T>> GetList(string url)
+        public async static Task<T> Login(LoginViewModel login)
         {
-            var response = await Client.GetAsync(url);
-            var content = await response.Content.ReadAsStringAsync();
 
-            var json = JsonConvert.DeserializeObject<List<T>>(content);
+            var jsonLogin = JsonConvert.SerializeObject(login);
+            var response = await Client.PostAsync("login", new StringContent(jsonLogin, Encoding.UTF8, "application/json"));
 
-            return json;
-            
+            if (response.IsSuccessStatusCode)
+            {
+                var jsonResponse = await response.Content.ReadAsStringAsync();
+                var result = JsonConvert.DeserializeObject<T>(jsonResponse);
+                return result;
+            }
+            return null;
+        }
+
+        public async static Task<List<T>> GetRelatos()
+        {
+            var response = await Client.GetAsync("relatos");
+            var jsonResponse = await response.Content?.ReadAsStringAsync();
+            return JsonConvert.DeserializeObject<List<T>>(jsonResponse);
+
         }
 
 
