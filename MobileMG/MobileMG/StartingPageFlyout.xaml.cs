@@ -33,10 +33,10 @@ namespace MobileMG
             {
                 MenuItems = new ObservableCollection<StartingPageFlyoutMenuItem>(new[]
                 {
-                    new StartingPageFlyoutMenuItem { Id = 0, Title = "Home", RowImage = "baseline_home_24"},
+                    new StartingPageFlyoutMenuItem { Id = 0, Title = "Home", RowImage = "baseline_home_24", TargetType=typeof(StartingPageDetail)},
                     new StartingPageFlyoutMenuItem { Id = 1, Title = "Reportar Ação", RowImage = "baseline_add_box_24" },
-                    new StartingPageFlyoutMenuItem { Id = 2, Title = "Visualizar", RowImage = "baseline_pageview_24" },
-                    new StartingPageFlyoutMenuItem { Id = 3, Title = "Sair", RowImage = "baseline_exit_to_app_24" },
+                    new StartingPageFlyoutMenuItem { Id = 2, Title = "Visualizar", RowImage = "baseline_pageview_24", TargetType=typeof(RelatosPage) },
+                    new StartingPageFlyoutMenuItem { Id = 3, Title = "Sair", RowImage = "baseline_exit_to_app_24"},
                 });
             }
 

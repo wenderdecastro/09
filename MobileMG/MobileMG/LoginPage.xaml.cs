@@ -32,7 +32,7 @@ namespace MobileMG
                 senha = senhaInput.Text,
             };
 
-            var user = await ApiServices<LoginViewModel>.Login(login);
+            var user = await ApiServices<Usuarios>.Login(login);
 
             if (user == null)
             {
@@ -53,6 +53,7 @@ namespace MobileMG
             else
             {
                 App.Current.MainPage = new StartingPage();
+                UserLogged.UsuarioLogado = user;
             }
 
             

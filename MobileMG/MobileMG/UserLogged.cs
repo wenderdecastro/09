@@ -7,6 +7,6 @@ namespace MobileMG
 {
     public static class UserLogged
     {
-        public static Usuarios userLogged {  get; set; }
+        public static Usuarios UsuarioLogado {  get; set; }
     }
 }

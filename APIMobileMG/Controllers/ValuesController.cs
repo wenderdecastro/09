@@ -37,21 +37,20 @@ namespace APIMobileMG.Controllers
         public IHttpActionResult ListRelatos()
         {
 
-            var lista = ctx.Relatos.Select(x => new Relatos
+            var lista = ctx.Relatos.ToList().Select(x => new RelatosViewModel
             {
-                id = x.id,
-                relato = x.relato,
-                imagem = x.imagem,
-                latitude = x.latitude,
-                longitude = x.longitude,
-                usuarioid = x.usuarioid,
+                Id = x.id,
+                Relato = x.relato,
+                Imagem = $"{ x.imagem.Substring(0,x.imagem.Length - 4)}.jpg",
+                Latitude = x.latitude,
+                Longitude = x.longitude,
+                UsuarioId = x.usuarioid == null ? 0 : x.usuarioid,
+                NomeUsuario = x.usuarioid == null ? "Anônimo" : x.Usuario.nome,
+                TelefoneUsuario = x.usuarioid == null ? "(##) #####-####" : x.Usuario.telefone,
+                EmailUsuario = x.usuarioid == null ? "" : x.Usuario.email
 
-                Usuario = new Usuario
-                {
-                    nome = x.Usuario.nome
-                }
 
-            });
+            }).ToList();
 
 
 

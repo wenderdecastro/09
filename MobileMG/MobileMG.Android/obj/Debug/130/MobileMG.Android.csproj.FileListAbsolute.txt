@@ -1919,3 +1919,9 @@ C:\Users\admin\Desktop\09\MobileMG\MobileMG.Android\obj\Debug\130\stamp\_Convert
 C:\Users\admin\Desktop\09\MobileMG\MobileMG.Android\obj\Debug\130\stamp\_GenerateJavaStubs.stamp
 C:\Users\admin\Desktop\09\MobileMG\MobileMG.Android\obj\Debug\130\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\admin\Desktop\09\MobileMG\MobileMG.Android\obj\Debug\130\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\admin\Desktop\09\MobileMG\MobileMG.Android\obj\Debug\130\res\drawable\baseline_add_box_24.xml
+C:\Users\admin\Desktop\09\MobileMG\MobileMG.Android\obj\Debug\130\res\drawable\baseline_arrow_back_24.xml
+C:\Users\admin\Desktop\09\MobileMG\MobileMG.Android\obj\Debug\130\res\drawable\baseline_exit_to_app_24.xml
+C:\Users\admin\Desktop\09\MobileMG\MobileMG.Android\obj\Debug\130\res\drawable\baseline_home_24.xml
+C:\Users\admin\Desktop\09\MobileMG\MobileMG.Android\obj\Debug\130\res\drawable\baseline_menu_24.xml
+C:\Users\admin\Desktop\09\MobileMG\MobileMG.Android\obj\Debug\130\res\drawable\baseline_pageview_24.xml

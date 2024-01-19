@@ -29,7 +29,13 @@ foreground;obj\Debug\130\res\mipmap-anydpi-v26\icon_round.xml
 FrameLayout;C:\Users\admin\Desktop\09\MobileMG\MobileMG.Android\obj\Debug\130\lp\54\jl\res\layout\bottomtablayout.xml
 item;C:\Users\admin\Desktop\09\MobileMG\MobileMG.Android\obj\Debug\130\lp\54\jl\res\values\styles.xml
 LinearLayout;C:\Users\admin\Desktop\09\MobileMG\MobileMG.Android\obj\Debug\130\lp\54\jl\res\layout\bottomtablayout.xml
+path;obj\Debug\130\res\drawable\baseline_add_box_24.xml
+path;obj\Debug\130\res\drawable\baseline_arrow_back_24.xml
+path;obj\Debug\130\res\drawable\baseline_exit_to_app_24.xml
+path;obj\Debug\130\res\drawable\baseline_home_24.xml
 path;obj\Debug\130\res\drawable\baseline_info_24.xml
+path;obj\Debug\130\res\drawable\baseline_menu_24.xml
+path;obj\Debug\130\res\drawable\baseline_pageview_24.xml
 path;obj\Debug\130\res\drawable\pine_tree.xml
 paths;C:\Users\admin\Desktop\09\MobileMG\MobileMG.Android\obj\Debug\130\lp\53\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 resources;C:\Users\admin\Desktop\09\MobileMG\MobileMG.Android\obj\Debug\130\lp\54\jl\res\values\attrs.xml
@@ -48,7 +54,13 @@ translate;C:\Users\admin\Desktop\09\MobileMG\MobileMG.Android\obj\Debug\130\lp\5
 translate;C:\Users\admin\Desktop\09\MobileMG\MobileMG.Android\obj\Debug\130\lp\54\jl\res\anim\enterfromright.xml
 translate;C:\Users\admin\Desktop\09\MobileMG\MobileMG.Android\obj\Debug\130\lp\54\jl\res\anim\exittoleft.xml
 translate;C:\Users\admin\Desktop\09\MobileMG\MobileMG.Android\obj\Debug\130\lp\54\jl\res\anim\exittoright.xml
+vector;obj\Debug\130\res\drawable\baseline_add_box_24.xml
+vector;obj\Debug\130\res\drawable\baseline_arrow_back_24.xml
+vector;obj\Debug\130\res\drawable\baseline_exit_to_app_24.xml
+vector;obj\Debug\130\res\drawable\baseline_home_24.xml
 vector;obj\Debug\130\res\drawable\baseline_info_24.xml
+vector;obj\Debug\130\res\drawable\baseline_menu_24.xml
+vector;obj\Debug\130\res\drawable\baseline_pageview_24.xml
 vector;obj\Debug\130\res\drawable\pine_tree.xml
 xamarin.forms.platform.android.appcompat.FormsViewPager;C:\Users\admin\Desktop\09\MobileMG\MobileMG.Android\obj\Debug\130\lp\54\jl\res\layout\rootlayout.xml
 xamarin.forms.platform.android.ShellFlyoutLayout;C:\Users\admin\Desktop\09\MobileMG\MobileMG.Android\obj\Debug\130\lp\54\jl\res\layout\flyoutcontent.xml

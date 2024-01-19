@@ -1,14 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MobileMG.RelatosPage">
+             x:Class="MobileMG.RelatosPage"
+             xmlns:local="clr-namespace:MobileMG">
+    
     <ContentPage.Content>
-        <CollectionView>
+        <CollectionView ItemsSource="{Binding ListaRelatos}" >
             <CollectionView.ItemTemplate>
                 <DataTemplate>
-                    <StackLayout>
-                        <Label Text="{Binding nome}"/>
-                        <Label Text="{Binding nome}"/>
+                    <StackLayout Margin="25,0" Orientation="Horizontal">
+                        <ImageButton Source="{local:ImageResource MobileMG.Image.120220201750.jpg}" WidthRequest="100" HeightRequest="100" Clicked="ImageButton_Clicked"/>
+                        <StackLayout>
+                            <Label VerticalOptions="CenterAndExpand" Text="{Binding NomeUsuario}"/>
+                            <Label VerticalOptions="CenterAndExpand" Text="{Binding TelefoneUsuario}"/>
+                            <Label VerticalOptions="CenterAndExpand" Text="{Binding Latitude}"/>
+                            <Label VerticalOptions="CenterAndExpand" Text="{Binding Longitude}"/>
+                        </StackLayout>
                     </StackLayout>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
