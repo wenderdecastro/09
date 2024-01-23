@@ -3,13 +3,17 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MobileMG.RelatosPage"
              xmlns:local="clr-namespace:MobileMG">
-    
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <local:ImageConverter x:Key="ImageConverter"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
     <ContentPage.Content>
         <CollectionView ItemsSource="{Binding ListaRelatos}" >
             <CollectionView.ItemTemplate>
                 <DataTemplate>
                     <StackLayout Margin="25,0" Orientation="Horizontal">
-                        <ImageButton Source="{local:ImageResource MobileMG.Image.120220201750.jpg}" WidthRequest="100" HeightRequest="100" Clicked="ImageButton_Clicked"/>
+                        <ImageButton Source="{Binding Imagem, Converter={StaticResource ImageConverter}}" WidthRequest="100" HeightRequest="100" Clicked="ImageButton_Clicked"/>
                         <StackLayout>
                             <Label VerticalOptions="CenterAndExpand" Text="{Binding NomeUsuario}"/>
                             <Label VerticalOptions="CenterAndExpand" Text="{Binding TelefoneUsuario}"/>

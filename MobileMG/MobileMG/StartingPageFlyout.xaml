@@ -4,30 +4,20 @@
              x:Class="MobileMG.StartingPageFlyout"
              Title="Flyout">
     <StackLayout>
+        <StackLayout Orientation="Horizontal" BackgroundColor="#B4B4B4">
+            <StackLayout Padding="15, 0">
+                <Image WidthRequest="100" HeightRequest="150" Source="pine_tree"/>
+            </StackLayout>
+            <StackLayout HorizontalOptions="Start" VerticalOptions="CenterAndExpand">
+                <Label x:Name="labelNomeUsuario" Text="nome-usuario"/>
+                <Label x:Name="labelEmailUsuario" Text="email-usuario"/>
+
+            </StackLayout>
+        </StackLayout>
         <ListView x:Name="MenuItemsListView"
               SeparatorVisibility="None"
               HasUnevenRows="true"
               ItemsSource="{Binding MenuItems}">
-            <ListView.Header>
-                <Grid BackgroundColor="#03A9F4">
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="10"/>
-                        <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="10"/>
-                    </Grid.ColumnDefinitions>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="30"/>
-                        <RowDefinition Height="80"/>
-                        <RowDefinition Height="Auto"/>
-                        <RowDefinition Height="10"/>
-                    </Grid.RowDefinitions>
-                    <Label
-              Grid.Column="1"
-              Grid.Row="2"
-              Text="AppName"
-              Style="{DynamicResource SubtitleStyle}"/>
-                </Grid>
-            </ListView.Header>
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>

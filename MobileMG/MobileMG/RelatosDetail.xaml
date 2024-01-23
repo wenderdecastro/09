@@ -2,11 +2,26 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MobileMG.RelatosDetail">
+    <NavigationPage.TitleView>
+        <StackLayout TranslationX="-15" Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="CenterAndExpand">
+            <Image Source="pine_tree" HeightRequest="40" WidthRequest="40" Aspect="AspectFit"/>
+        </StackLayout>
+    </NavigationPage.TitleView>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Command="{Binding Editar}"
+                     IconImageSource="baseline_menu_24"
+                     Order="Secondary"
+                     Text="Editar"/>
+        <ToolbarItem Command="{Binding Excluir}"
+                     IconImageSource="baseline_menu_24"
+                     Order="Secondary"
+                     Text="Excluir"/>
+    </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <StackLayout>
             <StackLayout Margin="25,0" >
                 <Label Text="Relato" Margin="0,25" FontSize="20" VerticalOptions="Start" HorizontalOptions="CenterAndExpand" />
-                <Image BackgroundColor="Red" HorizontalOptions="FillAndExpand" HeightRequest="200" />
+                <Image HorizontalOptions="FillAndExpand" HeightRequest="200" />
                 <Label Text="Relato" HorizontalOptions="Start" Margin="0 ,10" FontSize="18"/>
                 <Label x:Name="relatoDescricao" HorizontalTextAlignment="Start" HorizontalOptions="StartAndExpand" />
             </StackLayout>
