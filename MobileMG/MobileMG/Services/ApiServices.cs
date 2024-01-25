@@ -48,10 +48,9 @@ namespace MobileMG.Services
             var jsonResponse = await response.Content?.ReadAsStringAsync();
             return JsonConvert.DeserializeObject<List<T>>(jsonResponse);
 
-            
-
         }
 
+        //public async static Task<>
 
     }
 }

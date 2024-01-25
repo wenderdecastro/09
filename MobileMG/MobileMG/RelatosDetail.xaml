@@ -8,11 +8,11 @@
         </StackLayout>
     </NavigationPage.TitleView>
     <ContentPage.ToolbarItems>
-        <ToolbarItem Command="{Binding Editar}"
+        <ToolbarItem Clicked="ToolbarItem_Clicked"
                      IconImageSource="baseline_menu_24"
                      Order="Secondary"
                      Text="Editar"/>
-        <ToolbarItem Command="{Binding Excluir}"
+        <ToolbarItem Clicked="ToolbarItem_Clicked_1"
                      IconImageSource="baseline_menu_24"
                      Order="Secondary"
                      Text="Excluir"/>
