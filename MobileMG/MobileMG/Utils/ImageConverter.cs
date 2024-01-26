@@ -1,23 +1,21 @@
-﻿using MobileMG.Models;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Text;
 using Xamarin.Forms;
 
-namespace MobileMG
+namespace MobileMG.Utils
 {
     public class ImageConverter : IValueConverter
     {
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
-            if (value is RelatosViewModel relato)
-            {
-                string imagePath = $"";
+            var filename = value.ToString();
+            filename = filename.Split('.')[0];
 
-                return $"/Images/{relato.Imagem}";
-            }
-            return null;
+            return ImageSource.FromResource($"MobileMG.Images.{filename}.jpg");
+
+           
         }
 
         public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)

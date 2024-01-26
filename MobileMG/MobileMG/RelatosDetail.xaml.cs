@@ -13,9 +13,12 @@ namespace MobileMG
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class RelatosDetail : ContentPage
     {
+        private RelatosViewModel _relato;
         public RelatosDetail(RelatosViewModel relato)
         {
             InitializeComponent();
+
+            _relato = relato;
 
             relatoDescricao.Text = relato.Relato;
             relatoLatitude.Text = relato.Latitude;
@@ -24,11 +27,12 @@ namespace MobileMG
             usuarioTelefone.Text = relato.TelefoneUsuario;
             usuarioEmail.Text = relato.EmailUsuario;
 
+            BindingContext = relato;
         }
 
         private void ToolbarItem_Clicked(object sender, EventArgs e)
         {
-
+            Navigation.PushAsync(new CadastroPage(_relato));
         }
 
         private void ToolbarItem_Clicked_1(object sender, EventArgs e)

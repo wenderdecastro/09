@@ -21,6 +21,32 @@ namespace MobileMG
         public CadastroPage(RelatosViewModel relato)
         {
             InitializeComponent();
+
+            BindingContext = relato;
+
+            labelEmail.Text = UserLogged.UsuarioLogado.Email;
+            labelId.Text = UserLogged.UsuarioLogado.Id.ToString();
+            labelLatitude.Text = relato.Latitude.ToString();
+            labelLongitude.Text = relato.Longitude.ToString();
+            labelNome.Text = relato.NomeUsuario;
+
+            //imgRelato.Source = ImageSource.FromResource($"{relato.Imagem}");
+
+        }
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button_Clicked_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button_Clicked_2(object sender, EventArgs e)
+        {
+
         }
     }
 }

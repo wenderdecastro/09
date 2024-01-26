@@ -21,7 +21,7 @@
         <StackLayout>
             <StackLayout Margin="25,0" >
                 <Label Text="Relato" Margin="0,25" FontSize="20" VerticalOptions="Start" HorizontalOptions="CenterAndExpand" />
-                <Image HorizontalOptions="FillAndExpand" HeightRequest="200" />
+                <Image HorizontalOptions="FillAndExpand" HeightRequest="200" Source="{Binding Imagem, Converter={x:StaticResource imageConverter}}" />
                 <Label Text="Relato" HorizontalOptions="Start" Margin="0 ,10" FontSize="18"/>
                 <Label x:Name="relatoDescricao" HorizontalTextAlignment="Start" HorizontalOptions="StartAndExpand" />
             </StackLayout>

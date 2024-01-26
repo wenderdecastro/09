@@ -3,26 +3,33 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MobileMG.RelatosPage"
              xmlns:local="clr-namespace:MobileMG">
-    <ContentPage.Resources>
-        <ResourceDictionary>
-            <local:ImageConverter x:Key="ImageConverter"/>
-        </ResourceDictionary>
-    </ContentPage.Resources>
     <ContentPage.Content>
-        <CollectionView ItemsSource="{Binding ListaRelatos}" >
-            <CollectionView.ItemTemplate>
-                <DataTemplate>
-                    <StackLayout Margin="25,0" Orientation="Horizontal">
-                        <ImageButton Source="{Binding Imagem, Converter={StaticResource ImageConverter}}" WidthRequest="100" HeightRequest="100" Clicked="ImageButton_Clicked"/>
-                        <StackLayout>
-                            <Label VerticalOptions="CenterAndExpand" Text="{Binding NomeUsuario}"/>
-                            <Label VerticalOptions="CenterAndExpand" Text="{Binding TelefoneUsuario}"/>
-                            <Label VerticalOptions="CenterAndExpand" Text="{Binding Latitude}"/>
-                            <Label VerticalOptions="CenterAndExpand" Text="{Binding Longitude}"/>
-                        </StackLayout>
-                    </StackLayout>
-                </DataTemplate>
-            </CollectionView.ItemTemplate>
-        </CollectionView>
+        <StackLayout Margin="0,25">
+
+            <ListView ItemsSource="{Binding ListaRelatos}" 
+          SeparatorVisibility="None"
+          HasUnevenRows="True"
+          SelectionMode="Single"
+          ItemSelected="ListView_ItemSelected">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal">
+                                <StackLayout BackgroundColor="LightGray">
+                                    <Image WidthRequest="200"  Source="{Binding Imagem, Converter={x:StaticResource imageConverter}}"/>
+                                </StackLayout>
+                                <StackLayout>
+                                    <Label VerticalOptions="CenterAndExpand" Text="{Binding NomeUsuario}"/>
+                                    <Label VerticalOptions="CenterAndExpand" Text="{Binding TelefoneUsuario}"/>
+                                    <Label VerticalOptions="CenterAndExpand" Text="{Binding Latitude}"/>
+                                    <Label VerticalOptions="CenterAndExpand" Text="{Binding Longitude}"/>
+                                </StackLayout>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+
     </ContentPage.Content>
 </ContentPage>

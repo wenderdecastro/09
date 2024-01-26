@@ -23,6 +23,10 @@ namespace MobileMG
 
             BindingContext = new StartingPageFlyoutViewModel();
             ListView = MenuItemsListView;
+
+            labelEmailUsuario.Text = UserLogged.UsuarioLogado.Email;
+            labelNomeUsuario.Text = UserLogged.UsuarioLogado.Nome;
+
         }
 
         private class StartingPageFlyoutViewModel : INotifyPropertyChanged

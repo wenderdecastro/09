@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MobileMG")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8969926c2b5d226bf463fcf5e91311d1cb7dd06e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c04f5dca5ecc38d3e724ab0bbabd52975bc20cfa")]
 [assembly: System.Reflection.AssemblyProductAttribute("MobileMG")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MobileMG")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

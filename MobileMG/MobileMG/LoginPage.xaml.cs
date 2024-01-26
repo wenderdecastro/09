@@ -34,6 +34,8 @@ namespace MobileMG
 
             var user = await ApiServices<Usuarios>.Login(login);
 
+            
+
             if (user == null)
             {
                 tries++;
@@ -52,8 +54,8 @@ namespace MobileMG
             }
             else
             {
-                App.Current.MainPage = new StartingPage();
                 UserLogged.UsuarioLogado = user;
+                App.Current.MainPage = new StartingPage();
             }
 
             

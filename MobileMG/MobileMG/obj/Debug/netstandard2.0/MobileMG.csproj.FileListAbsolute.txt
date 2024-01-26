@@ -57,3 +57,4 @@ C:\Users\admin\Desktop\09\MobileMG\MobileMG\obj\Debug\netstandard2.0\refint\Mobi
 C:\Users\admin\Desktop\09\MobileMG\MobileMG\obj\Debug\netstandard2.0\MobileMG.pdb
 C:\Users\admin\Desktop\09\MobileMG\MobileMG\obj\Debug\netstandard2.0\RelatosPage.xaml.g.cs
 C:\Users\admin\Desktop\09\MobileMG\MobileMG\obj\Debug\netstandard2.0\RelatosDetail.xaml.g.cs
+C:\Users\admin\Desktop\09\MobileMG\MobileMG\obj\Debug\netstandard2.0\CadastroPage.xaml.g.cs

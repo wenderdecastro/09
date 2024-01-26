@@ -11,6 +11,32 @@
 		<DebugSymbols>true</DebugSymbols>
 	</PropertyGroup>
 
+	<ItemGroup>
+	  <None Remove="Images\020220200935.jpg" />
+	  <None Remove="Images\030120201555.jpg" />
+	  <None Remove="Images\070820201753.jpg" />
+	  <None Remove="Images\080820201836.jpg" />
+	  <None Remove="Images\090820201655.jpg" />
+	  <None Remove="Images\100820201233.jpg" />
+	  <None Remove="Images\101220201225.jpg" />
+	  <None Remove="Images\120220201750.jpg" />
+	  <None Remove="Images\151020202233.jpg" />
+	  <None Remove="Images\220220200932.jpg" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EmbeddedResource Include="Images\020220200935.jpg" />
+	  <EmbeddedResource Include="Images\030120201555.jpg" />
+	  <EmbeddedResource Include="Images\070820201753.jpg" />
+	  <EmbeddedResource Include="Images\080820201836.jpg" />
+	  <EmbeddedResource Include="Images\090820201655.jpg" />
+	  <EmbeddedResource Include="Images\100820201233.jpg" />
+	  <EmbeddedResource Include="Images\101220201225.jpg" />
+	  <EmbeddedResource Include="Images\120220201750.jpg" />
+	  <EmbeddedResource Include="Images\151020202233.jpg" />
+	  <EmbeddedResource Include="Images\220220200932.jpg" />
+	</ItemGroup>
+
 
 	<ItemGroup>
 		<PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />

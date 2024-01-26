@@ -41,15 +41,10 @@ namespace MobileMG
             }
         }
 
-        private async void ImageButton_Clicked(object sender, EventArgs e)
+        private void ListView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
-
-            var button = (ImageButton)sender;
-            var relatoSelecionado = button.BindingContext as RelatosViewModel;
-            if (relatoSelecionado is RelatosViewModel relatos)
-                await Navigation.PushAsync(new RelatosDetail(relatoSelecionado));
+            var relatoSelecionado = e.SelectedItem as RelatosViewModel;
+            Navigation.PushAsync(new RelatosDetail(relatoSelecionado));
         }
-        
-
     }
 }

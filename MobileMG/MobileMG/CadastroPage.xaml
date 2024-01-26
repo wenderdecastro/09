@@ -3,10 +3,53 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MobileMG.CadastroPage">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout Margin="20">
+            <StackLayout>
+                <Label Text="Id" x:Name="labelId"/>
+                <Label Text="Nome" x:Name="labelNome"/>
+            </StackLayout>
+
+            <Label Text="Email"  x:Name="labelEmail"/>
+
+            <StackLayout Orientation="Horizontal">
+
+                <Label Text="Relatar anônimamente?"/>
+                <Switch/>
+
+            </StackLayout>
+
+            <StackLayout>
+
+                <Label Text="Relato"/>
+
+                <Entry HorizontalOptions="FillAndExpand" HeightRequest="100"/>
+
+            </StackLayout>
+
+            <StackLayout>
+                <Label Text="Imagem"/>
+                <Button Text="Fotografar" Clicked="Button_Clicked"/>
+
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <StackLayout>
+                    <Image HorizontalOptions="FillAndExpand" HeightRequest="100" Source="{Binding Imagem, Converter={x:StaticResource imageConverter}}" />
+                </StackLayout>
+                <StackLayout>
+                    <Label Text="Localização"/>
+                    <Label Text="latitude"  x:Name="labelLatitude"/>
+                    <Label Text="longitude" x:Name="labelLongitude"/>
+                </StackLayout>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <Button Text="Salvar" Clicked="Button_Clicked_1"/>
+                <Button Text="Fotografar" Clicked="Button_Clicked_2"/>
+            </StackLayout>
+
+
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

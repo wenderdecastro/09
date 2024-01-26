@@ -32,14 +32,10 @@ namespace MobileMG.Services
 
             var jsonLogin = JsonConvert.SerializeObject(login);
             var response = await Client.PostAsync("login", new StringContent(jsonLogin, Encoding.UTF8, "application/json"));
+            response.EnsureSuccessStatusCode();
+            var jsonResponse = await response.Content.ReadAsStringAsync();
+            return JsonConvert.DeserializeObject<T>(jsonResponse);
 
-            if (response.IsSuccessStatusCode)
-            {
-                var jsonResponse = await response.Content.ReadAsStringAsync();
-                var result = JsonConvert.DeserializeObject<T>(jsonResponse);
-                return result;
-            }
-            return null;
         }
 
         public async static Task<List<T>> GetRelatos()
