@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TaskoolMobile.MeusProjetosFlyout"
+             Title="Flyout">
+    <StackLayout>
+        <ListView x:Name="MenuItemsListView"
+              SeparatorVisibility="None"
+              HasUnevenRows="true"
+              ItemsSource="{Binding MenuItems}"
+              BackgroundColor="#1d2d3d">
+            <ListView.Header>
+                <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand" HeightRequest="200"  Margin="40,30">
+                    <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="0,45" >
+
+                        <Label Text="Nome" TextColor="White" FontSize="24" FontAttributes="Bold" x:Name="Nome"/>
+                        <Label Text="Email" TextColor="white" FontSize="18" x:Name="Email"/>
+                    </StackLayout>
+
+                    <StackLayout HeightRequest="100">
+                        <Label HorizontalOptions="StartAndExpand" VerticalOptions="FillAndExpand" VerticalTextAlignment="Center" Text="Meu Calendario" FontSize="16" TextColor="White" FontAttributes="Bold"/>
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                        </StackLayout.GestureRecognizers>
+                    </StackLayout>
+                </StackLayout>
+
+            </ListView.Header>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Padding="40,10" HorizontalOptions="FillAndExpand">
+                            <Label VerticalOptions="FillAndExpand" 
+                            VerticalTextAlignment="Center" 
+                            Text="{Binding Title}" 
+                            FontSize="16"
+                            TextColor="Gray"
+                            FontAttributes="Bold"/>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

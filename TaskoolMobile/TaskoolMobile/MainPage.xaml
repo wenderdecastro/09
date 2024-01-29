@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TaskoolMobile.MainPage"
+             BackgroundColor="DeepSkyBlue">
+
+    <StackLayout HorizontalOptions="CenterAndExpand"    
+                 VerticalOptions="Center">
+        <Label HorizontalOptions="Center" Text="TASKOOL" FontSize="48" TextColor="White"/>
+
+        <StackLayout Orientation="Horizontal" Margin="0, 20">
+            <Ellipse x:Name="circle1" WidthRequest="50" HeightRequest="50" Fill="RED"/>
+            <Ellipse x:Name="circle2" Margin="20, 0" WidthRequest="50" HeightRequest="50" Fill="white"/>
+            <Ellipse x:Name="circle3" WidthRequest="50" HeightRequest="50" Fill="blue"/>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>
