@@ -6,6 +6,7 @@ C:\Users\admin\Desktop\tkmb\TaskoolMobile\TaskoolMobile.Android\bin\Debug\com.co
 C:\Users\admin\Desktop\tkmb\TaskoolMobile\TaskoolMobile.Android\bin\Debug\com.companyname.taskoolmobile-Signed.apk
 C:\Users\admin\Desktop\tkmb\TaskoolMobile\TaskoolMobile.Android\bin\Debug\com.companyname.taskoolmobile-Signed.apk.idsig
 C:\Users\admin\Desktop\tkmb\TaskoolMobile\TaskoolMobile.Android\bin\Debug\TaskoolMobile.dll
+C:\Users\admin\Desktop\tkmb\TaskoolMobile\TaskoolMobile.Android\bin\Debug\Newtonsoft.Json.dll
 C:\Users\admin\Desktop\tkmb\TaskoolMobile\TaskoolMobile.Android\bin\Debug\TaskoolMobile.pdb
 C:\Users\admin\Desktop\tkmb\TaskoolMobile\TaskoolMobile.Android\obj\Debug\130\MonoAndroid,Version=v13.0.AssemblyAttributes.cs
 C:\Users\admin\Desktop\tkmb\TaskoolMobile\TaskoolMobile.Android\obj\Debug\130\build.props
@@ -75,6 +76,7 @@ C:\Users\admin\Desktop\tkmb\TaskoolMobile\TaskoolMobile.Android\obj\Debug\130\an
 C:\Users\admin\Desktop\tkmb\TaskoolMobile\TaskoolMobile.Android\obj\Debug\130\android\assets\mscorlib.dll
 C:\Users\admin\Desktop\tkmb\TaskoolMobile\TaskoolMobile.Android\obj\Debug\130\android\assets\mscorlib.pdb
 C:\Users\admin\Desktop\tkmb\TaskoolMobile\TaskoolMobile.Android\obj\Debug\130\android\assets\netstandard.dll
+C:\Users\admin\Desktop\tkmb\TaskoolMobile\TaskoolMobile.Android\obj\Debug\130\android\assets\Newtonsoft.Json.dll
 C:\Users\admin\Desktop\tkmb\TaskoolMobile\TaskoolMobile.Android\obj\Debug\130\android\assets\System.ComponentModel.Composition.dll
 C:\Users\admin\Desktop\tkmb\TaskoolMobile\TaskoolMobile.Android\obj\Debug\130\android\assets\System.ComponentModel.Composition.pdb
 C:\Users\admin\Desktop\tkmb\TaskoolMobile\TaskoolMobile.Android\obj\Debug\130\android\assets\System.Core.dll
@@ -636,5 +638,8 @@ C:\Users\admin\Desktop\tkmb\TaskoolMobile\TaskoolMobile.Android\obj\Debug\130\st
 C:\Users\admin\Desktop\tkmb\TaskoolMobile\TaskoolMobile.Android\obj\Debug\130\stamp\_GenerateJavaStubs.stamp
 C:\Users\admin\Desktop\tkmb\TaskoolMobile\TaskoolMobile.Android\obj\Debug\130\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\admin\Desktop\tkmb\TaskoolMobile\TaskoolMobile.Android\obj\Debug\130\stamp\_ResolveLibraryProjectImports.stamp
-C:\Users\admin\Desktop\tkmb\TaskoolMobile\TaskoolMobile.Android\bin\Debug\Newtonsoft.Json.dll
-C:\Users\admin\Desktop\tkmb\TaskoolMobile\TaskoolMobile.Android\obj\Debug\130\android\assets\Newtonsoft.Json.dll
+C:\Users\admin\Desktop\tkmb\TaskoolMobile\TaskoolMobile.Android\obj\Debug\130\res\drawable\filter.png
+C:\Users\admin\Desktop\tkmb\TaskoolMobile\TaskoolMobile.Android\obj\Debug\130\res\drawable\ic_close_white_36dp.png
+C:\Users\admin\Desktop\tkmb\TaskoolMobile\TaskoolMobile.Android\obj\Debug\130\res\drawable\ic_done_all_black_24dp.png
+C:\Users\admin\Desktop\tkmb\TaskoolMobile\TaskoolMobile.Android\obj\Debug\130\res\drawable\ic_done_white_36dp.png
+C:\Users\admin\Desktop\tkmb\TaskoolMobile\TaskoolMobile.Android\obj\Debug\130\res\drawable\ic_close_white.png

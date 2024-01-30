@@ -3,7 +3,19 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TaskoolMobile.MeusProjetosDetail"
              Title="Meus Projetos">
-    <StackLayout Padding="10">
+
+    <ContentPage.ToolbarItems>
+        
+    </ContentPage.ToolbarItems>
+    <AbsoluteLayout>
+        <Frame BackgroundColor="DeepSkyBlue" AbsoluteLayout.LayoutBounds="0.95,0.95,75,75" AbsoluteLayout.LayoutFlags="PositionProportional" CornerRadius="80">
+            <Label Text="+" TextColor="White" FontSize="24" HorizontalTextAlignment="Center" VerticalTextAlignment="Center">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                </Label.GestureRecognizers>
+            </Label>
+        </Frame>
+
         <ListView
             ItemsSource="{Binding ListaProjetos}"
             HasUnevenRows="True"
@@ -13,14 +25,24 @@
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
-                        <StackLayout Padding="0, 15" HorizontalOptions="CenterAndExpand">
-                            <Label Text="{Binding Nome}"/>
+                        <StackLayout Orientation="Horizontal" VerticalOptions="Center" HorizontalOptions="FillAndExpand">
+                            <StackLayout Padding="30, 15" HorizontalOptions="Start">
+                                <Label Text="{Binding Nome}" TextColor="Black"/>
+                                <Label Text="{Binding TextoPendentes}"/>
 
+                            </StackLayout>
+                            <StackLayout HorizontalOptions="EndAndExpand" VerticalOptions="Center" Margin="20" >
+                                <Frame IsVisible="{Binding EmAndamento}" CornerRadius="20" HorizontalOptions="End" Margin="0" Padding="0" VerticalOptions="Center" WidthRequest="25" HeightRequest="25" BackgroundColor="Red">
+                                    <Label HorizontalOptions="Center" VerticalOptions="Center" Text="{Binding Pendentes}" TextColor="White"/>
+                                </Frame>
+                                <Image Source="ic_done_all_black_24dp.png" IsVisible="{Binding Completo}"  HeightRequest="20" WidthRequest="20" />
+                            </StackLayout>
 
                         </StackLayout>
+
                     </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-    </StackLayout>
+    </AbsoluteLayout>
 </ContentPage>
