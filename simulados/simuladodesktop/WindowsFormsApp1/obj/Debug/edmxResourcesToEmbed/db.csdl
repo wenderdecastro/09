@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LyonCompanyDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Ranking">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="Aluno" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Matricula" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Periodo" Type="Int32" />
+    <Property Name="Turma" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="CPF" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Cursos">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="Nome" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Disciplina">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="Nome" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Curso" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Periodo" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Docentes">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="Nome" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="CPF" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Matricula" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="F5" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="F6" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="F7" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="F8" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="F9" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Questões">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="Codigo" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Enunciado" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Alternativa_1" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Alternativa_2" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Alternativa_3" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Alternativa_4" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Gabarito" Type="Int32" />
+    <Property Name="Curso" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Disciplina" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Docente" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Ranking">
+    <Key>
+      <PropertyRef Name="Posicao" />
+    </Key>
+    <Property Name="Posicao" Type="Int32" Nullable="false" />
+    <Property Name="Aluno" Type="Int32" />
+    <Property Name="Pontuacao" Type="Int32" />
+    <Property Name="Vitorias" Type="Int32" />
+    <Property Name="Derrotas" Type="Int32" />
+    <Property Name="Descartes" Type="Int32" />
+    <Property Name="Acertos" Type="Int32" />
+    <Property Name="Erros" Type="Int32" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Turmas">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="Codigo_Turma" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Curso" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Ano" Type="Int32" />
+    <Property Name="Semestre" Type="Int32" />
+    <Property Name="F6" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="F7" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="F8" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="F9" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="F10" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityContainer Name="LyonCompanyDBEntities4" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Ranking" EntityType="Self.Ranking" />
+    <EntitySet Name="Cursos" EntityType="Self.Cursos" />
+    <EntitySet Name="Disciplina" EntityType="Self.Disciplina" />
+    <EntitySet Name="Docentes" EntityType="Self.Docentes" />
+    <EntitySet Name="Questões" EntityType="Self.Questões" />
+    <EntitySet Name="Ranking" EntityType="Self.Ranking" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="Turmas" EntityType="Self.Turmas" />
+  </EntityContainer>
+</Schema>

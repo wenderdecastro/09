@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LyonCompanyModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="alunos">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Byte" Nullable="false" />
+    <Property Name="Aluno" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Matricula" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Periodo" Type="Byte" Nullable="false" />
+    <Property Name="Turma" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CPF" Type="Int64" Nullable="false" />
+  </EntityType>
+  <EntityType Name="base_dados">
+    <Key>
+      <PropertyRef Name="ID" />
+      <PropertyRef Name="Codigo_Turma" />
+      <PropertyRef Name="Curso" />
+      <PropertyRef Name="Ano" />
+      <PropertyRef Name="Semestre" />
+    </Key>
+    <Property Name="ID" Type="Byte" Nullable="false" />
+    <Property Name="Codigo_Turma" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Curso" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Ano" Type="Int16" Nullable="false" />
+    <Property Name="Semestre" Type="Byte" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ranking">
+    <Key>
+      <PropertyRef Name="Posicao" />
+      <PropertyRef Name="Aluno" />
+      <PropertyRef Name="Pontuacao" />
+      <PropertyRef Name="Vitorias" />
+      <PropertyRef Name="Derrotas" />
+      <PropertyRef Name="Descartes" />
+      <PropertyRef Name="Acertos" />
+      <PropertyRef Name="Erros" />
+    </Key>
+    <Property Name="Posicao" Type="Byte" Nullable="false" />
+    <Property Name="Aluno" Type="Byte" Nullable="false" />
+    <Property Name="Pontuacao" Type="Int16" Nullable="false" />
+    <Property Name="Vitorias" Type="Byte" Nullable="false" />
+    <Property Name="Derrotas" Type="Byte" Nullable="false" />
+    <Property Name="Descartes" Type="Byte" Nullable="false" />
+    <Property Name="Acertos" Type="Int16" Nullable="false" />
+    <Property Name="Erros" Type="Byte" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="LyonCompanyEntities2" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="alunos" EntityType="Self.alunos" />
+    <EntitySet Name="base_dados" EntityType="Self.base_dados" />
+    <EntitySet Name="ranking" EntityType="Self.ranking" />
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LyonCompanyModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="alunos">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="tinyint" Nullable="false" />
+    <Property Name="Aluno" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Matricula" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Periodo" Type="tinyint" Nullable="false" />
+    <Property Name="Turma" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="CPF" Type="bigint" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'LyonCompany.dbo.base_dados' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="base_dados">
+    <Key>
+      <PropertyRef Name="ID" />
+      <PropertyRef Name="Codigo_Turma" />
+      <PropertyRef Name="Curso" />
+      <PropertyRef Name="Ano" />
+      <PropertyRef Name="Semestre" />
+    </Key>
+    <Property Name="ID" Type="tinyint" Nullable="false" />
+    <Property Name="Codigo_Turma" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Curso" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Ano" Type="smallint" Nullable="false" />
+    <Property Name="Semestre" Type="tinyint" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'LyonCompany.dbo.ranking' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="ranking">
+    <Key>
+      <PropertyRef Name="Posicao" />
+      <PropertyRef Name="Aluno" />
+      <PropertyRef Name="Pontuacao" />
+      <PropertyRef Name="Vitorias" />
+      <PropertyRef Name="Derrotas" />
+      <PropertyRef Name="Descartes" />
+      <PropertyRef Name="Acertos" />
+      <PropertyRef Name="Erros" />
+    </Key>
+    <Property Name="Posicao" Type="tinyint" Nullable="false" />
+    <Property Name="Aluno" Type="tinyint" Nullable="false" />
+    <Property Name="Pontuacao" Type="smallint" Nullable="false" />
+    <Property Name="Vitorias" Type="tinyint" Nullable="false" />
+    <Property Name="Derrotas" Type="tinyint" Nullable="false" />
+    <Property Name="Descartes" Type="tinyint" Nullable="false" />
+    <Property Name="Acertos" Type="smallint" Nullable="false" />
+    <Property Name="Erros" Type="tinyint" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="LyonCompanyModelStoreContainer">
+    <EntitySet Name="alunos" EntityType="Self.alunos" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="base_dados" EntityType="Self.base_dados" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [base_dados].[ID] AS [ID], 
+    [base_dados].[Codigo_Turma] AS [Codigo_Turma], 
+    [base_dados].[Curso] AS [Curso], 
+    [base_dados].[Ano] AS [Ano], 
+    [base_dados].[Semestre] AS [Semestre]
+    FROM [dbo].[base_dados] AS [base_dados]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="ranking" EntityType="Self.ranking" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [ranking].[Posicao] AS [Posicao], 
+    [ranking].[Aluno] AS [Aluno], 
+    [ranking].[Pontuacao] AS [Pontuacao], 
+    [ranking].[Vitorias] AS [Vitorias], 
+    [ranking].[Derrotas] AS [Derrotas], 
+    [ranking].[Descartes] AS [Descartes], 
+    [ranking].[Acertos] AS [Acertos], 
+    [ranking].[Erros] AS [Erros]
+    FROM [dbo].[ranking] AS [ranking]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

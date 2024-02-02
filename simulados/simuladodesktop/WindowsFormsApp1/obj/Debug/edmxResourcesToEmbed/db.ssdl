@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LyonCompanyDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Ranking">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="Aluno" Type="nvarchar" MaxLength="255" />
+    <Property Name="Matricula" Type="nvarchar" MaxLength="255" />
+    <Property Name="Periodo" Type="int" />
+    <Property Name="Turma" Type="nvarchar" MaxLength="255" />
+    <Property Name="CPF" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="Cursos">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="Nome" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="Disciplina">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="Nome" Type="nvarchar" MaxLength="255" />
+    <Property Name="Curso" Type="nvarchar" MaxLength="255" />
+    <Property Name="Periodo" Type="int" />
+  </EntityType>
+  <EntityType Name="Docentes">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="Nome" Type="nvarchar" MaxLength="255" />
+    <Property Name="CPF" Type="nvarchar" MaxLength="255" />
+    <Property Name="Matricula" Type="nvarchar" MaxLength="255" />
+    <Property Name="F5" Type="nvarchar" MaxLength="255" />
+    <Property Name="F6" Type="nvarchar" MaxLength="255" />
+    <Property Name="F7" Type="nvarchar" MaxLength="255" />
+    <Property Name="F8" Type="nvarchar" MaxLength="255" />
+    <Property Name="F9" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="Questões">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="Codigo" Type="nvarchar" MaxLength="255" />
+    <Property Name="Enunciado" Type="nvarchar(max)" />
+    <Property Name="Alternativa 1" Type="nvarchar" MaxLength="255" />
+    <Property Name="Alternativa 2" Type="nvarchar" MaxLength="255" />
+    <Property Name="Alternativa 3" Type="nvarchar" MaxLength="255" />
+    <Property Name="Alternativa 4" Type="nvarchar" MaxLength="255" />
+    <Property Name="Gabarito" Type="int" />
+    <Property Name="Curso" Type="nvarchar" MaxLength="255" />
+    <Property Name="Disciplina" Type="nvarchar" MaxLength="255" />
+    <Property Name="Docente" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="Ranking">
+    <Key>
+      <PropertyRef Name="Posicao" />
+    </Key>
+    <Property Name="Posicao" Type="int" Nullable="false" />
+    <Property Name="Aluno" Type="int" />
+    <Property Name="Pontuacao" Type="int" />
+    <Property Name="Vitorias" Type="int" />
+    <Property Name="Derrotas" Type="int" />
+    <Property Name="Descartes" Type="int" />
+    <Property Name="Acertos" Type="int" />
+    <Property Name="Erros" Type="int" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Turmas">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="Codigo Turma" Type="nvarchar" MaxLength="255" />
+    <Property Name="Curso" Type="nvarchar" MaxLength="255" />
+    <Property Name="Ano" Type="int" />
+    <Property Name="Semestre" Type="int" />
+    <Property Name="F6" Type="nvarchar" MaxLength="255" />
+    <Property Name="F7" Type="nvarchar" MaxLength="255" />
+    <Property Name="F8" Type="nvarchar" MaxLength="255" />
+    <Property Name="F9" Type="nvarchar" MaxLength="255" />
+    <Property Name="F10" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <EntityContainer Name="LyonCompanyDBModelStoreContainer">
+    <EntitySet Name="Ranking" EntityType="Self.Ranking" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Cursos" EntityType="Self.Cursos" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Disciplina" EntityType="Self.Disciplina" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Docentes" EntityType="Self.Docentes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Questões" EntityType="Self.Questões" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Ranking" EntityType="Self.Ranking" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Turmas" EntityType="Self.Turmas" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

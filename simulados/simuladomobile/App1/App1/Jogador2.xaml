@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.Jogador2">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="FillAndExpand">
+            <StackLayout BackgroundColor="#c79e5e" HeightRequest="80" >
+                <Image WidthRequest="275" Source="Logo_pb01.png" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
+            </StackLayout>
+
+            <StackLayout Margin="0,55,0,0" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" WidthRequest="325" BackgroundColor="#c79e5e" >
+
+                <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="Center" WidthRequest="225" BackgroundColor="#c79e5e">
+
+                    <Label HorizontalOptions="CenterAndExpand" Margin="0, 20" Text="Jogador 1" TextColor="White"/>
+                    <Entry Placeholder="Nome" BackgroundColor="White" PlaceholderColor="Gray"/>
+                    <Entry WidthRequest="275" Margin="0, 15" Placeholder="Matrícula" BackgroundColor="White" PlaceholderColor="Gray" />
+
+                    <Button Clicked="Button_Clicked" Text="Próximo" TextColor="white" BackgroundColor="#4758a2"/>
+
+                    <Label HorizontalOptions="CenterAndExpand" Text="Ver ranking" TextColor="#4758a2" Margin="0, 25">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                        </Label.GestureRecognizers>
+                    </Label>
+
+                </StackLayout>
+
+            </StackLayout>
+
+            <StackLayout BackgroundColor="#4758a2" VerticalOptions="EndAndExpand" HeightRequest="15" HorizontalOptions="CenterAndExpand">
+
+            </StackLayout>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

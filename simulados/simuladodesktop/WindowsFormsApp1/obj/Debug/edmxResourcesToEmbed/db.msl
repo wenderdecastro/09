@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="LyonCompanyDBModelStoreContainer" CdmEntityContainer="LyonCompanyDBEntities4">
+    <EntitySetMapping Name="Ranking">
+      <EntityTypeMapping TypeName="LyonCompanyDBModel.Ranking">
+        <MappingFragment StoreEntitySet="Ranking">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Aluno" ColumnName="Aluno" />
+          <ScalarProperty Name="Matricula" ColumnName="Matricula" />
+          <ScalarProperty Name="Periodo" ColumnName="Periodo" />
+          <ScalarProperty Name="Turma" ColumnName="Turma" />
+          <ScalarProperty Name="CPF" ColumnName="CPF" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Cursos">
+      <EntityTypeMapping TypeName="LyonCompanyDBModel.Cursos">
+        <MappingFragment StoreEntitySet="Cursos">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Disciplina">
+      <EntityTypeMapping TypeName="LyonCompanyDBModel.Disciplina">
+        <MappingFragment StoreEntitySet="Disciplina">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+          <ScalarProperty Name="Curso" ColumnName="Curso" />
+          <ScalarProperty Name="Periodo" ColumnName="Periodo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Docentes">
+      <EntityTypeMapping TypeName="LyonCompanyDBModel.Docentes">
+        <MappingFragment StoreEntitySet="Docentes">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+          <ScalarProperty Name="CPF" ColumnName="CPF" />
+          <ScalarProperty Name="Matricula" ColumnName="Matricula" />
+          <ScalarProperty Name="F5" ColumnName="F5" />
+          <ScalarProperty Name="F6" ColumnName="F6" />
+          <ScalarProperty Name="F7" ColumnName="F7" />
+          <ScalarProperty Name="F8" ColumnName="F8" />
+          <ScalarProperty Name="F9" ColumnName="F9" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Questões">
+      <EntityTypeMapping TypeName="LyonCompanyDBModel.Questões">
+        <MappingFragment StoreEntitySet="Questões">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+          <ScalarProperty Name="Enunciado" ColumnName="Enunciado" />
+          <ScalarProperty Name="Alternativa_1" ColumnName="Alternativa 1" />
+          <ScalarProperty Name="Alternativa_2" ColumnName="Alternativa 2" />
+          <ScalarProperty Name="Alternativa_3" ColumnName="Alternativa 3" />
+          <ScalarProperty Name="Alternativa_4" ColumnName="Alternativa 4" />
+          <ScalarProperty Name="Gabarito" ColumnName="Gabarito" />
+          <ScalarProperty Name="Curso" ColumnName="Curso" />
+          <ScalarProperty Name="Disciplina" ColumnName="Disciplina" />
+          <ScalarProperty Name="Docente" ColumnName="Docente" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ranking">
+      <EntityTypeMapping TypeName="LyonCompanyDBModel.Ranking">
+        <MappingFragment StoreEntitySet="Ranking">
+          <ScalarProperty Name="Posicao" ColumnName="Posicao" />
+          <ScalarProperty Name="Aluno" ColumnName="Aluno" />
+          <ScalarProperty Name="Pontuacao" ColumnName="Pontuacao" />
+          <ScalarProperty Name="Vitorias" ColumnName="Vitorias" />
+          <ScalarProperty Name="Derrotas" ColumnName="Derrotas" />
+          <ScalarProperty Name="Descartes" ColumnName="Descartes" />
+          <ScalarProperty Name="Acertos" ColumnName="Acertos" />
+          <ScalarProperty Name="Erros" ColumnName="Erros" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="LyonCompanyDBModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Turmas">
+      <EntityTypeMapping TypeName="LyonCompanyDBModel.Turmas">
+        <MappingFragment StoreEntitySet="Turmas">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Codigo_Turma" ColumnName="Codigo Turma" />
+          <ScalarProperty Name="Curso" ColumnName="Curso" />
+          <ScalarProperty Name="Ano" ColumnName="Ano" />
+          <ScalarProperty Name="Semestre" ColumnName="Semestre" />
+          <ScalarProperty Name="F6" ColumnName="F6" />
+          <ScalarProperty Name="F7" ColumnName="F7" />
+          <ScalarProperty Name="F8" ColumnName="F8" />
+          <ScalarProperty Name="F9" ColumnName="F9" />
+          <ScalarProperty Name="F10" ColumnName="F10" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

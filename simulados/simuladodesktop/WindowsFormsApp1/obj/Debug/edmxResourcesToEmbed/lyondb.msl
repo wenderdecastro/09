@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="LyonCompanyModelStoreContainer" CdmEntityContainer="LyonCompanyEntities2">
+    <EntitySetMapping Name="alunos">
+      <EntityTypeMapping TypeName="LyonCompanyModel.alunos">
+        <MappingFragment StoreEntitySet="alunos">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Aluno" ColumnName="Aluno" />
+          <ScalarProperty Name="Matricula" ColumnName="Matricula" />
+          <ScalarProperty Name="Periodo" ColumnName="Periodo" />
+          <ScalarProperty Name="Turma" ColumnName="Turma" />
+          <ScalarProperty Name="CPF" ColumnName="CPF" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="base_dados">
+      <EntityTypeMapping TypeName="LyonCompanyModel.base_dados">
+        <MappingFragment StoreEntitySet="base_dados">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Codigo_Turma" ColumnName="Codigo_Turma" />
+          <ScalarProperty Name="Curso" ColumnName="Curso" />
+          <ScalarProperty Name="Ano" ColumnName="Ano" />
+          <ScalarProperty Name="Semestre" ColumnName="Semestre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ranking">
+      <EntityTypeMapping TypeName="LyonCompanyModel.ranking">
+        <MappingFragment StoreEntitySet="ranking">
+          <ScalarProperty Name="Posicao" ColumnName="Posicao" />
+          <ScalarProperty Name="Aluno" ColumnName="Aluno" />
+          <ScalarProperty Name="Pontuacao" ColumnName="Pontuacao" />
+          <ScalarProperty Name="Vitorias" ColumnName="Vitorias" />
+          <ScalarProperty Name="Derrotas" ColumnName="Derrotas" />
+          <ScalarProperty Name="Descartes" ColumnName="Descartes" />
+          <ScalarProperty Name="Acertos" ColumnName="Acertos" />
+          <ScalarProperty Name="Erros" ColumnName="Erros" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
