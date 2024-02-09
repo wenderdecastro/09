@@ -1,0 +1,11 @@
+C:\Users\admin\Documents\09\5 - Desktop - Nacional 2022\execucao\nacional2022\bin\Debug\nacional2022.exe.config
+C:\Users\admin\Documents\09\5 - Desktop - Nacional 2022\execucao\nacional2022\bin\Debug\nacional2022.exe
+C:\Users\admin\Documents\09\5 - Desktop - Nacional 2022\execucao\nacional2022\bin\Debug\nacional2022.pdb
+C:\Users\admin\Documents\09\5 - Desktop - Nacional 2022\execucao\nacional2022\obj\Debug\nacional2022.csproj.AssemblyReference.cache
+C:\Users\admin\Documents\09\5 - Desktop - Nacional 2022\execucao\nacional2022\obj\Debug\nacional2022.Form1.resources
+C:\Users\admin\Documents\09\5 - Desktop - Nacional 2022\execucao\nacional2022\obj\Debug\nacional2022.parent.resources
+C:\Users\admin\Documents\09\5 - Desktop - Nacional 2022\execucao\nacional2022\obj\Debug\nacional2022.Properties.Resources.resources
+C:\Users\admin\Documents\09\5 - Desktop - Nacional 2022\execucao\nacional2022\obj\Debug\nacional2022.csproj.GenerateResource.cache
+C:\Users\admin\Documents\09\5 - Desktop - Nacional 2022\execucao\nacional2022\obj\Debug\nacional2022.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\09\5 - Desktop - Nacional 2022\execucao\nacional2022\obj\Debug\nacional2022.exe
+C:\Users\admin\Documents\09\5 - Desktop - Nacional 2022\execucao\nacional2022\obj\Debug\nacional2022.pdb

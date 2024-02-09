@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3qN8u/fDyzfx/g3vpGNdMDIYkUA4611Gl3fsTZzlNi+xgqOaJSQEQaf+2wJGn25R8IXpY40ydteHm79pQwDsOw==",
+  "dgSpecHash": "m7KtSRdQZzWSD13tHYuA/yTo7Op81KWoncElW5LAdjGi+6WYRkzLAehnbeKXVu/xcOFzHQP6jLVuoDUbp9nUaw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\admin\\Desktop\\tkmb\\TaskoolMobile\\TaskoolMobile.Android\\TaskoolMobile.Android.csproj",
+  "projectFilePath": "C:\\Users\\admin\\Desktop\\a\\09\\TaskoolMobile\\TaskoolMobile.Android\\TaskoolMobile.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\xamarin.androidx.activity\\1.2.4.1\\xamarin.androidx.activity.1.2.4.1.nupkg.sha512",

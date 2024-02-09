@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\admin\\Desktop\\tkmb\\TaskoolMobile\\TaskoolMobile\\TaskoolMobile.csproj": {}
+    "C:\\Users\\admin\\Desktop\\a\\09\\TaskoolMobile\\TaskoolMobile\\TaskoolMobile.csproj": {}
   },
   "projects": {
-    "C:\\Users\\admin\\Desktop\\tkmb\\TaskoolMobile\\TaskoolMobile\\TaskoolMobile.csproj": {
+    "C:\\Users\\admin\\Desktop\\a\\09\\TaskoolMobile\\TaskoolMobile\\TaskoolMobile.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\Desktop\\tkmb\\TaskoolMobile\\TaskoolMobile\\TaskoolMobile.csproj",
+        "projectUniqueName": "C:\\Users\\admin\\Desktop\\a\\09\\TaskoolMobile\\TaskoolMobile\\TaskoolMobile.csproj",
         "projectName": "TaskoolMobile",
-        "projectPath": "C:\\Users\\admin\\Desktop\\tkmb\\TaskoolMobile\\TaskoolMobile\\TaskoolMobile.csproj",
+        "projectPath": "C:\\Users\\admin\\Desktop\\a\\09\\TaskoolMobile\\TaskoolMobile\\TaskoolMobile.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\Desktop\\tkmb\\TaskoolMobile\\TaskoolMobile\\obj\\",
+        "outputPath": "C:\\Users\\admin\\Desktop\\a\\09\\TaskoolMobile\\TaskoolMobile\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

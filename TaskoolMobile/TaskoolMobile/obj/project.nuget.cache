@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JbttPwxVxcdSFOpoMTNxNFNbHmcqhBcAE5FWYSkI7g1M+MjNI6uPeXuiZJI6BqAgYYKR/L1eME7TQ4+YZN8hyQ==",
+  "dgSpecHash": "//o9ysRjQact3k6J21/nvkUHfyA3gTKYAR+aYVzepQWwR0axu0FQZIPL6n3XWldJd0oC0vkqBaOtxl1FVB7soQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\admin\\Desktop\\tkmb\\TaskoolMobile\\TaskoolMobile\\TaskoolMobile.csproj",
+  "projectFilePath": "C:\\Users\\admin\\Desktop\\a\\09\\TaskoolMobile\\TaskoolMobile\\TaskoolMobile.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

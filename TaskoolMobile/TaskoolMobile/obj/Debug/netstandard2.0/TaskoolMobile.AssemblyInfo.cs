@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TaskoolMobile")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+46594deb768c61b229c38ef43b92a55f21502a0e")]
 [assembly: System.Reflection.AssemblyProductAttribute("TaskoolMobile")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TaskoolMobile")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
