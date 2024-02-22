@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ModuloDesktopModelStoreContainer" CdmEntityContainer="ModuloDesktopEntities">
+    <EntitySetMapping Name="Competicao">
+      <EntityTypeMapping TypeName="ModuloDesktopModel.Competicao">
+        <MappingFragment StoreEntitySet="Competicao">
+          <ScalarProperty Name="IdCompeticao" ColumnName="IdCompeticao" />
+          <ScalarProperty Name="Ano" ColumnName="Ano" />
+          <ScalarProperty Name="Local" ColumnName="Local" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Jogos">
+      <EntityTypeMapping TypeName="ModuloDesktopModel.Jogos">
+        <MappingFragment StoreEntitySet="Jogos">
+          <ScalarProperty Name="idJogo" ColumnName="idJogo" />
+          <ScalarProperty Name="Data" ColumnName="Data" />
+          <ScalarProperty Name="idCompeticao" ColumnName="idCompeticao" />
+          <ScalarProperty Name="Selecao1" ColumnName="Selecao1" />
+          <ScalarProperty Name="Placar1" ColumnName="Placar1" />
+          <ScalarProperty Name="Penalt1" ColumnName="Penalt1" />
+          <ScalarProperty Name="Selecao2" ColumnName="Selecao2" />
+          <ScalarProperty Name="Placar2" ColumnName="Placar2" />
+          <ScalarProperty Name="Penalt2" ColumnName="Penalt2" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Notificacao">
+      <EntityTypeMapping TypeName="ModuloDesktopModel.Notificacao">
+        <MappingFragment StoreEntitySet="Notificacao">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="dataHora" ColumnName="dataHora" />
+          <ScalarProperty Name="notificacao1" ColumnName="notificacao" />
+          <ScalarProperty Name="idusuario" ColumnName="idusuario" />
+          <ScalarProperty Name="status" ColumnName="status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Pergunta">
+      <EntityTypeMapping TypeName="ModuloDesktopModel.Pergunta">
+        <MappingFragment StoreEntitySet="Pergunta">
+          <ScalarProperty Name="idPergunta" ColumnName="idPergunta" />
+          <ScalarProperty Name="pergunta1" ColumnName="pergunta" />
+          <ScalarProperty Name="campo" ColumnName="campo" />
+          <ScalarProperty Name="tipo" ColumnName="tipo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PerguntaUsuario">
+      <EntityTypeMapping TypeName="ModuloDesktopModel.PerguntaUsuario">
+        <MappingFragment StoreEntitySet="PerguntaUsuario">
+          <ScalarProperty Name="idPerguntaUsuario" ColumnName="idPerguntaUsuario" />
+          <ScalarProperty Name="idPergunta" ColumnName="idPergunta" />
+          <ScalarProperty Name="idUsuario" ColumnName="idUsuario" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Selecao">
+      <EntityTypeMapping TypeName="ModuloDesktopModel.Selecao">
+        <MappingFragment StoreEntitySet="Selecao">
+          <ScalarProperty Name="IdSelecao" ColumnName="IdSelecao" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+          <ScalarProperty Name="Bandeira" ColumnName="Bandeira" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Usuarios">
+      <EntityTypeMapping TypeName="ModuloDesktopModel.Usuarios">
+        <MappingFragment StoreEntitySet="Usuarios">
+          <ScalarProperty Name="IdUsuario" ColumnName="IdUsuario" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Senha" ColumnName="Senha" />
+          <ScalarProperty Name="Foto" ColumnName="Foto" />
+          <ScalarProperty Name="apelido" ColumnName="apelido" />
+          <ScalarProperty Name="timeFavorito" ColumnName="timeFavorito" />
+          <ScalarProperty Name="corFavorita" ColumnName="corFavorita" />
+          <ScalarProperty Name="nascimento" ColumnName="nascimento" />
+          <ScalarProperty Name="idIndicado" ColumnName="idIndicado" />
+          <ScalarProperty Name="DataCadastro" ColumnName="DataCadastro" />
+          <ScalarProperty Name="DataConvite" ColumnName="DataConvite" />
+          <ScalarProperty Name="RecebeNotificacao" ColumnName="RecebeNotificacao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

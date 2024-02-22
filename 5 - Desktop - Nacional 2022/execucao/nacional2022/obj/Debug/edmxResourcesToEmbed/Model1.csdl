@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ModuloDesktopModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Competicao">
+    <Key>
+      <PropertyRef Name="IdCompeticao" />
+    </Key>
+    <Property Name="IdCompeticao" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Ano" Type="Int32" />
+    <Property Name="Local" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Jogos" Relationship="Self.FK_Jogos_Competicao" FromRole="Competicao" ToRole="Jogos" />
+  </EntityType>
+  <EntityType Name="Jogos">
+    <Key>
+      <PropertyRef Name="idJogo" />
+    </Key>
+    <Property Name="idJogo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Data" Type="DateTime" Precision="3" />
+    <Property Name="idCompeticao" Type="Int32" />
+    <Property Name="Selecao1" Type="Int32" />
+    <Property Name="Placar1" Type="Int32" />
+    <Property Name="Penalt1" Type="Int32" />
+    <Property Name="Selecao2" Type="Int32" />
+    <Property Name="Placar2" Type="Int32" />
+    <Property Name="Penalt2" Type="Int32" />
+    <NavigationProperty Name="Competicao" Relationship="Self.FK_Jogos_Competicao" FromRole="Jogos" ToRole="Competicao" />
+    <NavigationProperty Name="Selecao" Relationship="Self.FK_Jogos_Selecao" FromRole="Jogos" ToRole="Selecao" />
+    <NavigationProperty Name="Selecao3" Relationship="Self.FK_Jogos_Selecao1" FromRole="Jogos" ToRole="Selecao" />
+  </EntityType>
+  <EntityType Name="Notificacao">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="dataHora" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="notificacao1" Type="String" MaxLength="250" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="idusuario" Type="Int32" Nullable="false" />
+    <Property Name="status" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Usuarios" Relationship="Self.FK_Notificacao_Usuarios" FromRole="Notificacao" ToRole="Usuarios" />
+  </EntityType>
+  <EntityType Name="Pergunta">
+    <Key>
+      <PropertyRef Name="idPergunta" />
+    </Key>
+    <Property Name="idPergunta" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="pergunta1" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="campo" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="tipo" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="PerguntaUsuario" Relationship="Self.FK_PerguntaUsuario_Pergunta" FromRole="Pergunta" ToRole="PerguntaUsuario" />
+  </EntityType>
+  <EntityType Name="PerguntaUsuario">
+    <Key>
+      <PropertyRef Name="idPerguntaUsuario" />
+    </Key>
+    <Property Name="idPerguntaUsuario" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="idPergunta" Type="Int32" Nullable="false" />
+    <Property Name="idUsuario" Type="Int32" />
+    <NavigationProperty Name="Pergunta" Relationship="Self.FK_PerguntaUsuario_Pergunta" FromRole="PerguntaUsuario" ToRole="Pergunta" />
+    <NavigationProperty Name="Usuarios" Relationship="Self.FK_PerguntaUsuario_Usuarios" FromRole="PerguntaUsuario" ToRole="Usuarios" />
+  </EntityType>
+  <EntityType Name="Selecao">
+    <Key>
+      <PropertyRef Name="IdSelecao" />
+    </Key>
+    <Property Name="IdSelecao" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nome" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Bandeira" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <NavigationProperty Name="Jogos" Relationship="Self.FK_Jogos_Selecao" FromRole="Selecao" ToRole="Jogos" />
+    <NavigationProperty Name="Jogos1" Relationship="Self.FK_Jogos_Selecao1" FromRole="Selecao" ToRole="Jogos" />
+  </EntityType>
+  <EntityType Name="Usuarios">
+    <Key>
+      <PropertyRef Name="IdUsuario" />
+    </Key>
+    <Property Name="IdUsuario" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Senha" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Foto" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="apelido" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="timeFavorito" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="corFavorita" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="nascimento" Type="DateTime" Precision="0" />
+    <Property Name="idIndicado" Type="Int32" />
+    <Property Name="DataCadastro" Type="DateTime" Precision="3" />
+    <Property Name="DataConvite" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="RecebeNotificacao" Type="Boolean" />
+    <NavigationProperty Name="Notificacao" Relationship="Self.FK_Notificacao_Usuarios" FromRole="Usuarios" ToRole="Notificacao" />
+    <NavigationProperty Name="PerguntaUsuario" Relationship="Self.FK_PerguntaUsuario_Usuarios" FromRole="Usuarios" ToRole="PerguntaUsuario" />
+    <NavigationProperty Name="Usuarios1" Relationship="Self.FK_Usuarios_Usuarios" FromRole="Usuarios" ToRole="Usuarios1" />
+    <NavigationProperty Name="Usuarios2" Relationship="Self.FK_Usuarios_Usuarios" FromRole="Usuarios1" ToRole="Usuarios" />
+  </EntityType>
+  <Association Name="FK_Jogos_Competicao">
+    <End Role="Competicao" Type="Self.Competicao" Multiplicity="0..1" />
+    <End Role="Jogos" Type="Self.Jogos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Competicao">
+        <PropertyRef Name="IdCompeticao" />
+      </Principal>
+      <Dependent Role="Jogos">
+        <PropertyRef Name="idCompeticao" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Jogos_Selecao">
+    <End Role="Selecao" Type="Self.Selecao" Multiplicity="0..1" />
+    <End Role="Jogos" Type="Self.Jogos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Selecao">
+        <PropertyRef Name="IdSelecao" />
+      </Principal>
+      <Dependent Role="Jogos">
+        <PropertyRef Name="Selecao1" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Jogos_Selecao1">
+    <End Role="Selecao" Type="Self.Selecao" Multiplicity="0..1" />
+    <End Role="Jogos" Type="Self.Jogos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Selecao">
+        <PropertyRef Name="IdSelecao" />
+      </Principal>
+      <Dependent Role="Jogos">
+        <PropertyRef Name="Selecao2" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Notificacao_Usuarios">
+    <End Role="Usuarios" Type="Self.Usuarios" Multiplicity="1" />
+    <End Role="Notificacao" Type="Self.Notificacao" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuarios">
+        <PropertyRef Name="IdUsuario" />
+      </Principal>
+      <Dependent Role="Notificacao">
+        <PropertyRef Name="idusuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PerguntaUsuario_Pergunta">
+    <End Role="Pergunta" Type="Self.Pergunta" Multiplicity="1" />
+    <End Role="PerguntaUsuario" Type="Self.PerguntaUsuario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Pergunta">
+        <PropertyRef Name="idPergunta" />
+      </Principal>
+      <Dependent Role="PerguntaUsuario">
+        <PropertyRef Name="idPergunta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PerguntaUsuario_Usuarios">
+    <End Role="Usuarios" Type="Self.Usuarios" Multiplicity="0..1" />
+    <End Role="PerguntaUsuario" Type="Self.PerguntaUsuario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuarios">
+        <PropertyRef Name="IdUsuario" />
+      </Principal>
+      <Dependent Role="PerguntaUsuario">
+        <PropertyRef Name="idUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Usuarios_Usuarios">
+    <End Role="Usuarios" Type="Self.Usuarios" Multiplicity="0..1" />
+    <End Role="Usuarios1" Type="Self.Usuarios" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuarios">
+        <PropertyRef Name="IdUsuario" />
+      </Principal>
+      <Dependent Role="Usuarios1">
+        <PropertyRef Name="idIndicado" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ModuloDesktopEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Competicao" EntityType="Self.Competicao" />
+    <EntitySet Name="Jogos" EntityType="Self.Jogos" />
+    <EntitySet Name="Notificacao" EntityType="Self.Notificacao" />
+    <EntitySet Name="Pergunta" EntityType="Self.Pergunta" />
+    <EntitySet Name="PerguntaUsuario" EntityType="Self.PerguntaUsuario" />
+    <EntitySet Name="Selecao" EntityType="Self.Selecao" />
+    <EntitySet Name="Usuarios" EntityType="Self.Usuarios" />
+    <AssociationSet Name="FK_Jogos_Competicao" Association="Self.FK_Jogos_Competicao">
+      <End Role="Competicao" EntitySet="Competicao" />
+      <End Role="Jogos" EntitySet="Jogos" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Jogos_Selecao" Association="Self.FK_Jogos_Selecao">
+      <End Role="Selecao" EntitySet="Selecao" />
+      <End Role="Jogos" EntitySet="Jogos" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Jogos_Selecao1" Association="Self.FK_Jogos_Selecao1">
+      <End Role="Selecao" EntitySet="Selecao" />
+      <End Role="Jogos" EntitySet="Jogos" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Notificacao_Usuarios" Association="Self.FK_Notificacao_Usuarios">
+      <End Role="Usuarios" EntitySet="Usuarios" />
+      <End Role="Notificacao" EntitySet="Notificacao" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PerguntaUsuario_Pergunta" Association="Self.FK_PerguntaUsuario_Pergunta">
+      <End Role="Pergunta" EntitySet="Pergunta" />
+      <End Role="PerguntaUsuario" EntitySet="PerguntaUsuario" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PerguntaUsuario_Usuarios" Association="Self.FK_PerguntaUsuario_Usuarios">
+      <End Role="Usuarios" EntitySet="Usuarios" />
+      <End Role="PerguntaUsuario" EntitySet="PerguntaUsuario" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Usuarios_Usuarios" Association="Self.FK_Usuarios_Usuarios">
+      <End Role="Usuarios" EntitySet="Usuarios" />
+      <End Role="Usuarios1" EntitySet="Usuarios" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
