@@ -1,0 +1,253 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\admin\\Desktop\\7 - Desktop - Mundial Kazan 2019\\exec\\WindowsFormsApp2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2EB6DD8A-D648-4703-B296-BDAB5853E796}|WindowsFormsApp2.csproj|c:\\users\\admin\\desktop\\7 - desktop - mundial kazan 2019\\exec\\windowsformsapp2\\formem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EB6DD8A-D648-4703-B296-BDAB5853E796}|WindowsFormsApp2.csproj|solutionrelative:formem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EB6DD8A-D648-4703-B296-BDAB5853E796}|WindowsFormsApp2.csproj|c:\\users\\admin\\desktop\\7 - desktop - mundial kazan 2019\\exec\\windowsformsapp2\\formem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2EB6DD8A-D648-4703-B296-BDAB5853E796}|WindowsFormsApp2.csproj|solutionrelative:formem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EB6DD8A-D648-4703-B296-BDAB5853E796}|WindowsFormsApp2.csproj|c:\\users\\admin\\desktop\\7 - desktop - mundial kazan 2019\\exec\\windowsformsapp2\\managerem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2EB6DD8A-D648-4703-B296-BDAB5853E796}|WindowsFormsApp2.csproj|solutionrelative:managerem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EB6DD8A-D648-4703-B296-BDAB5853E796}|WindowsFormsApp2.csproj|c:\\users\\admin\\desktop\\7 - desktop - mundial kazan 2019\\exec\\windowsformsapp2\\newem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EB6DD8A-D648-4703-B296-BDAB5853E796}|WindowsFormsApp2.csproj|solutionrelative:newem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EB6DD8A-D648-4703-B296-BDAB5853E796}|WindowsFormsApp2.csproj|c:\\users\\admin\\desktop\\7 - desktop - mundial kazan 2019\\exec\\windowsformsapp2\\newem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2EB6DD8A-D648-4703-B296-BDAB5853E796}|WindowsFormsApp2.csproj|solutionrelative:newem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EB6DD8A-D648-4703-B296-BDAB5853E796}|WindowsFormsApp2.csproj|c:\\users\\admin\\desktop\\7 - desktop - mundial kazan 2019\\exec\\windowsformsapp2\\form1.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{2EB6DD8A-D648-4703-B296-BDAB5853E796}|WindowsFormsApp2.csproj|solutionrelative:form1.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EB6DD8A-D648-4703-B296-BDAB5853E796}|WindowsFormsApp2.csproj|c:\\users\\admin\\desktop\\7 - desktop - mundial kazan 2019\\exec\\windowsformsapp2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2EB6DD8A-D648-4703-B296-BDAB5853E796}|WindowsFormsApp2.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EB6DD8A-D648-4703-B296-BDAB5853E796}|WindowsFormsApp2.csproj|c:\\users\\admin\\desktop\\7 - desktop - mundial kazan 2019\\exec\\windowsformsapp2\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EB6DD8A-D648-4703-B296-BDAB5853E796}|WindowsFormsApp2.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EB6DD8A-D648-4703-B296-BDAB5853E796}|WindowsFormsApp2.csproj|c:\\users\\admin\\desktop\\7 - desktop - mundial kazan 2019\\exec\\windowsformsapp2\\newem.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EB6DD8A-D648-4703-B296-BDAB5853E796}|WindowsFormsApp2.csproj|solutionrelative:newem.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EB6DD8A-D648-4703-B296-BDAB5853E796}|WindowsFormsApp2.csproj|c:\\users\\admin\\desktop\\7 - desktop - mundial kazan 2019\\exec\\windowsformsapp2\\asset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EB6DD8A-D648-4703-B296-BDAB5853E796}|WindowsFormsApp2.csproj|solutionrelative:asset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EB6DD8A-D648-4703-B296-BDAB5853E796}|WindowsFormsApp2.csproj|c:\\users\\admin\\desktop\\7 - desktop - mundial kazan 2019\\exec\\windowsformsapp2\\parent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EB6DD8A-D648-4703-B296-BDAB5853E796}|WindowsFormsApp2.csproj|solutionrelative:parent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EB6DD8A-D648-4703-B296-BDAB5853E796}|WindowsFormsApp2.csproj|c:\\users\\admin\\desktop\\7 - desktop - mundial kazan 2019\\exec\\windowsformsapp2\\parent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2EB6DD8A-D648-4703-B296-BDAB5853E796}|WindowsFormsApp2.csproj|solutionrelative:parent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EB6DD8A-D648-4703-B296-BDAB5853E796}|WindowsFormsApp2.csproj|c:\\users\\admin\\desktop\\7 - desktop - mundial kazan 2019\\exec\\windowsformsapp2\\managerem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EB6DD8A-D648-4703-B296-BDAB5853E796}|WindowsFormsApp2.csproj|solutionrelative:managerem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EB6DD8A-D648-4703-B296-BDAB5853E796}|WindowsFormsApp2.csproj|c:\\users\\admin\\desktop\\7 - desktop - mundial kazan 2019\\exec\\windowsformsapp2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EB6DD8A-D648-4703-B296-BDAB5853E796}|WindowsFormsApp2.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.resx",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\7 - Desktop - Mundial Kazan 2019\\exec\\WindowsFormsApp2\\Form1.resx",
+              "RelativeDocumentMoniker": "Form1.resx",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\7 - Desktop - Mundial Kazan 2019\\exec\\WindowsFormsApp2\\Form1.resx",
+              "RelativeToolTip": "Form1.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-02-27T16:13:41.063Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormEM.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\7 - Desktop - Mundial Kazan 2019\\exec\\WindowsFormsApp2\\FormEM.cs",
+              "RelativeDocumentMoniker": "FormEM.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\7 - Desktop - Mundial Kazan 2019\\exec\\WindowsFormsApp2\\FormEM.cs",
+              "RelativeToolTip": "FormEM.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAmwC8AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T17:03:42.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormEM.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\7 - Desktop - Mundial Kazan 2019\\exec\\WindowsFormsApp2\\FormEM.cs",
+              "RelativeDocumentMoniker": "FormEM.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\7 - Desktop - Mundial Kazan 2019\\exec\\WindowsFormsApp2\\FormEM.cs [Design]",
+              "RelativeToolTip": "FormEM.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T15:16:38.393Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ManagerEM.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\7 - Desktop - Mundial Kazan 2019\\exec\\WindowsFormsApp2\\ManagerEM.cs",
+              "RelativeDocumentMoniker": "ManagerEM.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\7 - Desktop - Mundial Kazan 2019\\exec\\WindowsFormsApp2\\ManagerEM.cs [Design]",
+              "RelativeToolTip": "ManagerEM.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T15:19:44.488Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NewEM.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\7 - Desktop - Mundial Kazan 2019\\exec\\WindowsFormsApp2\\NewEM.cs",
+              "RelativeDocumentMoniker": "NewEM.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\7 - Desktop - Mundial Kazan 2019\\exec\\WindowsFormsApp2\\NewEM.cs [Design]",
+              "RelativeToolTip": "NewEM.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T15:51:30.953Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NewEM.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\7 - Desktop - Mundial Kazan 2019\\exec\\WindowsFormsApp2\\NewEM.cs",
+              "RelativeDocumentMoniker": "NewEM.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\7 - Desktop - Mundial Kazan 2019\\exec\\WindowsFormsApp2\\NewEM.cs",
+              "RelativeToolTip": "NewEM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBIAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T15:51:31.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\7 - Desktop - Mundial Kazan 2019\\exec\\WindowsFormsApp2\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\7 - Desktop - Mundial Kazan 2019\\exec\\WindowsFormsApp2\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T15:11:03.515Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\7 - Desktop - Mundial Kazan 2019\\exec\\WindowsFormsApp2\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\7 - Desktop - Mundial Kazan 2019\\exec\\WindowsFormsApp2\\Form1.Designer.cs",
+              "RelativeToolTip": "Form1.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T16:13:42.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NewEM.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\7 - Desktop - Mundial Kazan 2019\\exec\\WindowsFormsApp2\\NewEM.Designer.cs",
+              "RelativeDocumentMoniker": "NewEM.Designer.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\7 - Desktop - Mundial Kazan 2019\\exec\\WindowsFormsApp2\\NewEM.Designer.cs",
+              "RelativeToolTip": "NewEM.Designer.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAewBIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T16:16:55.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Asset.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\7 - Desktop - Mundial Kazan 2019\\exec\\WindowsFormsApp2\\Asset.cs",
+              "RelativeDocumentMoniker": "Asset.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\7 - Desktop - Mundial Kazan 2019\\exec\\WindowsFormsApp2\\Asset.cs",
+              "RelativeToolTip": "Asset.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T16:13:20.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "parent.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\7 - Desktop - Mundial Kazan 2019\\exec\\WindowsFormsApp2\\parent.cs",
+              "RelativeDocumentMoniker": "parent.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\7 - Desktop - Mundial Kazan 2019\\exec\\WindowsFormsApp2\\parent.cs",
+              "RelativeToolTip": "parent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAD4vxEAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T15:09:25.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "parent.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\7 - Desktop - Mundial Kazan 2019\\exec\\WindowsFormsApp2\\parent.cs",
+              "RelativeDocumentMoniker": "parent.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\7 - Desktop - Mundial Kazan 2019\\exec\\WindowsFormsApp2\\parent.cs [Design]",
+              "RelativeToolTip": "parent.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T15:12:38.453Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ManagerEM.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\7 - Desktop - Mundial Kazan 2019\\exec\\WindowsFormsApp2\\ManagerEM.cs",
+              "RelativeDocumentMoniker": "ManagerEM.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\7 - Desktop - Mundial Kazan 2019\\exec\\WindowsFormsApp2\\ManagerEM.cs",
+              "RelativeToolTip": "ManagerEM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T15:20:24.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\7 - Desktop - Mundial Kazan 2019\\exec\\WindowsFormsApp2\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\7 - Desktop - Mundial Kazan 2019\\exec\\WindowsFormsApp2\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAIAwwBgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T15:09:41.703Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

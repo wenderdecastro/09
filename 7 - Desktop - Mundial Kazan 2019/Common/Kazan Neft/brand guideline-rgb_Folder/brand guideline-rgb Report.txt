@@ -1,0 +1,69 @@
+Package Report
+
+-----------------------------------------------------------------------------
+Document:
+Name: brand guideline-rgb.ai
+Color Mode: RGB color
+Color Profile: sRGB IEC61966-2.1
+Ruler Units: centimeters
+Artboard Dimensions: 29,7 cm x 21,0002 cm
+Show Images in Outline Mode: OFF
+Highlight Substituted Fonts: OFF
+Highlight Substituted Glyphs: OFF
+Preserve Text Editability
+Simulate Colored Paper: OFF
+
+-----------------------------------------------------------------------------
+Spot Color Objects:
+PANTONE 300 C (Lab)
+PANTONE 485 C (Lab)
+
+-----------------------------------------------------------------------------
+Missing Fonts:NONE
+
+-----------------------------------------------------------------------------
+Protected Fonts that were not packaged:NONE
+
+-----------------------------------------------------------------------------
+Fonts:
+Helvetica-Normal (TrueType)
+Helvetica (TrueType)
+Helvetica Bold (TrueType)
+Myriad Pro (OTF)
+
+-----------------------------------------------------------------------------
+Embedded Fonts:
+NONE
+
+-----------------------------------------------------------------------------
+Missing Links:
+NONE
+
+-----------------------------------------------------------------------------
+Linked Images:
+
+/Users/igraphist/Downloads/Telegram Desktop/logo guideline/brand guideline-rgb_Folder/Links/1.jpg
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 952K, 760 by 428 pixels
+Dimensions: 800,571 by 450,848 points 
+Resolution: 68,351 by 68,351 pixels per inch
+
+
+/Users/igraphist/Downloads/Telegram Desktop/logo guideline/brand guideline-rgb_Folder/Links/FUEL-OIL-TANK-TRAILER-png.psd
+Type: Transparent RGB
+Bits per Pixel: 32
+Channels: 4
+Size: 4265K, 1280 by 853 pixels
+Dimensions: 727,364 by 484,72 points 
+Resolution: 126,704 by 126,704 pixels per inch
+
+
+/Users/igraphist/Downloads/Telegram Desktop/logo guideline/brand guideline-rgb_Folder/Links/2.jpg
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 3198K, 1280 by 853 pixels
+Dimensions: 697,458 by 464,79 points 
+Resolution: 132,137 by 132,137 pixels per inch
