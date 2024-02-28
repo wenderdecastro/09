@@ -38,15 +38,17 @@
             // 
             this.button1.Location = new System.Drawing.Point(55, 383);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(149, 34);
+            this.button1.Size = new System.Drawing.Size(170, 34);
             this.button1.TabIndex = 6;
             this.button1.Text = "Manage Request";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // dataGridView1
             // 
             this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.AllowUserToDeleteRows = false;
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.ColumnHeader;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(55, 65);
             this.dataGridView1.Name = "dataGridView1";
@@ -61,18 +63,20 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(52, 34);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(183, 16);
+            this.label1.Size = new System.Drawing.Size(229, 20);
             this.label1.TabIndex = 4;
             this.label1.Text = "List of Assets Requesting EM:";
             // 
             // ManagerEM
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label1);
             this.Name = "ManagerEM";
+            this.Text = "ManagerEM";
             this.Load += new System.EventHandler(this.ManagerEM_Load);
             this.Controls.SetChildIndex(this.label1, 0);
             this.Controls.SetChildIndex(this.dataGridView1, 0);

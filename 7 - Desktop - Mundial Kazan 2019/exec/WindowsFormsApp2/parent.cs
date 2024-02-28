@@ -17,6 +17,7 @@ namespace WindowsFormsApp2
         {
             InitializeComponent();
             this.StartPosition = FormStartPosition.CenterScreen;
+            this.FormBorderStyle = FormBorderStyle.FixedSingle;
         }
 
         private void parent_Load(object sender, EventArgs e)
@@ -27,17 +28,20 @@ namespace WindowsFormsApp2
                 {
 
                     ((DataGridView)c).ReadOnly = true;
-                    ((DataGridView)c).AutoSize = false;
                     ((DataGridView)c).AllowUserToAddRows = false;
                     ((DataGridView)c).AllowUserToDeleteRows = false;
-                    ((DataGridView)c).AllowDrop = false;
                     ((DataGridView)c).AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-                    ((DataGridView)c).AllowUserToResizeColumns = false;
-                    ((DataGridView)c).AllowUserToResizeRows = false;
                     ((DataGridView)c).SelectionMode = DataGridViewSelectionMode.FullRowSelect;
                     ((DataGridView)c).MultiSelect = false;
+                    ((DataGridView)c).AllowUserToOrderColumns = false;
+                    ((DataGridView)c).ClearSelection();
 
 
+                }
+                if(c is DateTimePicker)
+                {
+                    ((DateTimePicker)c).Format = DateTimePickerFormat.Custom;
+                    ((DateTimePicker)c).CustomFormat = "yyyy/MM/dd";
                 }
             }
         }

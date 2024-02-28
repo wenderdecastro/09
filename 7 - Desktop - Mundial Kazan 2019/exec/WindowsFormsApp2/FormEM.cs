@@ -12,11 +12,14 @@ namespace WindowsFormsApp2
 {
     public partial class FormEM : WindowsFormsApp2.parent
     {
-        int selected = 0;
-        public FormEM()
+        string selected = "";
+        private Employee logado;
+        public FormEM(Employee logado)
         {
             InitializeComponent();
-            
+            this.logado = logado;
+            dataGridView1.CellClick += dataGridView1_CellContentClick;
+
         }
 
         private void FormEM_Load(object sender, EventArgs e)
@@ -29,7 +32,7 @@ namespace WindowsFormsApp2
             dt.Columns.Add("Number of EMs");
 
             var ems = ctx.EmergencyMaintenances.ToList();
-            var assets = ctx.Assets.ToList();
+            var assets = ctx.Assets.Where(x=> x.EmployeeID == logado.ID).ToList();
             EmergencyMaintenance a = new EmergencyMaintenance();
             foreach (var asset in assets)
             {
@@ -58,7 +61,7 @@ namespace WindowsFormsApp2
 
                 if (Convert.ToInt32(row.Cells[3].Value.ToString()) == 0) continue;
                 
-                    var asset = ctx.EmergencyMaintenances.Where(x => x.Asset.AssetName == assetname).OrderBy(x => x.EMEndDate).ToList()[0];
+                    var asset = ctx.EmergencyMaintenances.Where(x => x.Asset.AssetName == assetname && x.Asset.EmployeeID == logado.ID).OrderBy(x => x.EMEndDate).ToList()[0];
                     if (asset.EMEndDate == null)
                     {
                         row.DefaultCellStyle.BackColor = Color.LightBlue;
@@ -69,18 +72,20 @@ namespace WindowsFormsApp2
             }
         }
 
+        
+
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            selected = dataGridView1.Rows[e.RowIndex].Index;
-
+            selected = dataGridView1.Rows[e.RowIndex].Cells["Asset Name"].Value.ToString();
+          
             return;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (selected != 0)
+            if (selected != "")
             {
-                var asset = ctx.Assets.Find(selected);
+                var asset = ctx.Assets.First(x=> x.AssetName == selected);
                 new NewEM(asset).ShowDialog();
                 return;
             }

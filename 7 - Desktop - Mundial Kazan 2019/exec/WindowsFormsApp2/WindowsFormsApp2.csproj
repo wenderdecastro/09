@@ -97,6 +97,12 @@
     <Compile Include="ManagerEM.Designer.cs">
       <DependentUpon>ManagerEM.cs</DependentUpon>
     </Compile>
+    <Compile Include="ManagerEMDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagerEMDetails.Designer.cs">
+      <DependentUpon>ManagerEMDetails.cs</DependentUpon>
+    </Compile>
     <Compile Include="Model1.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -140,6 +146,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ManagerEM.resx">
       <DependentUpon>ManagerEM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerEMDetails.resx">
+      <DependentUpon>ManagerEMDetails.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="NewEM.resx">
       <DependentUpon>NewEM.cs</DependentUpon>

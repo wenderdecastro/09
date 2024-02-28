@@ -19,7 +19,7 @@ namespace WindowsFormsApp2
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            textBox1.Text = "mohamed";
+            textBox1.Text = "lyn";
             textBox2.Text = "1234";
         }
 
@@ -33,12 +33,12 @@ namespace WindowsFormsApp2
 
                     if (user.isAdmin == true)
                     {
-                        new ManagerEM().Show();
+                        new ManagerEM(user).Show();
                         this.Hide();
                         return;
                     }
 
-                    new FormEM().Show();
+                    new FormEM(user).Show();
                     this.Hide();
                     return;
                 }
@@ -46,6 +46,11 @@ namespace WindowsFormsApp2
             }
 
             MessageBox.Show("User not found.");
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
         }
     }
 }

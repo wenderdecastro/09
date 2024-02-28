@@ -14,7 +14,6 @@ namespace WindowsFormsApp2
     {
         private Asset asset;
         private Department department;
-        private string selected;
 
         public NewEM()
         {
@@ -22,11 +21,6 @@ namespace WindowsFormsApp2
         }
 
 
-        public NewEM(string selected)
-        {
-            InitializeComponent();
-            this.selected = selected;
-        }
         public NewEM(Asset asset)
         {
             InitializeComponent();
@@ -35,7 +29,6 @@ namespace WindowsFormsApp2
 
         private void NewEM_Load(object sender, EventArgs e)
         {
-            //asset = ctx.Assets.FirstOrDefault(x => x.AssetName == selected);
 
             label1.Text = asset.AssetSN.ToString();
             label2.Text = asset.AssetName;
@@ -45,8 +38,9 @@ namespace WindowsFormsApp2
             var priorities = ctx.Priorities.ToList();
             foreach (Priority p in priorities)
             {
-                comboBox1.Items.Add(p);
+                comboBox1.Items.Add(p.Name);
             }
+            comboBox1.SelectedIndex = 0;
         }
 
         private void label3_Click(object sender, EventArgs e)
@@ -57,6 +51,37 @@ namespace WindowsFormsApp2
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (textBox1.Text == "" || textBox2.Text == "")
+            {
+                MessageBox.Show("You need to fill all the fields properly");
+                return;
+            }
+
+            var date = ctx.EmergencyMaintenances.Where(x => x.AssetID == asset.ID).OrderByDescending(x => x.EMEndDate).ToList()[0];
+            if (date.EMEndDate != null)
+            {
+                MessageBox.Show("The asset already have an open request");
+                return;
+            }
+
+            EmergencyMaintenance em = new EmergencyMaintenance();
+
+            em.EMReportDate = DateTime.Now;
+            em.DescriptionEmergency = textBox1.Text;
+            em.OtherConsiderations = textBox2.Text;
+            em.PriorityID = comboBox1.SelectedIndex + 1;
+
+            ctx.EmergencyMaintenances.Add(em);
+            ctx.SaveChanges();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
         }
     }
 }
