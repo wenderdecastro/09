@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SessaoMobileModelStoreContainer" CdmEntityContainer="SessaoMobileEntities">
+    <EntitySetMapping Name="Funcao">
+      <EntityTypeMapping TypeName="SessaoMobileModel.Funcao">
+        <MappingFragment StoreEntitySet="Funcao">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="funcao1" ColumnName="funcao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Relatos">
+      <EntityTypeMapping TypeName="SessaoMobileModel.Relatos">
+        <MappingFragment StoreEntitySet="Relatos">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="relato" ColumnName="relato" />
+          <ScalarProperty Name="imagem" ColumnName="imagem" />
+          <ScalarProperty Name="latitude" ColumnName="latitude" />
+          <ScalarProperty Name="longitude" ColumnName="longitude" />
+          <ScalarProperty Name="usuarioid" ColumnName="usuarioid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Usuario">
+      <EntityTypeMapping TypeName="SessaoMobileModel.Usuario">
+        <MappingFragment StoreEntitySet="Usuario">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="nome" ColumnName="nome" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="senha" ColumnName="senha" />
+          <ScalarProperty Name="telefone" ColumnName="telefone" />
+          <ScalarProperty Name="funcaoid" ColumnName="funcaoid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

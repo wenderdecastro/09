@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="wendoAPP.LoginPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+
+                <Label Text="Acessar" FontSize="Large" HorizontalOptions="CenterAndExpand"/>
+                <Frame x:Name="frame1" BorderColor="Transparent">
+                    <Entry x:Name="Email" Placeholder="usuário" WidthRequest="300"/>
+                </Frame>
+                <Frame x:Name="frame2" BorderColor="Transparent">
+                    <Entry x:Name="Senha" Placeholder="usuário" WidthRequest="300" IsPassword="True"/>
+                </Frame>
+                <Button BackgroundColor="#004AAD" TextColor="White" x:Name="loginbutton" Text="Login" HorizontalOptions="Center" WidthRequest="125" Clicked="Button_Clicked"/>
+            </StackLayout>
+        </StackLayout>
+        
+    </ContentPage.Content>
+</ContentPage>

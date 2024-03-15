@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="wendoAPP.CadastroPage">
+    <NavigationPage.TitleView>
+        <Image Source="tree" WidthRequest="30" HeightRequest="30" Margin="-50, 0 , 0 , 0" HorizontalOptions="CenterAndExpand"/>
+    </NavigationPage.TitleView>
+    <ContentPage.ToolbarItems>
+        
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout Margin="25, 0">
+
+            <StackLayout x:Name="userinfo" >
+                <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" >
+                    <Label x:Name="id" />
+                    <Label x:Name="name"/>
+                </StackLayout>
+                <Label HorizontalOptions="FillAndExpand" x:Name="email"/>
+            </StackLayout>
+            <StackLayout  x:Name="maincontainer">
+                <StackLayout x:Name="container1">
+
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Relatar anônimamente?"/>
+                        <Switch x:Name="slider" HorizontalOptions="EndAndExpand"/>
+                    </StackLayout>
+                    <Label Text="Relato"/>
+                    <Editor x:Name="relato" HeightRequest="150"/>
+                </StackLayout>
+                <StackLayout x:Name="container2">
+
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Imagem"/>
+                        <Button Text="Fotografar" Clicked="Button_Clicked_1"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <StackLayout>
+                            <Image WidthRequest="300" HeightRequest="100" Aspect="AspectFit" x:Name="image"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label HorizontalOptions="CenterAndExpand" Text="Localização"/>
+                            <Label HorizontalOptions="CenterAndExpand" x:Name="latitude"/>
+                            <Label HorizontalOptions="CenterAndExpand" Text="X" Margin="0, 10"/>
+                            <Label HorizontalOptions="CenterAndExpand" x:Name="longitude"/>
+                            <Button Text="Localizar" Clicked="Button_Clicked"/>
+                        </StackLayout>
+                    </StackLayout>
+                </StackLayout>
+
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Button Text="Salvar" HorizontalOptions="FillAndExpand" Clicked="Button_Clicked_2"/>
+                <Button Text="Cancelar" HorizontalOptions="FillAndExpand" Clicked="Button_Clicked_3"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

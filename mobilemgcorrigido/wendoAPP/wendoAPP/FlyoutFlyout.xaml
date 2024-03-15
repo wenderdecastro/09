@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="wendoAPP.FlyoutFlyout"
+             Title="Flyout">
+    <StackLayout>
+        <StackLayout Padding="30">
+            <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand">
+
+                <Frame Padding="0" HeightRequest="90" WidthRequest="80" CornerRadius="80">
+                    <Image Source="teste" Aspect="AspectFill" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="Red"/>
+
+                </Frame>
+
+
+
+                <StackLayout x:Name="texto" Orientation="Vertical" VerticalOptions="CenterAndExpand">
+                    <Label x:Name="nome" Text="{Binding nome}"/>
+                    <Label x:Name="email" Text="{Binding email}"/>
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+
+        <ListView x:Name="MenuItemsListView"
+              SeparatorVisibility="None"
+              HasUnevenRows="true"
+              ItemsSource="{Binding MenuItems}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell IsEnabled="{Binding Enabled}">
+                        <StackLayout Orientation="Horizontal" Padding="15,10" HorizontalOptions="FillAndExpand">
+                            <Image Source="{Binding Image}" HeightRequest="25" WidthRequest="25"/>
+                            <Label 
+                  VerticalOptions="FillAndExpand" 
+                    VerticalTextAlignment="Center" 
+                    Text="{Binding Title}" 
+                    FontSize="24"/>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

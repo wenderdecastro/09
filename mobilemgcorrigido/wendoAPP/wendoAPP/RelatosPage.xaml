@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="wendoAPP.RelatosPage">
+    <NavigationPage.TitleView>
+        <Image Source="tree" WidthRequest="30" HeightRequest="30" Margin="-50, 0 , 0 , 0" HorizontalOptions="CenterAndExpand"/>
+    </NavigationPage.TitleView>
+    <ContentPage.Content>
+        <StackLayout>
+            <ListView x:Name="vertical" ItemSelected="ListView_ItemSelected" ItemsSource="{Binding RelatosList}" HasUnevenRows="True" SeparatorVisibility="None" HorizontalOptions="CenterAndExpand" VerticalOptions="FillAndExpand" >
+                <ListView.Header>
+                    <Label Text="Relatos" HorizontalOptions="CenterAndExpand" FontSize="Large"/>
+                </ListView.Header>
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.ContextActions >
+
+                                <ToolbarItem Text="Deseja excluir o relato?"/>
+                                <MenuItem Text="sim" IsDestructive="true" Clicked="MenuItem_Clicked" />
+                                <MenuItem Text="nao" IsDestructive="True"/>
+                            </ViewCell.ContextActions>
+
+                            <StackLayout Orientation="Horizontal" Margin="20">
+
+                                <StackLayout WidthRequest="150" HeightRequest="100">
+                                    <Image Source="{Binding imagem, Converter={x:StaticResource imageConverter}}" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+
+                                </StackLayout>
+                                <StackLayout HorizontalOptions="StartAndExpand" VerticalOptions="FillAndExpand">
+                                    <Label Text="{Binding Usuario.nome}"/>
+                                    <Label Text="{Binding Usuario.telefone}"/>
+                                    <Label Text="{Binding longitude}"/>
+                                    <Label Text="{Binding latitude}"/>
+                                </StackLayout>
+
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+
+            </ListView>
+
+            <CollectionView Margin="20, 0" ItemsSource="{Binding RelatosList}" SelectionMode="Single" SelectionChanged="horizontal_SelectionChanged"  x:Name="horizontal" IsVisible="false">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+
+                        <StackLayout Orientation="Horizontal" Margin="20">
+
+                            <StackLayout WidthRequest="150" HeightRequest="80">
+                                <Image Source="{Binding imagem, Converter={x:StaticResource imageConverter}}" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+
+                            </StackLayout>
+                            <StackLayout HorizontalOptions="StartAndExpand" VerticalOptions="FillAndExpand">
+                                <Label Text="{Binding Usuario.nome}"/>
+                                <Label Text="{Binding Usuario.telefone}"/>
+                                <Label Text="{Binding longitude}"/>
+                                <Label Text="{Binding latitude}"/>
+                            </StackLayout>
+
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+                <CollectionView.ItemsLayout>
+                    <GridItemsLayout VerticalItemSpacing="20" Span="2" Orientation="Vertical"/>
+                </CollectionView.ItemsLayout>
+            </CollectionView>
+        </StackLayout>
+        
+    </ContentPage.Content>
+</ContentPage>

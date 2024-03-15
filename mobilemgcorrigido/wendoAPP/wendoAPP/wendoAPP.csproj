@@ -1,0 +1,81 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+    <ProduceReferenceAssemblyInOutDir>true</ProduceReferenceAssemblyInOutDir>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Fonts\OpenSans-Light.ttf" />
+    <None Remove="Images\020220200935.jpg" />
+    <None Remove="Images\030120201555.jpg" />
+    <None Remove="Images\070820201753.jpg" />
+    <None Remove="Images\080820201836.jpg" />
+    <None Remove="Images\090820201655.jpg" />
+    <None Remove="Images\100820201233.jpg" />
+    <None Remove="Images\101220201225.jpg" />
+    <None Remove="Images\120220201750.jpg" />
+    <None Remove="Images\151020202233.jpg" />
+    <None Remove="Images\220220200932.jpg" />
+    <None Remove="Images\pinetree.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Fonts\OpenSans-Light.ttf" />
+    <EmbeddedResource Include="Images\020220200935.jpg" />
+    <EmbeddedResource Include="Images\030120201555.jpg" />
+    <EmbeddedResource Include="Images\070820201753.jpg" />
+    <EmbeddedResource Include="Images\080820201836.jpg" />
+    <EmbeddedResource Include="Images\090820201655.jpg" />
+    <EmbeddedResource Include="Images\100820201233.jpg" />
+    <EmbeddedResource Include="Images\101220201225.jpg" />
+    <EmbeddedResource Include="Images\120220201750.jpg" />
+    <EmbeddedResource Include="Images\151020202233.jpg" />
+    <EmbeddedResource Include="Images\220220200932.jpg" />
+    <EmbeddedResource Include="Images\pinetree.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2622" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.8.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Mono.Android">
+      <HintPath>..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\ReferenceAssemblies\Microsoft\Framework\MonoAndroid\v13.0\Mono.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\wendoAPI\bin\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="CadastroPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Flyout.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="FlyoutDetail.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="FlyoutFlyout.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="LoginPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="RelatosDetail.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="RelatosPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

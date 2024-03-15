@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="wendoAPP.RelatosDetail">
+    <NavigationPage.TitleView>
+        <Image Source="tree" WidthRequest="30" HeightRequest="30" Margin="-50, 0 , 0 , 0" HorizontalOptions="CenterAndExpand"/>
+    </NavigationPage.TitleView>
+    <ContentPage.ToolbarItems >
+        <ToolbarItem x:Name="toolbaricon1" Order="Secondary" Text="Editar" Clicked="ToolbarItem_Clicked" Priority="1"/>
+        <ToolbarItem x:Name="toolbaricon2" Order="Secondary" Text="Excluir" Clicked="ToolbarItem_Clicked_1" Priority="2"/>
+
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+
+        <StackLayout>
+
+            <StackLayout x:Name="vertical"  Margin="20">
+                <Label Text="Relato" HorizontalOptions="CenterAndExpand" FontSize="Large"/>
+                <Image  WidthRequest="300" HeightRequest="150" Source="{Binding imagem, Converter={x:StaticResource imageConverter}}" HorizontalOptions="CenterAndExpand"/>
+
+                <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                    <Label Text="Relato"/>
+                    <Label Text="{Binding relato}"/>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="{Binding longitude}"/>
+                        <Label Text="X"/>
+                        <Label Text="{Binding latitude}"/>
+                    </StackLayout>
+                    <StackLayout Margin="0,20" >
+                        <Label Text="{Binding Usuario.nome}"/>
+                        <Label Text="{Binding Usuario.telefone}"/>
+                        <Label Text="{Binding Usuario.email}"/>
+                    </StackLayout>
+
+
+
+                </StackLayout>
+
+            </StackLayout>
+            <StackLayout x:Name="horizontal" IsVisible="false" Margin="20">
+                <Label Text="Relato" HorizontalOptions="CenterAndExpand" FontSize="Large"/>
+                <StackLayout Orientation="Horizontal">
+                    <Image  WidthRequest="300" HeightRequest="150" Source="{Binding imagem, Converter={x:StaticResource imageConverter}}" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+
+                    <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="FillAndExpand">
+
+
+                        <Label Text="{Binding relato}"/>
+                        <StackLayout VerticalOptions="EndAndExpand" Orientation="Horizontal">
+                            <Label Text="{Binding longitude}"/>
+                            <Label Text="X"/>
+                            <Label Text="{Binding latitude}"/>
+                        </StackLayout>
+
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" >
+                    <Label Margin="30" x:Name="relator" Text="{Binding Usuario.nome}"/>
+                    <Label Margin="30" Text="{Binding Usuario.telefone}"/>
+                    <Label Margin="30" Text="{Binding Usuario.email}"/>
+                </StackLayout>
+
+
+
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,566 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A181FD14-56C3-42C4-B816-054BDB95DC90}|wendoAPP\\wendoAPP.csproj|c:\\users\\admin\\documents\\revisao\\wendoapp\\wendoapp\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A181FD14-56C3-42C4-B816-054BDB95DC90}|wendoAPP\\wendoAPP.csproj|solutionrelative:wendoapp\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA1EA4D-FF6B-4F23-92A8-A99ADDB968EF}|wendoAPP.Android\\wendoAPP.Android.csproj|C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoapp.android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CA1EA4D-FF6B-4F23-92A8-A99ADDB968EF}|wendoAPP.Android\\wendoAPP.Android.csproj|solutionrelative:wendoapp.android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A181FD14-56C3-42C4-B816-054BDB95DC90}|wendoAPP\\wendoAPP.csproj|c:\\users\\admin\\documents\\revisao\\wendoapp\\wendoapp\\flyout.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A181FD14-56C3-42C4-B816-054BDB95DC90}|wendoAPP\\wendoAPP.csproj|solutionrelative:wendoapp\\flyout.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A181FD14-56C3-42C4-B816-054BDB95DC90}|wendoAPP\\wendoAPP.csproj|c:\\users\\admin\\documents\\revisao\\wendoapp\\wendoapp\\loginpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{A181FD14-56C3-42C4-B816-054BDB95DC90}|wendoAPP\\wendoAPP.csproj|solutionrelative:wendoapp\\loginpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA1EA4D-FF6B-4F23-92A8-A99ADDB968EF}|wendoAPP.Android\\wendoAPP.Android.csproj|C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoapp.android\\toast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CA1EA4D-FF6B-4F23-92A8-A99ADDB968EF}|wendoAPP.Android\\wendoAPP.Android.csproj|solutionrelative:wendoapp.android\\toast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A181FD14-56C3-42C4-B816-054BDB95DC90}|wendoAPP\\wendoAPP.csproj|c:\\users\\admin\\documents\\revisao\\wendoapp\\wendoapp\\flyoutdetail.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{A181FD14-56C3-42C4-B816-054BDB95DC90}|wendoAPP\\wendoAPP.csproj|solutionrelative:wendoapp\\flyoutdetail.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A181FD14-56C3-42C4-B816-054BDB95DC90}|wendoAPP\\wendoAPP.csproj|c:\\users\\admin\\documents\\revisao\\wendoapp\\wendoapp\\cadastropage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{A181FD14-56C3-42C4-B816-054BDB95DC90}|wendoAPP\\wendoAPP.csproj|solutionrelative:wendoapp\\cadastropage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A181FD14-56C3-42C4-B816-054BDB95DC90}|wendoAPP\\wendoAPP.csproj|c:\\users\\admin\\documents\\revisao\\wendoapp\\wendoapp\\flyout.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{A181FD14-56C3-42C4-B816-054BDB95DC90}|wendoAPP\\wendoAPP.csproj|solutionrelative:wendoapp\\flyout.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A181FD14-56C3-42C4-B816-054BDB95DC90}|wendoAPP\\wendoAPP.csproj|c:\\users\\admin\\documents\\revisao\\wendoapp\\wendoapp\\relatosdetail.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A181FD14-56C3-42C4-B816-054BDB95DC90}|wendoAPP\\wendoAPP.csproj|solutionrelative:wendoapp\\relatosdetail.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A181FD14-56C3-42C4-B816-054BDB95DC90}|wendoAPP\\wendoAPP.csproj|c:\\users\\admin\\documents\\revisao\\wendoapp\\wendoapp\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{A181FD14-56C3-42C4-B816-054BDB95DC90}|wendoAPP\\wendoAPP.csproj|solutionrelative:wendoapp\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A181FD14-56C3-42C4-B816-054BDB95DC90}|wendoAPP\\wendoAPP.csproj|c:\\users\\admin\\documents\\revisao\\wendoapp\\wendoapp\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A181FD14-56C3-42C4-B816-054BDB95DC90}|wendoAPP\\wendoAPP.csproj|solutionrelative:wendoapp\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A181FD14-56C3-42C4-B816-054BDB95DC90}|wendoAPP\\wendoAPP.csproj|c:\\users\\admin\\documents\\revisao\\wendoapp\\wendoapp\\relatospage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A181FD14-56C3-42C4-B816-054BDB95DC90}|wendoAPP\\wendoAPP.csproj|solutionrelative:wendoapp\\relatospage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A181FD14-56C3-42C4-B816-054BDB95DC90}|wendoAPP\\wendoAPP.csproj|c:\\users\\admin\\documents\\revisao\\wendoapp\\wendoapp\\cadastropage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A181FD14-56C3-42C4-B816-054BDB95DC90}|wendoAPP\\wendoAPP.csproj|solutionrelative:wendoapp\\cadastropage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A181FD14-56C3-42C4-B816-054BDB95DC90}|wendoAPP\\wendoAPP.csproj|c:\\users\\admin\\documents\\revisao\\wendoapp\\wendoapp\\itoast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A181FD14-56C3-42C4-B816-054BDB95DC90}|wendoAPP\\wendoAPP.csproj|solutionrelative:wendoapp\\itoast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A181FD14-56C3-42C4-B816-054BDB95DC90}|wendoAPP\\wendoAPP.csproj|c:\\users\\admin\\documents\\revisao\\wendoapp\\wendoapp\\flyoutflyoutmenuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A181FD14-56C3-42C4-B816-054BDB95DC90}|wendoAPP\\wendoAPP.csproj|solutionrelative:wendoapp\\flyoutflyoutmenuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A181FD14-56C3-42C4-B816-054BDB95DC90}|wendoAPP\\wendoAPP.csproj|c:\\users\\admin\\documents\\revisao\\wendoapp\\wendoapp\\logado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A181FD14-56C3-42C4-B816-054BDB95DC90}|wendoAPP\\wendoAPP.csproj|solutionrelative:wendoapp\\logado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A181FD14-56C3-42C4-B816-054BDB95DC90}|wendoAPP\\wendoAPP.csproj|c:\\users\\admin\\documents\\revisao\\wendoapp\\wendoapp\\flyoutdetail.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A181FD14-56C3-42C4-B816-054BDB95DC90}|wendoAPP\\wendoAPP.csproj|solutionrelative:wendoapp\\flyoutdetail.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A181FD14-56C3-42C4-B816-054BDB95DC90}|wendoAPP\\wendoAPP.csproj|c:\\users\\admin\\documents\\revisao\\wendoapp\\wendoapp\\wendoapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A181FD14-56C3-42C4-B816-054BDB95DC90}|wendoAPP\\wendoAPP.csproj|solutionrelative:wendoapp\\wendoapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A181FD14-56C3-42C4-B816-054BDB95DC90}|wendoAPP\\wendoAPP.csproj|c:\\users\\admin\\documents\\revisao\\wendoapp\\wendoapp\\relatospage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{A181FD14-56C3-42C4-B816-054BDB95DC90}|wendoAPP\\wendoAPP.csproj|solutionrelative:wendoapp\\relatospage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A181FD14-56C3-42C4-B816-054BDB95DC90}|wendoAPP\\wendoAPP.csproj|c:\\users\\admin\\documents\\revisao\\wendoapp\\wendoapp\\relatosdetail.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{A181FD14-56C3-42C4-B816-054BDB95DC90}|wendoAPP\\wendoAPP.csproj|solutionrelative:wendoapp\\relatosdetail.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A181FD14-56C3-42C4-B816-054BDB95DC90}|wendoAPP\\wendoAPP.csproj|c:\\users\\admin\\documents\\revisao\\wendoapp\\wendoapp\\utils\\imageconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A181FD14-56C3-42C4-B816-054BDB95DC90}|wendoAPP\\wendoAPP.csproj|solutionrelative:wendoapp\\utils\\imageconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA1EA4D-FF6B-4F23-92A8-A99ADDB968EF}|wendoAPP.Android\\wendoAPP.Android.csproj|C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoapp.android\\properties\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{6CA1EA4D-FF6B-4F23-92A8-A99ADDB968EF}|wendoAPP.Android\\wendoAPP.Android.csproj|solutionrelative:wendoapp.android\\properties\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|wendoAPP.Android||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A181FD14-56C3-42C4-B816-054BDB95DC90}|wendoAPP\\wendoAPP.csproj|c:\\users\\admin\\documents\\revisao\\wendoapp\\wendoapp\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A181FD14-56C3-42C4-B816-054BDB95DC90}|wendoAPP\\wendoAPP.csproj|solutionrelative:wendoapp\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A181FD14-56C3-42C4-B816-054BDB95DC90}|wendoAPP\\wendoAPP.csproj|c:\\users\\admin\\documents\\revisao\\wendoapp\\wendoapp\\flyoutflyout.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A181FD14-56C3-42C4-B816-054BDB95DC90}|wendoAPP\\wendoAPP.csproj|solutionrelative:wendoapp\\flyoutflyout.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A181FD14-56C3-42C4-B816-054BDB95DC90}|wendoAPP\\wendoAPP.csproj|c:\\users\\admin\\documents\\revisao\\wendoapp\\wendoapp\\flyoutflyout.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{A181FD14-56C3-42C4-B816-054BDB95DC90}|wendoAPP\\wendoAPP.csproj|solutionrelative:wendoapp\\flyoutflyout.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\admin\\.nuget\\packages\\xamarin.essentials\\1.8.1\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA1EA4D-FF6B-4F23-92A8-A99ADDB968EF}|wendoAPP.Android\\wendoAPP.Android.csproj|C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoapp.android\\resources\\drawable\\info.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6CA1EA4D-FF6B-4F23-92A8-A99ADDB968EF}|wendoAPP.Android\\wendoAPP.Android.csproj|solutionrelative:wendoapp.android\\resources\\drawable\\info.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A181FD14-56C3-42C4-B816-054BDB95DC90}|wendoAPP\\wendoAPP.csproj|c:\\users\\admin\\documents\\revisao\\wendoapp\\wendoapp\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{A181FD14-56C3-42C4-B816-054BDB95DC90}|wendoAPP\\wendoAPP.csproj|solutionrelative:wendoapp\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A181FD14-56C3-42C4-B816-054BDB95DC90}|wendoAPP\\wendoAPP.csproj|c:\\users\\admin\\documents\\revisao\\wendoapp\\wendoapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A181FD14-56C3-42C4-B816-054BDB95DC90}|wendoAPP\\wendoAPP.csproj|solutionrelative:wendoapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A181FD14-56C3-42C4-B816-054BDB95DC90}|wendoAPP\\wendoAPP.csproj|c:\\users\\admin\\documents\\revisao\\wendoapp\\wendoapp\\mainpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{A181FD14-56C3-42C4-B816-054BDB95DC90}|wendoAPP\\wendoAPP.csproj|solutionrelative:wendoapp\\mainpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A181FD14-56C3-42C4-B816-054BDB95DC90}|wendoAPP\\wendoAPP.csproj|c:\\users\\admin\\documents\\revisao\\wendoapp\\wendoapp\\viewmodels\\relatosviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A181FD14-56C3-42C4-B816-054BDB95DC90}|wendoAPP\\wendoAPP.csproj|solutionrelative:wendoapp\\viewmodels\\relatosviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A181FD14-56C3-42C4-B816-054BDB95DC90}|wendoAPP\\wendoAPP.csproj|c:\\users\\admin\\documents\\revisao\\wendoapp\\wendoapp\\models\\relatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A181FD14-56C3-42C4-B816-054BDB95DC90}|wendoAPP\\wendoAPP.csproj|solutionrelative:wendoapp\\models\\relatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A181FD14-56C3-42C4-B816-054BDB95DC90}|wendoAPP\\wendoAPP.csproj|c:\\users\\admin\\documents\\revisao\\wendoapp\\wendoapp\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A181FD14-56C3-42C4-B816-054BDB95DC90}|wendoAPP\\wendoAPP.csproj|solutionrelative:wendoapp\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoAPP\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "wendoAPP\\LoginPage.xaml",
+              "ToolTip": "C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoAPP\\LoginPage.xaml",
+              "RelativeToolTip": "wendoAPP\\LoginPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-08T12:34:10.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Flyout.xaml",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoAPP\\Flyout.xaml",
+              "RelativeDocumentMoniker": "wendoAPP\\Flyout.xaml",
+              "ToolTip": "C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoAPP\\Flyout.xaml",
+              "RelativeToolTip": "wendoAPP\\Flyout.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-08T12:55:44.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FlyoutDetail.xaml",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoAPP\\FlyoutDetail.xaml",
+              "RelativeDocumentMoniker": "wendoAPP\\FlyoutDetail.xaml",
+              "ToolTip": "C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoAPP\\FlyoutDetail.xaml",
+              "RelativeToolTip": "wendoAPP\\FlyoutDetail.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-08T12:58:23.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CadastroPage.xaml",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoAPP\\CadastroPage.xaml",
+              "RelativeDocumentMoniker": "wendoAPP\\CadastroPage.xaml",
+              "ToolTip": "C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoAPP\\CadastroPage.xaml",
+              "RelativeToolTip": "wendoAPP\\CadastroPage.xaml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-11T19:06:00.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoAPP\\MainPage.xaml",
+              "RelativeDocumentMoniker": "wendoAPP\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoAPP\\MainPage.xaml",
+              "RelativeToolTip": "wendoAPP\\MainPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-08T12:33:42.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoAPP\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "wendoAPP\\LoginPage.xaml.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoAPP\\LoginPage.xaml.cs",
+              "RelativeToolTip": "wendoAPP\\LoginPage.xaml.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAwwAsAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T12:34:12.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Flyout.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoAPP\\Flyout.xaml.cs",
+              "RelativeDocumentMoniker": "wendoAPP\\Flyout.xaml.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoAPP\\Flyout.xaml.cs",
+              "RelativeToolTip": "wendoAPP\\Flyout.xaml.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAswBsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T12:58:20.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RelatosDetail.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoAPP\\RelatosDetail.xaml.cs",
+              "RelativeDocumentMoniker": "wendoAPP\\RelatosDetail.xaml.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoAPP\\RelatosDetail.xaml.cs",
+              "RelativeToolTip": "wendoAPP\\RelatosDetail.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T14:30:19.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RelatosPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoAPP\\RelatosPage.xaml.cs",
+              "RelativeDocumentMoniker": "wendoAPP\\RelatosPage.xaml.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoAPP\\RelatosPage.xaml.cs",
+              "RelativeToolTip": "wendoAPP\\RelatosPage.xaml.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAASwBoAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T13:01:34.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IToast.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoAPP\\IToast.cs",
+              "RelativeDocumentMoniker": "wendoAPP\\IToast.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoAPP\\IToast.cs",
+              "RelativeToolTip": "wendoAPP\\IToast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T17:09:13.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApiService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoAPP\\Services\\ApiService.cs",
+              "RelativeDocumentMoniker": "wendoAPP\\Services\\ApiService.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoAPP\\Services\\ApiService.cs",
+              "RelativeToolTip": "wendoAPP\\Services\\ApiService.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAA6wCYAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T12:42:28.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CadastroPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoAPP\\CadastroPage.xaml.cs",
+              "RelativeDocumentMoniker": "wendoAPP\\CadastroPage.xaml.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoAPP\\CadastroPage.xaml.cs",
+              "RelativeToolTip": "wendoAPP\\CadastroPage.xaml.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAcwBoAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-11T19:11:25.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FlyoutFlyoutMenuItem.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoAPP\\FlyoutFlyoutMenuItem.cs",
+              "RelativeDocumentMoniker": "wendoAPP\\FlyoutFlyoutMenuItem.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoAPP\\FlyoutFlyoutMenuItem.cs",
+              "RelativeToolTip": "wendoAPP\\FlyoutFlyoutMenuItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T12:56:32.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "FlyoutDetail.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoAPP\\FlyoutDetail.xaml.cs",
+              "RelativeDocumentMoniker": "wendoAPP\\FlyoutDetail.xaml.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoAPP\\FlyoutDetail.xaml.cs",
+              "RelativeToolTip": "wendoAPP\\FlyoutDetail.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T13:06:52.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Logado.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoAPP\\Logado.cs",
+              "RelativeDocumentMoniker": "wendoAPP\\Logado.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoAPP\\Logado.cs",
+              "RelativeToolTip": "wendoAPP\\Logado.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T13:22:00.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "RelatosPage.xaml",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoAPP\\RelatosPage.xaml",
+              "RelativeDocumentMoniker": "wendoAPP\\RelatosPage.xaml",
+              "ToolTip": "C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoAPP\\RelatosPage.xaml",
+              "RelativeToolTip": "wendoAPP\\RelatosPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAABjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-08T12:56:58.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "wendoAPP.csproj",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoAPP\\wendoAPP.csproj",
+              "RelativeDocumentMoniker": "wendoAPP\\wendoAPP.csproj",
+              "ToolTip": "C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoAPP\\wendoAPP.csproj",
+              "RelativeToolTip": "wendoAPP\\wendoAPP.csproj",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-08T12:55:28.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ImageConverter.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoAPP\\Utils\\ImageConverter.cs",
+              "RelativeDocumentMoniker": "wendoAPP\\Utils\\ImageConverter.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoAPP\\Utils\\ImageConverter.cs",
+              "RelativeToolTip": "wendoAPP\\Utils\\ImageConverter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T13:33:58.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "RelatosDetail.xaml",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoAPP\\RelatosDetail.xaml",
+              "RelativeDocumentMoniker": "wendoAPP\\RelatosDetail.xaml",
+              "ToolTip": "C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoAPP\\RelatosDetail.xaml",
+              "RelativeToolTip": "wendoAPP\\RelatosDetail.xaml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAAkAAABeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-08T14:26:26.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoAPP\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "wendoAPP\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoAPP\\AssemblyInfo.cs",
+              "RelativeToolTip": "wendoAPP\\AssemblyInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T13:45:09.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "FlyoutFlyout.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoAPP\\FlyoutFlyout.xaml.cs",
+              "RelativeDocumentMoniker": "wendoAPP\\FlyoutFlyout.xaml.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoAPP\\FlyoutFlyout.xaml.cs",
+              "RelativeToolTip": "wendoAPP\\FlyoutFlyout.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T12:55:46.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "FlyoutFlyout.xaml",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoAPP\\FlyoutFlyout.xaml",
+              "RelativeDocumentMoniker": "wendoAPP\\FlyoutFlyout.xaml",
+              "ToolTip": "C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoAPP\\FlyoutFlyout.xaml",
+              "RelativeToolTip": "wendoAPP\\FlyoutFlyout.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-08T13:06:56.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "readme.txt",
+              "DocumentMoniker": "C:\\Users\\admin\\.nuget\\packages\\xamarin.essentials\\1.8.1\\readme.txt",
+              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\xamarin.essentials\\1.8.1\\readme.txt",
+              "ToolTip": "C:\\Users\\admin\\.nuget\\packages\\xamarin.essentials\\1.8.1\\readme.txt",
+              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\xamarin.essentials\\1.8.1\\readme.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-03-11T16:49:34.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoAPP\\App.xaml",
+              "RelativeDocumentMoniker": "wendoAPP\\App.xaml",
+              "ToolTip": "C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoAPP\\App.xaml",
+              "RelativeToolTip": "wendoAPP\\App.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-08T13:04:36.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoAPP\\App.xaml.cs",
+              "RelativeDocumentMoniker": "wendoAPP\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoAPP\\App.xaml.cs",
+              "RelativeToolTip": "wendoAPP\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T13:01:36.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoAPP\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "wendoAPP\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoAPP\\MainPage.xaml.cs",
+              "RelativeToolTip": "wendoAPP\\MainPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T12:34:23.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "RelatosViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoAPP\\ViewModels\\RelatosViewModel.cs",
+              "RelativeDocumentMoniker": "wendoAPP\\ViewModels\\RelatosViewModel.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoAPP\\ViewModels\\RelatosViewModel.cs",
+              "RelativeToolTip": "wendoAPP\\ViewModels\\RelatosViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T13:41:23.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Relatos.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoAPP\\Models\\Relatos.cs",
+              "RelativeDocumentMoniker": "wendoAPP\\Models\\Relatos.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoAPP\\Models\\Relatos.cs",
+              "RelativeToolTip": "wendoAPP\\Models\\Relatos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T13:41:30.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoAPP\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "wendoAPP\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoAPP\\Models\\Usuario.cs",
+              "RelativeToolTip": "wendoAPP\\Models\\Usuario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T13:41:45.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainActivity.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoAPP.Android\\MainActivity.cs",
+              "RelativeDocumentMoniker": "wendoAPP.Android\\MainActivity.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoAPP.Android\\MainActivity.cs",
+              "RelativeToolTip": "wendoAPP.Android\\MainActivity.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T17:29:25.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "toast.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoAPP.Android\\toast.cs",
+              "RelativeDocumentMoniker": "wendoAPP.Android\\toast.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoAPP.Android\\toast.cs",
+              "RelativeToolTip": "wendoAPP.Android\\toast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T17:32:02.35Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AndroidManifest.xml",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoAPP.Android\\Properties\\AndroidManifest.xml",
+              "RelativeDocumentMoniker": "wendoAPP.Android\\Properties\\AndroidManifest.xml",
+              "ToolTip": "C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoAPP.Android\\Properties\\AndroidManifest.xml",
+              "RelativeToolTip": "wendoAPP.Android\\Properties\\AndroidManifest.xml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-03-13T15:43:13.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "wendoAPP.Android",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoAPP.Android\\wendoAPP.Android.csproj",
+              "RelativeDocumentMoniker": "wendoAPP.Android\\wendoAPP.Android.csproj",
+              "ToolTip": "C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoAPP.Android\\wendoAPP.Android.csproj",
+              "RelativeToolTip": "wendoAPP.Android\\wendoAPP.Android.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-13T14:43:36.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "info.xml",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoAPP.Android\\Resources\\drawable\\info.xml",
+              "RelativeDocumentMoniker": "wendoAPP.Android\\Resources\\drawable\\info.xml",
+              "ToolTip": "C:\\Users\\admin\\Documents\\revisao\\wendoAPP\\wendoAPP.Android\\Resources\\drawable\\info.xml",
+              "RelativeToolTip": "wendoAPP.Android\\Resources\\drawable\\info.xml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-03-11T16:45:35.595Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

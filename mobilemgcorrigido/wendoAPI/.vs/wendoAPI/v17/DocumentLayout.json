@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\admin\\Documents\\revisao\\wendoAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ED8666B8-11D5-4D07-9E59-106C980B2420}|wendoAPI.csproj|c:\\users\\admin\\documents\\revisao\\wendoapi\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED8666B8-11D5-4D07-9E59-106C980B2420}|wendoAPI.csproj|solutionrelative:controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\admin\\AppData\\Local\\Temp\\.vsdbgsrc\\2f45f5f43ed33d4ff4fa46048cfcfd27d2ebcd68b80d20d986e6c4fed243d186\\ValuesController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED8666B8-11D5-4D07-9E59-106C980B2420}|wendoAPI.csproj|C:\\Users\\admin\\Documents\\revisao\\wendoAPI\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED8666B8-11D5-4D07-9E59-106C980B2420}|wendoAPI.csproj|solutionrelative:app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|wendoAPI||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\admin\\Documents\\revisao\\wendoAPI\\.vs\\wendoAPI\\config\\applicationhost.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.vs\\wendoAPI\\config\\applicationhost.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ValuesController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\AppData\\Local\\Temp\\.vsdbgsrc\\2f45f5f43ed33d4ff4fa46048cfcfd27d2ebcd68b80d20d986e6c4fed243d186\\ValuesController.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\2f45f5f43ed33d4ff4fa46048cfcfd27d2ebcd68b80d20d986e6c4fed243d186\\ValuesController.cs",
+              "ToolTip": "C:\\Users\\admin\\AppData\\Local\\Temp\\.vsdbgsrc\\2f45f5f43ed33d4ff4fa46048cfcfd27d2ebcd68b80d20d986e6c4fed243d186\\ValuesController.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\2f45f5f43ed33d4ff4fa46048cfcfd27d2ebcd68b80d20d986e6c4fed243d186\\ValuesController.cs [Read Only]",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAjwBMAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T13:27:09.509Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ValuesController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\revisao\\wendoAPI\\Controllers\\ValuesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ValuesController.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\revisao\\wendoAPI\\Controllers\\ValuesController.cs",
+              "RelativeToolTip": "Controllers\\ValuesController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAqwBQAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T12:31:46.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WebApiConfig.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\revisao\\wendoAPI\\App_Start\\WebApiConfig.cs",
+              "RelativeDocumentMoniker": "App_Start\\WebApiConfig.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\revisao\\wendoAPI\\App_Start\\WebApiConfig.cs",
+              "RelativeToolTip": "App_Start\\WebApiConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T12:30:57.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "applicationhost.config",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\revisao\\wendoAPI\\.vs\\wendoAPI\\config\\applicationhost.config",
+              "RelativeDocumentMoniker": ".vs\\wendoAPI\\config\\applicationhost.config",
+              "ToolTip": "C:\\Users\\admin\\Documents\\revisao\\wendoAPI\\.vs\\wendoAPI\\config\\applicationhost.config",
+              "RelativeToolTip": ".vs\\wendoAPI\\config\\applicationhost.config",
+              "ViewState": "AQIAAIMAAAAAAAAAAAApwJoAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-03-08T12:30:40.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "wendoAPI",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\revisao\\wendoAPI\\wendoAPI.csproj",
+              "RelativeDocumentMoniker": "wendoAPI.csproj",
+              "ToolTip": "C:\\Users\\admin\\Documents\\revisao\\wendoAPI\\wendoAPI.csproj",
+              "RelativeToolTip": "wendoAPI.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-08T12:30:17.05Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
