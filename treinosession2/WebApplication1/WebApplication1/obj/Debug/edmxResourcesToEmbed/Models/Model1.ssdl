@@ -1,0 +1,544 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Session2Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Addresses">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Street" Type="varchar" MaxLength="50" />
+    <Property Name="Number" Type="int" />
+    <Property Name="CEP" Type="varchar" MaxLength="50" />
+    <Property Name="CityID" Type="int" />
+  </EntityType>
+  <EntityType Name="Benefits">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" />
+    <Property Name="Mandatory" Type="bit" />
+  </EntityType>
+  <EntityType Name="BenefitsDetails">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="DiscountTypeID" Type="int" />
+    <Property Name="DiscountAmount" Type="float" />
+    <Property Name="DiscountPercentage" Type="float" />
+  </EntityType>
+  <EntityType Name="Cities">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" />
+    <Property Name="StateID" Type="int" />
+  </EntityType>
+  <EntityType Name="Discounts">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PersonID" Type="int" />
+    <Property Name="Amount" Type="float" />
+    <Property Name="Description" Type="text" />
+    <Property Name="DiscountTypeID" Type="int" />
+  </EntityType>
+  <EntityType Name="DiscountTypes">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Documents">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PersonID" Type="int" />
+    <Property Name="DocTypeID" Type="int" />
+    <Property Name="Value" Type="varchar" MaxLength="50" />
+    <Property Name="IssueDate" Type="datetime" />
+    <Property Name="ExpirationDate" Type="datetime" />
+    <Property Name="Attachment" Type="varchar" MaxLength="150" />
+  </EntityType>
+  <EntityType Name="DocumentTypes">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" />
+    <Property Name="Validation" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Employees">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="Email" Type="varchar" MaxLength="255" />
+    <Property Name="Password" Type="varchar" MaxLength="50" />
+    <Property Name="AdmissionDate" Type="date" />
+    <Property Name="HasAdvance" Type="bit" />
+    <Property Name="ManagerID" Type="int" />
+    <Property Name="RoleID" Type="int" />
+  </EntityType>
+  <EntityType Name="Frequencies">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="EmployeeID" Type="int" />
+    <Property Name="Attachment" Type="varchar" MaxLength="100" />
+    <Property Name="Date" Type="date" />
+    <Property Name="Checkin" Type="time" Precision="7" />
+    <Property Name="Checkout" Type="time" Precision="7" />
+  </EntityType>
+  <EntityType Name="Holydays">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Description" Type="text" />
+    <Property Name="Date" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="People">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" />
+    <Property Name="BirthDay" Type="date" />
+    <Property Name="Photo" Type="text" />
+    <Property Name="ResponsibleID" Type="int" />
+    <Property Name="TypeID" Type="int" />
+  </EntityType>
+  <EntityType Name="PersonBenefits">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PersonID" Type="int" />
+    <Property Name="BenefitID" Type="int" />
+    <Property Name="CancelationDate" Type="datetime" />
+    <Property Name="Amount" Type="float" />
+    <Property Name="Occurrence" Type="int" />
+    <Property Name="SolicitationDate" Type="date" />
+  </EntityType>
+  <EntityType Name="PersonBenefitsDetails">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PersonBenefitID" Type="int" />
+    <Property Name="Value" Type="float" />
+    <Property Name="TransportTypeID" Type="int" />
+  </EntityType>
+  <EntityType Name="PersonTypes">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Phones">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PersonID" Type="int" />
+    <Property Name="Phone" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Roles">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" />
+    <Property Name="Salary" Type="float" />
+  </EntityType>
+  <EntityType Name="States">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" />
+    <Property Name="UF" Type="char" MaxLength="2" />
+  </EntityType>
+  <EntityType Name="TransportationTypes">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="Vacations">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="EmployeID" Type="int" />
+    <Property Name="StartDate" Type="date" />
+    <Property Name="EndDate" Type="date" />
+    <Property Name="Allowance" Type="bit" />
+  </EntityType>
+  <Association Name="FK_Addresses_Cities">
+    <End Role="Cities" Type="Self.Cities" Multiplicity="0..1" />
+    <End Role="Addresses" Type="Self.Addresses" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cities">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Addresses">
+        <PropertyRef Name="CityID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Addresses_People">
+    <End Role="People" Type="Self.People" Multiplicity="1" />
+    <End Role="Addresses" Type="Self.Addresses" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="People">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Addresses">
+        <PropertyRef Name="ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BenefitsDetails_Benefits">
+    <End Role="Benefits" Type="Self.Benefits" Multiplicity="1" />
+    <End Role="BenefitsDetails" Type="Self.BenefitsDetails" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Benefits">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="BenefitsDetails">
+        <PropertyRef Name="ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BenefitsDetails_DiscountTypes">
+    <End Role="DiscountTypes" Type="Self.DiscountTypes" Multiplicity="0..1" />
+    <End Role="BenefitsDetails" Type="Self.BenefitsDetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DiscountTypes">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="BenefitsDetails">
+        <PropertyRef Name="DiscountTypeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Cities_States">
+    <End Role="States" Type="Self.States" Multiplicity="0..1" />
+    <End Role="Cities" Type="Self.Cities" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="States">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Cities">
+        <PropertyRef Name="StateID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Discounts_DiscountTypes">
+    <End Role="DiscountTypes" Type="Self.DiscountTypes" Multiplicity="0..1" />
+    <End Role="Discounts" Type="Self.Discounts" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DiscountTypes">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Discounts">
+        <PropertyRef Name="DiscountTypeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Discounts_People1">
+    <End Role="People" Type="Self.People" Multiplicity="0..1" />
+    <End Role="Discounts" Type="Self.Discounts" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="People">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Discounts">
+        <PropertyRef Name="PersonID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DocImages_DocumentTypes">
+    <End Role="DocumentTypes" Type="Self.DocumentTypes" Multiplicity="0..1" />
+    <End Role="Documents" Type="Self.Documents" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DocumentTypes">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Documents">
+        <PropertyRef Name="DocTypeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DocImages_People">
+    <End Role="People" Type="Self.People" Multiplicity="0..1" />
+    <End Role="Documents" Type="Self.Documents" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="People">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Documents">
+        <PropertyRef Name="PersonID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Employees_People">
+    <End Role="People" Type="Self.People" Multiplicity="1" />
+    <End Role="Employees" Type="Self.Employees" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="People">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Employees">
+        <PropertyRef Name="ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Employees_People1">
+    <End Role="People" Type="Self.People" Multiplicity="0..1" />
+    <End Role="Employees" Type="Self.Employees" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="People">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Employees">
+        <PropertyRef Name="ManagerID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Employees_Roles">
+    <End Role="Roles" Type="Self.Roles" Multiplicity="0..1" />
+    <End Role="Employees" Type="Self.Employees" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Roles">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Employees">
+        <PropertyRef Name="RoleID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Frequencies_Employees">
+    <End Role="Employees" Type="Self.Employees" Multiplicity="0..1" />
+    <End Role="Frequencies" Type="Self.Frequencies" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employees">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Frequencies">
+        <PropertyRef Name="EmployeeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_People_People">
+    <End Role="People" Type="Self.People" Multiplicity="0..1" />
+    <End Role="People1" Type="Self.People" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="People">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="People1">
+        <PropertyRef Name="ResponsibleID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_People_PersonTypes">
+    <End Role="PersonTypes" Type="Self.PersonTypes" Multiplicity="0..1" />
+    <End Role="People" Type="Self.People" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PersonTypes">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="People">
+        <PropertyRef Name="TypeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PersonBenefits_Benefits">
+    <End Role="Benefits" Type="Self.Benefits" Multiplicity="0..1" />
+    <End Role="PersonBenefits" Type="Self.PersonBenefits" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Benefits">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="PersonBenefits">
+        <PropertyRef Name="BenefitID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PersonBenefits_People">
+    <End Role="People" Type="Self.People" Multiplicity="0..1" />
+    <End Role="PersonBenefits" Type="Self.PersonBenefits" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="People">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="PersonBenefits">
+        <PropertyRef Name="PersonID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PersonBenefitsDetails_PersonBenefits">
+    <End Role="PersonBenefits" Type="Self.PersonBenefits" Multiplicity="0..1" />
+    <End Role="PersonBenefitsDetails" Type="Self.PersonBenefitsDetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PersonBenefits">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="PersonBenefitsDetails">
+        <PropertyRef Name="PersonBenefitID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PersonBenefitsDetails_TransportationTypes">
+    <End Role="TransportationTypes" Type="Self.TransportationTypes" Multiplicity="0..1" />
+    <End Role="PersonBenefitsDetails" Type="Self.PersonBenefitsDetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TransportationTypes">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="PersonBenefitsDetails">
+        <PropertyRef Name="TransportTypeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Phones_People">
+    <End Role="People" Type="Self.People" Multiplicity="0..1" />
+    <End Role="Phones" Type="Self.Phones" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="People">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Phones">
+        <PropertyRef Name="PersonID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Vacations_Employees">
+    <End Role="Employees" Type="Self.Employees" Multiplicity="0..1" />
+    <End Role="Vacations" Type="Self.Vacations" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employees">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Vacations">
+        <PropertyRef Name="EmployeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Session2ModelStoreContainer">
+    <EntitySet Name="Addresses" EntityType="Self.Addresses" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Benefits" EntityType="Self.Benefits" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="BenefitsDetails" EntityType="Self.BenefitsDetails" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Cities" EntityType="Self.Cities" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Discounts" EntityType="Self.Discounts" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DiscountTypes" EntityType="Self.DiscountTypes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Documents" EntityType="Self.Documents" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DocumentTypes" EntityType="Self.DocumentTypes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Employees" EntityType="Self.Employees" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Frequencies" EntityType="Self.Frequencies" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Holydays" EntityType="Self.Holydays" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="People" EntityType="Self.People" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PersonBenefits" EntityType="Self.PersonBenefits" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PersonBenefitsDetails" EntityType="Self.PersonBenefitsDetails" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PersonTypes" EntityType="Self.PersonTypes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Phones" EntityType="Self.Phones" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Roles" EntityType="Self.Roles" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="States" EntityType="Self.States" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TransportationTypes" EntityType="Self.TransportationTypes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Vacations" EntityType="Self.Vacations" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Addresses_Cities" Association="Self.FK_Addresses_Cities">
+      <End Role="Cities" EntitySet="Cities" />
+      <End Role="Addresses" EntitySet="Addresses" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Addresses_People" Association="Self.FK_Addresses_People">
+      <End Role="People" EntitySet="People" />
+      <End Role="Addresses" EntitySet="Addresses" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BenefitsDetails_Benefits" Association="Self.FK_BenefitsDetails_Benefits">
+      <End Role="Benefits" EntitySet="Benefits" />
+      <End Role="BenefitsDetails" EntitySet="BenefitsDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BenefitsDetails_DiscountTypes" Association="Self.FK_BenefitsDetails_DiscountTypes">
+      <End Role="DiscountTypes" EntitySet="DiscountTypes" />
+      <End Role="BenefitsDetails" EntitySet="BenefitsDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Cities_States" Association="Self.FK_Cities_States">
+      <End Role="States" EntitySet="States" />
+      <End Role="Cities" EntitySet="Cities" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Discounts_DiscountTypes" Association="Self.FK_Discounts_DiscountTypes">
+      <End Role="DiscountTypes" EntitySet="DiscountTypes" />
+      <End Role="Discounts" EntitySet="Discounts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Discounts_People1" Association="Self.FK_Discounts_People1">
+      <End Role="People" EntitySet="People" />
+      <End Role="Discounts" EntitySet="Discounts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DocImages_DocumentTypes" Association="Self.FK_DocImages_DocumentTypes">
+      <End Role="DocumentTypes" EntitySet="DocumentTypes" />
+      <End Role="Documents" EntitySet="Documents" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DocImages_People" Association="Self.FK_DocImages_People">
+      <End Role="People" EntitySet="People" />
+      <End Role="Documents" EntitySet="Documents" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Employees_People" Association="Self.FK_Employees_People">
+      <End Role="People" EntitySet="People" />
+      <End Role="Employees" EntitySet="Employees" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Employees_People1" Association="Self.FK_Employees_People1">
+      <End Role="People" EntitySet="People" />
+      <End Role="Employees" EntitySet="Employees" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Employees_Roles" Association="Self.FK_Employees_Roles">
+      <End Role="Roles" EntitySet="Roles" />
+      <End Role="Employees" EntitySet="Employees" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Frequencies_Employees" Association="Self.FK_Frequencies_Employees">
+      <End Role="Employees" EntitySet="Employees" />
+      <End Role="Frequencies" EntitySet="Frequencies" />
+    </AssociationSet>
+    <AssociationSet Name="FK_People_People" Association="Self.FK_People_People">
+      <End Role="People" EntitySet="People" />
+      <End Role="People1" EntitySet="People" />
+    </AssociationSet>
+    <AssociationSet Name="FK_People_PersonTypes" Association="Self.FK_People_PersonTypes">
+      <End Role="PersonTypes" EntitySet="PersonTypes" />
+      <End Role="People" EntitySet="People" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PersonBenefits_Benefits" Association="Self.FK_PersonBenefits_Benefits">
+      <End Role="Benefits" EntitySet="Benefits" />
+      <End Role="PersonBenefits" EntitySet="PersonBenefits" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PersonBenefits_People" Association="Self.FK_PersonBenefits_People">
+      <End Role="People" EntitySet="People" />
+      <End Role="PersonBenefits" EntitySet="PersonBenefits" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PersonBenefitsDetails_PersonBenefits" Association="Self.FK_PersonBenefitsDetails_PersonBenefits">
+      <End Role="PersonBenefits" EntitySet="PersonBenefits" />
+      <End Role="PersonBenefitsDetails" EntitySet="PersonBenefitsDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PersonBenefitsDetails_TransportationTypes" Association="Self.FK_PersonBenefitsDetails_TransportationTypes">
+      <End Role="TransportationTypes" EntitySet="TransportationTypes" />
+      <End Role="PersonBenefitsDetails" EntitySet="PersonBenefitsDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Phones_People" Association="Self.FK_Phones_People">
+      <End Role="People" EntitySet="People" />
+      <End Role="Phones" EntitySet="Phones" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Vacations_Employees" Association="Self.FK_Vacations_Employees">
+      <End Role="Employees" EntitySet="Employees" />
+      <End Role="Vacations" EntitySet="Vacations" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.Mainscreen"
+             xmlns:header="clr-namespace:App2.Components"
+             NavigationPage.HasNavigationBar="False">
+    
+    <ContentPage.Content>
+        <StackLayout>
+                <header:Header/>
+            <StackLayout WidthRequest="300" HorizontalOptions="CenterAndExpand">
+                <Label Text="Gerenciamento de funcionário" HorizontalOptions="CenterAndExpand"/>
+
+
+                <Button Clicked="Button_Clicked" HeightRequest="80" Margin="0, 10" Text="Documentos"></Button>
+                <Button Clicked="Button_Clicked_1" BackgroundColor="{x:StaticResource Secondary}" HeightRequest="80" Margin="0, 10" Text="Benefícios" TextColor="White"></Button>
+                <Button Clicked="Button_Clicked_2" BackgroundColor="{x:StaticResource Grey}" HeightRequest="80" Margin="0, 10" Text="Solicitar férias"></Button>
+                <Button Clicked="Button_Clicked_3" BackgroundColor="White" HeightRequest="80" Margin="0, 10" Text="Checkin/Checkout"></Button>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

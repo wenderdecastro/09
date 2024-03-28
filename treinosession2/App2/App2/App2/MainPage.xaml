@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.MainPage"
+             xmlns:header="clr-namespace:App2.Components">
+
+    <StackLayout>
+
+        <StackLayout WidthRequest="300" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+            <Image Source="logo" WidthRequest="180"/>
+
+            <Label Text="Acessar conta" FontSize="Large" HorizontalOptions="CenterAndExpand"/>
+            <Entry WidthRequest="300" x:Name="Email" Placeholder="E-mail"/>
+
+            <Entry WidthRequest="300" x:Name="Senha" Placeholder="Senha"/>
+            <StackLayout Orientation="Horizontal">
+                <CheckBox x:Name="remember" VerticalOptions="Center"/>
+                <Label Text="Manter conectado" VerticalOptions="Center"/>
+            </StackLayout>
+
+            <Button Text="Login" Clicked="Button_Clicked"/>
+        </StackLayout>
+    </StackLayout>
+    
+
+</ContentPage>

@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:header="clr-namespace:App2.Components"
+             x:Class="App2.Documentos"
+             NavigationPage.HasNavigationBar="False"
+             xmlns:utils="clr-namespace:App2.Utils">
+    <ContentPage.Content>
+        <StackLayout >
+            <header:Header/>
+
+            <AbsoluteLayout HorizontalOptions="CenterAndExpand" VerticalOptions="FillAndExpand">
+
+                <StackLayout WidthRequest="300" HorizontalOptions="CenterAndExpand">
+
+                    <ImageButton Clicked="ImageButton_Clicked" Source="_13" HorizontalOptions="StartAndExpand" HeightRequest="35" />
+                    <Label Text="Conferir documentos" HorizontalOptions="CenterAndExpand"/>
+                    <Button Clicked="Button_Clicked" Text="Anexar Documento"/>
+
+
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Tipo documento"/>
+                        <Label Text="Data expedição" HorizontalOptions="EndAndExpand"/>
+                    </StackLayout>
+
+                    <ListView ItemsSource="{Binding Docs}" HasUnevenRows="False" SeparatorVisibility="None" SelectionMode="None" >
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <SwipeView>
+                                        <SwipeView.LeftItems>
+                                            <SwipeItem Text="Deletar" BackgroundColor="Red" Clicked="SwipeItem_Clicked_1"/>
+                                        </SwipeView.LeftItems>
+                                        <SwipeView.RightItems>
+                                            <SwipeItem Text="Editar" BackgroundColor="Black" Clicked="SwipeItem_Clicked_2"/>
+                                        </SwipeView.RightItems>
+                                        <StackLayout Orientation="Horizontal">
+                                            <Label Text="{Binding DocumentTypes.Name}"/>
+                                            <Label Text="{Binding ExpirationDate, Converter={utils:DateConverter}}" x:Name="expiration" HorizontalOptions="EndAndExpand"/>
+                                            <Image x:Name="Attached" Source="camera" WidthRequest="25" HeightRequest="25" IsVisible="{Binding IsAttached}"/>
+                                        </StackLayout>
+                                    </SwipeView>
+                                    
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+
+                </StackLayout>
+
+                <Frame x:Name="modal" IsVisible="false" BackgroundColor="White" CornerRadius="10" AbsoluteLayout.LayoutBounds="0.5,0.5,300,325" AbsoluteLayout.LayoutFlags="PositionProportional">
+                    <StackLayout Padding="20">
+                        <Frame HorizontalOptions="CenterAndExpand" BorderColor="Black" HeightRequest="20" WidthRequest="300">
+                            <Label Text="Anexar Documento"/>
+
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                                
+                            </Frame.GestureRecognizers>
+                        </Frame>
+                        <Label x:Name="filestatus"/>
+                        <Picker HorizontalOptions="CenterAndExpand" WidthRequest="300" x:Name="select" ItemsSource="{Binding Items}" Title="Tipo do Documento"/>
+
+                        <Button BackgroundColor="{x:StaticResource Secondary}" TextColor="White" Text="Confirmar" Clicked="Button_Clicked_1"/>
+                        <Label TextDecorations="Underline"  TextColor="{x:StaticResource Secondary}" Text="Cancelar" HorizontalOptions="CenterAndExpand">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_1"/>
+                            </Label.GestureRecognizers>
+                        </Label>
+                    </StackLayout>
+                </Frame>
+
+            </AbsoluteLayout>
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

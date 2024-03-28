@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="852dde4b915a4dc4a066fe88062e96de" Name="Diagram1">
+        <EntityTypeShape EntityType="Session2Model.Addresses" Width="1.5" PointX="5.25" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Session2Model.Benefits" Width="1.5" PointX="6" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Session2Model.BenefitsDetails" Width="1.5" PointX="11.25" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Session2Model.Cities" Width="1.5" PointX="3" PointY="15.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Session2Model.Discounts" Width="1.5" PointX="8.25" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Session2Model.DiscountTypes" Width="1.5" PointX="6" PointY="21.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Session2Model.Documents" Width="1.5" PointX="5.25" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Session2Model.DocumentTypes" Width="1.5" PointX="3" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Session2Model.Employees" Width="1.5" PointX="5.25" PointY="14.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Session2Model.Frequencies" Width="1.5" PointX="7.5" PointY="14.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Session2Model.Holydays" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Session2Model.People" Width="1.5" PointX="3" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Session2Model.PersonBenefits" Width="1.5" PointX="8.25" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="Session2Model.PersonBenefitsDetails" Width="1.5" PointX="10.5" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Session2Model.PersonTypes" Width="1.5" PointX="0.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Session2Model.Phones" Width="1.5" PointX="5.25" PointY="31.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Session2Model.Roles" Width="1.5" PointX="3" PointY="18.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Session2Model.States" Width="1.5" PointX="0.75" PointY="15.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Session2Model.TransportationTypes" Width="1.5" PointX="8.25" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Session2Model.Vacations" Width="1.5" PointX="7.5" PointY="18" IsExpanded="true" />
+        <AssociationConnector Association="Session2Model.FK_Addresses_Cities" ManuallyRouted="false" />
+        <AssociationConnector Association="Session2Model.FK_Addresses_People" ManuallyRouted="false" />
+        <AssociationConnector Association="Session2Model.FK_BenefitsDetails_Benefits" ManuallyRouted="false" />
+        <AssociationConnector Association="Session2Model.FK_PersonBenefits_Benefits" ManuallyRouted="false" />
+        <AssociationConnector Association="Session2Model.FK_BenefitsDetails_DiscountTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="Session2Model.FK_Cities_States" ManuallyRouted="false" />
+        <AssociationConnector Association="Session2Model.FK_Discounts_DiscountTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="Session2Model.FK_Discounts_People1" ManuallyRouted="false" />
+        <AssociationConnector Association="Session2Model.FK_DocImages_DocumentTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="Session2Model.FK_DocImages_People" ManuallyRouted="false" />
+        <AssociationConnector Association="Session2Model.FK_Employees_People" ManuallyRouted="false" />
+        <AssociationConnector Association="Session2Model.FK_Employees_People1" ManuallyRouted="false" />
+        <AssociationConnector Association="Session2Model.FK_Employees_Roles" ManuallyRouted="false" />
+        <AssociationConnector Association="Session2Model.FK_Frequencies_Employees" ManuallyRouted="false" />
+        <AssociationConnector Association="Session2Model.FK_Vacations_Employees" ManuallyRouted="false" />
+        <AssociationConnector Association="Session2Model.FK_People_People" ManuallyRouted="false" />
+        <AssociationConnector Association="Session2Model.FK_People_PersonTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="Session2Model.FK_PersonBenefits_People" ManuallyRouted="false" />
+        <AssociationConnector Association="Session2Model.FK_Phones_People" ManuallyRouted="false" />
+        <AssociationConnector Association="Session2Model.FK_PersonBenefitsDetails_PersonBenefits" ManuallyRouted="false" />
+        <AssociationConnector Association="Session2Model.FK_PersonBenefitsDetails_TransportationTypes" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

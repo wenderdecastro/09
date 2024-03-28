@@ -1,0 +1,396 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\admin\\Desktop\\treinosession2\\App2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E3E04169-75F9-455C-A140-1D25DBAC9955}|App2\\App2\\App2.csproj|c:\\users\\admin\\desktop\\treinosession2\\app2\\app2\\app2\\documentos.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3E04169-75F9-455C-A140-1D25DBAC9955}|App2\\App2\\App2.csproj|solutionrelative:app2\\app2\\documentos.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3E04169-75F9-455C-A140-1D25DBAC9955}|App2\\App2\\App2.csproj|c:\\users\\admin\\desktop\\treinosession2\\app2\\app2\\app2\\documentos.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{E3E04169-75F9-455C-A140-1D25DBAC9955}|App2\\App2\\App2.csproj|solutionrelative:app2\\app2\\documentos.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3E04169-75F9-455C-A140-1D25DBAC9955}|App2\\App2\\App2.csproj|c:\\users\\admin\\desktop\\treinosession2\\app2\\app2\\app2\\models\\documents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3E04169-75F9-455C-A140-1D25DBAC9955}|App2\\App2\\App2.csproj|solutionrelative:app2\\app2\\models\\documents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3E04169-75F9-455C-A140-1D25DBAC9955}|App2\\App2\\App2.csproj|c:\\users\\admin\\desktop\\treinosession2\\app2\\app2\\app2\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3E04169-75F9-455C-A140-1D25DBAC9955}|App2\\App2\\App2.csproj|solutionrelative:app2\\app2\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEDA9932-60D6-4A26-AA9B-9193AF50B55C}|App2\\App2.Android\\App2.Android.csproj|c:\\users\\admin\\desktop\\treinosession2\\app2\\app2\\app2.android\\properties\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{CEDA9932-60D6-4A26-AA9B-9193AF50B55C}|App2\\App2.Android\\App2.Android.csproj|solutionrelative:app2\\app2.android\\properties\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3E04169-75F9-455C-A140-1D25DBAC9955}|App2\\App2\\App2.csproj|c:\\users\\admin\\desktop\\treinosession2\\app2\\app2\\app2\\app2.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{E3E04169-75F9-455C-A140-1D25DBAC9955}|App2\\App2\\App2.csproj|solutionrelative:app2\\app2\\app2.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3E04169-75F9-455C-A140-1D25DBAC9955}|App2\\App2\\App2.csproj|c:\\users\\admin\\desktop\\treinosession2\\app2\\app2\\app2\\app2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E3E04169-75F9-455C-A140-1D25DBAC9955}|App2\\App2\\App2.csproj|solutionrelative:app2\\app2\\app2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3E04169-75F9-455C-A140-1D25DBAC9955}|App2\\App2\\App2.csproj|c:\\users\\admin\\desktop\\treinosession2\\app2\\app2\\app2\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{E3E04169-75F9-455C-A140-1D25DBAC9955}|App2\\App2\\App2.csproj|solutionrelative:app2\\app2\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3E04169-75F9-455C-A140-1D25DBAC9955}|App2\\App2\\App2.csproj|c:\\users\\admin\\desktop\\treinosession2\\app2\\app2\\app2\\mainpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{E3E04169-75F9-455C-A140-1D25DBAC9955}|App2\\App2\\App2.csproj|solutionrelative:app2\\app2\\mainpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEDA9932-60D6-4A26-AA9B-9193AF50B55C}|App2\\App2.Android\\App2.Android.csproj|C:\\Users\\admin\\Desktop\\treinosession2\\App2\\app2\\app2.android\\toast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEDA9932-60D6-4A26-AA9B-9193AF50B55C}|App2\\App2.Android\\App2.Android.csproj|solutionrelative:app2\\app2.android\\toast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\admin\\.nuget\\packages\\xamarin.essentials\\1.8.1\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3E04169-75F9-455C-A140-1D25DBAC9955}|App2\\App2\\App2.csproj|c:\\users\\admin\\desktop\\treinosession2\\app2\\app2\\app2\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{E3E04169-75F9-455C-A140-1D25DBAC9955}|App2\\App2\\App2.csproj|solutionrelative:app2\\app2\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3E04169-75F9-455C-A140-1D25DBAC9955}|App2\\App2\\App2.csproj|c:\\users\\admin\\desktop\\treinosession2\\app2\\app2\\app2\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3E04169-75F9-455C-A140-1D25DBAC9955}|App2\\App2\\App2.csproj|solutionrelative:app2\\app2\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3E04169-75F9-455C-A140-1D25DBAC9955}|App2\\App2\\App2.csproj|c:\\users\\admin\\desktop\\treinosession2\\app2\\app2\\app2\\utils\\dateconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3E04169-75F9-455C-A140-1D25DBAC9955}|App2\\App2\\App2.csproj|solutionrelative:app2\\app2\\utils\\dateconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3E04169-75F9-455C-A140-1D25DBAC9955}|App2\\App2\\App2.csproj|c:\\users\\admin\\desktop\\treinosession2\\app2\\app2\\app2\\components\\header.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{E3E04169-75F9-455C-A140-1D25DBAC9955}|App2\\App2\\App2.csproj|solutionrelative:app2\\app2\\components\\header.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3E04169-75F9-455C-A140-1D25DBAC9955}|App2\\App2\\App2.csproj|c:\\users\\admin\\desktop\\treinosession2\\app2\\app2\\app2\\mainscreen.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{E3E04169-75F9-455C-A140-1D25DBAC9955}|App2\\App2\\App2.csproj|solutionrelative:app2\\app2\\mainscreen.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3E04169-75F9-455C-A140-1D25DBAC9955}|App2\\App2\\App2.csproj|c:\\users\\admin\\desktop\\treinosession2\\app2\\app2\\app2\\mainscreen.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3E04169-75F9-455C-A140-1D25DBAC9955}|App2\\App2\\App2.csproj|solutionrelative:app2\\app2\\mainscreen.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3E04169-75F9-455C-A140-1D25DBAC9955}|App2\\App2\\App2.csproj|c:\\users\\admin\\desktop\\treinosession2\\app2\\app2\\app2\\itoast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3E04169-75F9-455C-A140-1D25DBAC9955}|App2\\App2\\App2.csproj|solutionrelative:app2\\app2\\itoast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3E04169-75F9-455C-A140-1D25DBAC9955}|App2\\App2\\App2.csproj|c:\\users\\admin\\desktop\\treinosession2\\app2\\app2\\app2\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3E04169-75F9-455C-A140-1D25DBAC9955}|App2\\App2\\App2.csproj|solutionrelative:app2\\app2\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3E04169-75F9-455C-A140-1D25DBAC9955}|App2\\App2\\App2.csproj|c:\\users\\admin\\desktop\\treinosession2\\app2\\app2\\app2\\components\\header.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{E3E04169-75F9-455C-A140-1D25DBAC9955}|App2\\App2\\App2.csproj|solutionrelative:app2\\app2\\components\\header.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEDA9932-60D6-4A26-AA9B-9193AF50B55C}|App2\\App2.Android\\App2.Android.csproj|C:\\Users\\admin\\Desktop\\treinosession2\\App2\\app2\\app2.android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEDA9932-60D6-4A26-AA9B-9193AF50B55C}|App2\\App2.Android\\App2.Android.csproj|solutionrelative:app2\\app2.android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3E04169-75F9-455C-A140-1D25DBAC9955}|App2\\App2\\App2.csproj|c:\\users\\admin\\desktop\\treinosession2\\app2\\app2\\app2\\app.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{E3E04169-75F9-455C-A140-1D25DBAC9955}|App2\\App2\\App2.csproj|solutionrelative:app2\\app2\\app.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Documentos.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\treinosession2\\App2\\App2\\App2\\Documentos.xaml.cs",
+              "RelativeDocumentMoniker": "App2\\App2\\Documentos.xaml.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\treinosession2\\App2\\App2\\App2\\Documentos.xaml.cs",
+              "RelativeToolTip": "App2\\App2\\Documentos.xaml.cs",
+              "ViewState": "AQIAAE8AAAAAAAAAAADwv2sAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T19:46:12.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\treinosession2\\App2\\App2\\App2\\MainPage.xaml",
+              "RelativeDocumentMoniker": "App2\\App2\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\treinosession2\\App2\\App2\\App2\\MainPage.xaml",
+              "RelativeToolTip": "App2\\App2\\MainPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-26T15:48:27.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Documentos.xaml",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\treinosession2\\App2\\App2\\App2\\Documentos.xaml",
+              "RelativeDocumentMoniker": "App2\\App2\\Documentos.xaml",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\treinosession2\\App2\\App2\\App2\\Documentos.xaml",
+              "RelativeToolTip": "App2\\App2\\Documentos.xaml",
+              "ViewState": "AQIAACwAAAAAAAAAAAAgwD8AAAB9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-26T19:31:14.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DateConverter.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\treinosession2\\App2\\App2\\App2\\Utils\\DateConverter.cs",
+              "RelativeDocumentMoniker": "App2\\App2\\Utils\\DateConverter.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\treinosession2\\App2\\App2\\App2\\Utils\\DateConverter.cs",
+              "RelativeToolTip": "App2\\App2\\Utils\\DateConverter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T17:22:28.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "toast.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\treinosession2\\App2\\App2\\App2.Android\\toast.cs",
+              "RelativeDocumentMoniker": "App2\\App2.Android\\toast.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\treinosession2\\App2\\App2\\App2.Android\\toast.cs",
+              "RelativeToolTip": "App2\\App2.Android\\toast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T17:52:47.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\treinosession2\\App2\\App2\\App2\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "App2\\App2\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\treinosession2\\App2\\App2\\App2\\MainPage.xaml.cs",
+              "RelativeToolTip": "App2\\App2\\MainPage.xaml.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAgwCcAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T15:54:30.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Header.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\treinosession2\\App2\\App2\\App2\\Components\\Header.xaml.cs",
+              "RelativeDocumentMoniker": "App2\\App2\\Components\\Header.xaml.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\treinosession2\\App2\\App2\\App2\\Components\\Header.xaml.cs",
+              "RelativeToolTip": "App2\\App2\\Components\\Header.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T17:47:32.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApiService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\treinosession2\\App2\\App2\\App2\\Services\\ApiService.cs",
+              "RelativeDocumentMoniker": "App2\\App2\\Services\\ApiService.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\treinosession2\\App2\\App2\\App2\\Services\\ApiService.cs",
+              "RelativeToolTip": "App2\\App2\\Services\\ApiService.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAA5wC8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T15:39:13.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Documents.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\treinosession2\\App2\\App2\\App2\\Models\\Documents.cs",
+              "RelativeDocumentMoniker": "App2\\App2\\Models\\Documents.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\treinosession2\\App2\\App2\\App2\\Models\\Documents.cs",
+              "RelativeToolTip": "App2\\App2\\Models\\Documents.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T17:13:30.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\treinosession2\\App2\\App2\\App2\\Usuario.cs",
+              "RelativeDocumentMoniker": "App2\\App2\\Usuario.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\treinosession2\\App2\\App2\\App2\\Usuario.cs",
+              "RelativeToolTip": "App2\\App2\\Usuario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T18:00:38.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App2",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\treinosession2\\App2\\App2\\App2\\App2.csproj",
+              "RelativeDocumentMoniker": "App2\\App2\\App2.csproj",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\treinosession2\\App2\\App2\\App2\\App2.csproj",
+              "RelativeToolTip": "App2\\App2\\App2.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-28T18:10:53.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AndroidManifest.xml",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\treinosession2\\App2\\App2\\App2.Android\\Properties\\AndroidManifest.xml",
+              "RelativeDocumentMoniker": "App2\\App2.Android\\Properties\\AndroidManifest.xml",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\treinosession2\\App2\\App2\\App2.Android\\Properties\\AndroidManifest.xml",
+              "RelativeToolTip": "App2\\App2.Android\\Properties\\AndroidManifest.xml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-03-28T18:12:09.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\treinosession2\\App2\\App2\\App2\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "App2\\App2\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\treinosession2\\App2\\App2\\App2\\AssemblyInfo.cs",
+              "RelativeToolTip": "App2\\App2\\AssemblyInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T18:18:32.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App2.csproj",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\treinosession2\\App2\\App2\\App2\\App2.csproj",
+              "RelativeDocumentMoniker": "App2\\App2\\App2.csproj",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\treinosession2\\App2\\App2\\App2\\App2.csproj",
+              "RelativeToolTip": "App2\\App2\\App2.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-26T17:41:52.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "readme.txt",
+              "DocumentMoniker": "C:\\Users\\admin\\.nuget\\packages\\xamarin.essentials\\1.8.1\\readme.txt",
+              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\xamarin.essentials\\1.8.1\\readme.txt",
+              "ToolTip": "C:\\Users\\admin\\.nuget\\packages\\xamarin.essentials\\1.8.1\\readme.txt",
+              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\xamarin.essentials\\1.8.1\\readme.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-03-28T15:48:39.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\treinosession2\\App2\\App2\\App2\\App.xaml",
+              "RelativeDocumentMoniker": "App2\\App2\\App.xaml",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\treinosession2\\App2\\App2\\App2\\App.xaml",
+              "RelativeToolTip": "App2\\App2\\App.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-26T15:49:22.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Mainscreen.xaml",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\treinosession2\\App2\\App2\\App2\\Mainscreen.xaml",
+              "RelativeDocumentMoniker": "App2\\App2\\Mainscreen.xaml",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\treinosession2\\App2\\App2\\App2\\Mainscreen.xaml",
+              "RelativeToolTip": "App2\\App2\\Mainscreen.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-26T17:42:08.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Mainscreen.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\treinosession2\\App2\\App2\\App2\\Mainscreen.xaml.cs",
+              "RelativeDocumentMoniker": "App2\\App2\\Mainscreen.xaml.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\treinosession2\\App2\\App2\\App2\\Mainscreen.xaml.cs",
+              "RelativeToolTip": "App2\\App2\\Mainscreen.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T17:57:22.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IToast.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\treinosession2\\App2\\App2\\App2\\IToast.cs",
+              "RelativeDocumentMoniker": "App2\\App2\\IToast.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\treinosession2\\App2\\App2\\App2\\IToast.cs",
+              "RelativeToolTip": "App2\\App2\\IToast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T17:53:05.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Header.xaml",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\treinosession2\\App2\\App2\\App2\\Components\\Header.xaml",
+              "RelativeDocumentMoniker": "App2\\App2\\Components\\Header.xaml",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\treinosession2\\App2\\App2\\App2\\Components\\Header.xaml",
+              "RelativeToolTip": "App2\\App2\\Components\\Header.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-26T17:45:47.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MainActivity.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\treinosession2\\App2\\App2\\App2.Android\\MainActivity.cs",
+              "RelativeDocumentMoniker": "App2\\App2.Android\\MainActivity.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\treinosession2\\App2\\App2\\App2.Android\\MainActivity.cs",
+              "RelativeToolTip": "App2\\App2.Android\\MainActivity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T17:55:59.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\treinosession2\\App2\\App2\\App2\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App2\\App2\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\treinosession2\\App2\\App2\\App2\\App.xaml.cs",
+              "RelativeToolTip": "App2\\App2\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T15:49:23.369Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
